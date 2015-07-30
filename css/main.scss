@@ -1,0 +1,172 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+body {
+  font-family: Roboto;
+  background-image: url('../img/cover-pic.jpg');
+  background-size: cover;    
+  background-attachment: fixed;
+}
+.entry {
+  margin: 5rem auto;
+  max-width: 800px;
+  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+}
+.cover158 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150726.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+.description {
+  background: whitesmoke;
+  border-bottom: .1rem solid #CCC;
+  p {
+    padding: 1rem;
+    line-height: 1.4;
+  }
+}
+.media {
+  position: relative;
+  color: #4D4D4D;
+  background: whitesmoke;
+  padding: 1rem;
+  height: 5.8rem;
+}
+.player {
+  position: absolute;
+  left: 15rem;
+  top: 4rem;
+}
+.left-panel {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 2.7rem  
+}
+.right-panel {
+  position: absolute;
+  bottom: 1.7rem;
+  right: 2.7rem
+}
+.action {
+  font-size: 1.2rem;
+  font-family: Roboto;
+}
+.date {
+  color: #999;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 95, 137, 0.83);
+  transition: all ease 300ms;
+    &:hover {
+      color: rgb(0, 95, 137); 
+    }
+    &:active {
+        color: rgba(0, 95, 137, 0.83);
+    }
+    &:visited {
+      color: rgba(0, 95, 137, 0.83);
+    }
+    &:focus {
+      color: rgba(0, 95, 137, 0.83);
+    }
+}
+.cover157 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150719.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+.cover156 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150712.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+.cover155 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150705.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+.cover154 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150628.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+.cover153 {
+  position: relative;
+  height: 29rem;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url('../img/2015/20150621.jpg');
+  background-size: cover;    
+  background-position: 25% 75%;
+  h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem;
+  }
+}
+
+
