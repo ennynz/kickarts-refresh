@@ -135,6 +135,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo-big-web-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138904,
+		"inputAbbreviatedPath": "\/img\/logo-big-web-bg.png",
+		"outputAbbreviatedPath": "\/img\/logo-big-web-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-big-web.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87571,
+		"inputAbbreviatedPath": "\/img\/logo-big-web.png",
+		"outputAbbreviatedPath": "\/img\/logo-big-web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,

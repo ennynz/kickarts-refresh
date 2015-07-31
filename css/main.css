@@ -12,28 +12,50 @@ body {
   max-width: 800px;
   box-shadow: -2px -1px 33px 3px rgba(56, 56, 56, 0.52); }
 
-.cover158 {
+.cover-main {
   position: relative;
-  height: 29rem;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
-  background-size: cover;
+  height: 18rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/logo-big-web-bg.png");
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/logo-big-web-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-position: 25% 75%; }
-  .cover158 h2 {
-    font-size: 1.5rem;
+  .cover-main h1 {
+    font-size: 2.2rem;
+    font-size: 2.2rem;
     opacity: .8;
-    text-transform: uppercase;
     color: #FFF;
     font-family: Montserrat;
     position: absolute;
-    bottom: 1.5rem;
+    bottom: .5rem;
     left: 2.5rem; }
 
 .description {
   background: whitesmoke;
   border-bottom: .1rem solid #CCC; }
+  .description h3 {
+    padding: 1rem;
+    font-size: 1.2rem; }
   .description p {
     padding: 1rem;
     line-height: 1.4; }
+  .description button {
+    margin-left: auto;
+    margin-right: auto;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; }
+    .description button:hover {
+      background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none; }
 
 .media {
   position: relative;
@@ -67,7 +89,8 @@ body {
 a {
   text-decoration: none;
   color: rgba(0, 95, 137, 0.83);
-  transition: all ease 300ms; }
+  -webkit-transition: all ease 300ms;
+          transition: all ease 300ms; }
   a:hover {
     color: #005f89; }
   a:active {
@@ -77,9 +100,27 @@ a {
   a:focus {
     color: rgba(0, 95, 137, 0.83); }
 
+.cover158 {
+  position: relative;
+  height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
+  background-size: cover;
+  background-position: 25% 75%; }
+  .cover158 h2 {
+    font-size: 1.5rem;
+    opacity: .8;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Montserrat;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2.5rem; }
+
 .cover157 {
   position: relative;
   height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
   background-size: cover;
   background-position: 25% 75%; }
@@ -96,6 +137,7 @@ a {
 .cover156 {
   position: relative;
   height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
   background-size: cover;
   background-position: 25% 75%; }
@@ -112,6 +154,7 @@ a {
 .cover155 {
   position: relative;
   height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
   background-size: cover;
   background-position: 25% 75%; }
@@ -128,6 +171,7 @@ a {
 .cover154 {
   position: relative;
   height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
   background-size: cover;
   background-position: 25% 75%; }
@@ -144,6 +188,7 @@ a {
 .cover153 {
   position: relative;
   height: 29rem;
+  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
   background-size: cover;
   background-position: 25% 75%; }
