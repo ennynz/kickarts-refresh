@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 body {
   font-family: Roboto;
@@ -11,6 +12,36 @@ body {
   margin: 5rem auto;
   max-width: 800px;
   box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+}
+.logo {
+  font-family: 'Exo 2', sans-serif;
+  color: #fff;
+  font-size: 4rem;
+  margin: 2rem 0 0 4rem;
+  .logo-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1rem;
+    p {
+      line-height: 2.5rem;
+    }
+    .thin {
+      font-weight: 200;
+    }
+    .bold {
+      font-weight: 600;
+    }
+    .subtitle {
+      font-size: 1.8rem;
+    }
+    .details {
+      font-size: 1.3rem;
+    }
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 .cover-main {
   position: relative;

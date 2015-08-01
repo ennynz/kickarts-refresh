@@ -135,6 +135,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/kickarts-logo-new-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8677,
+		"inputAbbreviatedPath": "\/img\/kickarts-logo-new-icon.png",
+		"outputAbbreviatedPath": "\/img\/kickarts-logo-new-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/kickarts-logo-new.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19606,
+		"inputAbbreviatedPath": "\/img\/kickarts-logo-new.png",
+		"outputAbbreviatedPath": "\/img\/kickarts-logo-new.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo-big-web-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
