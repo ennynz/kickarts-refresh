@@ -179,6 +179,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/skytower-example.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105794,
+		"inputAbbreviatedPath": "\/img\/skytower-example.jpg",
+		"outputAbbreviatedPath": "\/img\/skytower-example.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.haml": {
 		"escapeHTMLCharacters": 0,
 		"fileType": 256,

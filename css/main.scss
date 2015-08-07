@@ -3,10 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 body {
-  font-family: Roboto;
-  background-image: url('../img/cover-pic.jpg');
+  font-family: 'helvetica';
+  color: #3e3e3e;
+  background-image: url('../img/skytower-example.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: top right;
+}
+header {
+  padding-top: 0;
+  margin-top: 0;
+  height: 100vh;
 }
 .entry {
   margin: 5rem auto;
@@ -54,7 +61,8 @@ body {
   }
   p {
     padding: 1rem;
-    line-height: 1.4;
+    line-height: 1.7;
+    font-size: 1.1rem;
   }
   button {
     margin-left: auto;
