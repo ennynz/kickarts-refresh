@@ -244,7 +244,7 @@ header {
     text-transform: uppercase; }
 
 .logo {
-  max-width: 800px;
+  max-width: 960px;
   font-family: 'Exo 2', sans-serif;
   color: #fff;
   font-size: 4rem;
@@ -333,7 +333,7 @@ header {
 
 .cover158 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
   background-size: cover;
@@ -350,7 +350,7 @@ header {
 
 .cover157 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
   background-size: cover;
@@ -367,7 +367,7 @@ header {
 
 .cover156 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
   background-size: cover;
@@ -384,7 +384,7 @@ header {
 
 .cover155 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
   background-size: cover;
@@ -401,7 +401,7 @@ header {
 
 .cover154 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
   background-size: cover;
@@ -418,7 +418,7 @@ header {
 
 .cover153 {
   position: relative;
-  height: 29rem;
+  height: 32rem;
   background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
   background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
   background-size: cover;
