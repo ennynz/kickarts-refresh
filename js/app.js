@@ -3,8 +3,7 @@ $(document).ready(function() {
   $('.icon-4x').click(function(){
     $('.player').fadeIn("slow");
   });
+  $(function() {
+    $('.box-height').matchHeight();
+  });
 });
-
-
-
-
