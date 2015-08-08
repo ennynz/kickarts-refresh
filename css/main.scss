@@ -33,8 +33,26 @@ header {
   @include center(960px);
   padding-top: 5rem;
 }
-.header-box-col {
+.header-box-col-3 {
   @include column(1/3);
+  @include breakpoint($small) {
+    @include stack();
+    margin-top: 1rem;
+  }
+  background: whitesmoke;
+  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+  p{
+    padding: .9rem;
+    line-height: 1.3rem;
+    font-size: .85rem;
+  }
+}
+.header-box-2{
+  @include center(960px);
+  padding-top: 1.5rem;
+}
+.header-box-col-2 {
+  @include column(1/2);
   @include breakpoint($small) {
     @include stack();
     margin-top: 1rem;
@@ -73,6 +91,12 @@ header {
 }
 .purple {
   background-color: #955CA5;
+}
+.green-sea {
+  background-color: #15A086;
+}
+.alizarin {
+  background-color: #E64D3C;
 }
 .card-body {
   border-bottom: .1rem solid #CCC;
