@@ -151,6 +151,34 @@ a {
   a:hover {
     color: #008fa1; }
 
+nav {
+  opacity: .90;
+  position: fixed;
+  font-size: .8rem;
+  top: 0;
+  z-index: 1000;
+  height: 3.4rem;
+  width: 100%; }
+  nav .nav-title {
+    display: inline-block;
+    vertical-align: middle; }
+  nav ul {
+    position: absolute;
+    right: 1rem;
+    top: 0; }
+  nav li {
+    display: inline;
+    line-height: 4rem;
+    text-transform: uppercase; }
+
+.top-bar {
+  height: 5rem;
+  position: fixed;
+  top: -1rem;
+  width: 100%;
+  z-index: 200;
+  background-color: whitesmoke; }
+
 header {
   padding-top: 0;
   margin-top: 0; }
