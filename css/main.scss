@@ -37,15 +37,38 @@ nav {
     display: inline-block;
     vertical-align: middle;
   }
+  a {
+    color: #3e3e3e;
+  }
+  h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #3e3e3e;
+  }
   ul {
     position: absolute;
-    right: 1rem;
+    right: 3rem;
     top: 0;
   }
   li {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
     display: inline;
     line-height: 4rem;
     text-transform: uppercase;
+    font-size: 1rem;
+    padding-right: .9rem;
+    a {
+      padding-bottom: .95rem;
+      &:hover {
+        border-bottom: .5rem solid #955CA5;
+      }
+      &:active {
+        border-bottom: .5rem solid #955CA5;
+      }
+    }
   }
 }
 .top-bar {
@@ -56,6 +79,16 @@ nav {
   z-index: 200;
   background-color: whitesmoke;
 }
+.nav-logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: .3rem .3rem .3rem 3rem;
+  img {
+    height: 3.5rem;
+  }
+}
+
 
 //HEADER
 
