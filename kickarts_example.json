@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Lorem Title",
+    "description": "lorem description",
+    "episode": "122",
+    "date": "nov. 12",
+    "image": "img/episode-1.jpeg",
+    "mp3": "audio/2014/LC_20140824_2035.mp3",
+    "ogg": "audio/2014/LC_20140824_2035.ogg",
+    "download": "audio/2015/direct_download.php?file=LC_20150802_2035.mp3"
+  },
+  {
+    "title": "Second Title",
+    "description": "2nd lorem description",
+    "episode": "100",
+    "date": "dec. 12",
+    "image": "img/episode-1.jpeg",
+    "mp3": "audio/2014/LC_20140824_2035.mp3",
+    "ogg": "audio/2014/LC_20140824_2035.ogg",
+    "download": "audio/2015/direct_download.php?file=LC_20150802_2035.mp3"
+  }
+]
