@@ -1,22 +1,272 @@
 [
   {
-    "title": "Lorem Title",
-    "description": "lorem description",
-    "episode": "122",
-    "date": "nov. 12",
-    "image": "img/episode-1.jpeg",
-    "mp3": "audio/2014/LC_20140824_2035.mp3",
-    "ogg": "audio/2014/LC_20140824_2035.ogg",
-    "download": "audio/2015/direct_download.php?file=LC_20150802_2035.mp3"
+    "title": "",
+    "description": "",
+    "episode": "26",
+    "date": "2 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121202_2035.mp3",
+    "ogg": "audio/LC_20121202_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121202_2035.mp3"
   },
   {
-    "title": "Second Title",
-    "description": "2nd lorem description",
-    "episode": "100",
-    "date": "dec. 12",
-    "image": "img/episode-1.jpeg",
-    "mp3": "audio/2014/LC_20140824_2035.mp3",
-    "ogg": "audio/2014/LC_20140824_2035.ogg",
-    "download": "audio/2015/direct_download.php?file=LC_20150802_2035.mp3"
+    "title": "A look into 2013",
+    "description": "Richard and Mary talk about books to read over the summer. Enny presents the 2013 new TV shows coming to New Zealand. We review and present lots of festivals coming up in Auckland.",
+    "episode": "25",
+    "date": "30 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121230_2035.mp3",
+    "ogg": "audio/LC_20121230_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121230_2035.mp3"
+  },
+  {
+    "title": "Celluloid Special",
+    "description": "A 2013 Movie Special on KickArts! Adam Fresco joins Enny Benzonelli, Emma Bishop and Richard Green to look at the best and possibly the worst offerings at the movies over the next 12 months including Cloud Atlas, Django Unchained, Hansel &amp; Gretel: Witch Hunters, Pain &amp; Gain, Kick-Ass 2, The Lone Ranger, The Hobbit: The Desolation of Smaug and many more! PLUS christmas carols galore!",
+    "episode": "24",
+    "date": "23 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121223_2035.mp3",
+    "ogg": "audio/LC_20121223_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121223_2035.mp3"
+  },
+  {
+    "title": "I can smell Christmas",
+    "description": "Adam Fresco reviews 'Life of Pi' and 'Sightseers', Colin James Woods joins us in the studio to talk about his new album, 'Skywalk to Carpark'. Emma Bishop and Richard Green discuss 'Pointy Dog Dance Company' and review their show 'Here we are and here we go', 'The Santa Claus Show' by Tim Bray Productions gets a review, while Enny Benzonelli joins us to discuss everything TV... and 'The Hobbit'. Moreover, Richard interviews Roger Taberner from the Auckland Art Gallery about 'Who Shot Rock and Roll'.",
+    "episode": "23",
+    "date": "16 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "The First Award",
+    "description": "On the award winning KickArts, we are joined by Emma Bishop to discuss the Fringe Festival programme, Enny Benzonelli is back with 'Dexter', Adam Fresco looks at the Danish movie starring Pierce Brosnan, 'Love is All You Need' and two French movies, 'Welcome Aboard' and 'You are My Son' on 'Flicks and Features', and our special in studio guests are from the dance company, 'Pointy Dog Dancers' who's show opens at TAPAC.",
+    "episode": "22",
+    "date": "9 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121209_2035.mp3",
+    "ogg": "audio/LC_20121209_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121209_2035.mp3"
+  },
+  {
+    "title": "Fashion, Docus and Theatre",
+    "description": "This episode features Adam Fresco chatting with Richard Green about the fashion documentary 'Diana Vreeland: The Eye Has to Travel'; the Sundance and Cannes Festivals hit 'Beasts of the Southern Wild', and Brett Morgen's Rolling Stones doco, 'Crossfire Hurricane'.. Paul Frewin reviews Auckland band Yebiisu's EP Exit City, Paula Crimmens reviews 'Where Are You My Only One' currently on at the Basement Theatre, Enny Benzonelli reviews 'Alcatraz' and we hear a little Rolling Stones and a little Danny Kaye.",
+    "episode": "21",
+    "date": "2 December 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121202_2035.mp3",
+    "ogg": "audio/LC_20121202_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121202_2035.mp3"
+  },
+  {
+    "title": "My Name is Arts... KickArts",
+    "description": "Adam Fresco reviews the new James Bond movie, Enny Benzonelli looks at the new TV1 drama, 'Pan Am', our special studio guest is Sophie Vowell from the Basement Theatre and I review Atamira Dance Company's 'Tohu' featuring Taane Mete that was on at Corbans Estate Art Centre this week. As well we catch up with Don Bassett who looks at Warwick Henderson's book, 'Behind the Canvas'.",
+    "episode": "20",
+    "date": "25 November 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121125_2035.mp3",
+    "ogg": "audio/LC_20121125_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121125_2035.mp3"
+  },
+  {
+    "title": "Show not Available",
+    "description": "We are sorry, we have no information available for this show. If you have it, get in touch with us, we'd love to add it to our archives.",
+    "episode": "19",
+    "date": "18 November 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Legal Downloads",
+    "description": "The Atamira Dance Company joins us in the studio, Curator of Contemporary Arts, Natasha Conland, discusses the new acquisition at the Auckland Art Gallery, Adam Fresco introduces a few foreign films hitting our shores, Paul Frewin reviews the Radiohead concert, Sean Lyons from NetSafe clarifies the legalities over downloading TV from the Internet, Jo Holsted and Michelle Ang come and talk about their play 'Chop/Stick' which opens at the Basement Theatre this week, and Richard Green reviews '13'.",
+    "episode": "18",
+    "date": "11 November 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Live Music with Arli",
+    "description": "Listen to the awesome live sound of Arli Liberman! Also with Paul Frewin, Adam Fresco, Enny Benzonelli, Mary Wadsworth and Grae Burton with news, reviews and interviews...",
+    "episode": "17",
+    "date": "4 November 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121104_2035.mp3",
+    "ogg": "audio/LC_20121104_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121104_2035.mp3"
+  },
+  {
+    "title": "Chim- Chimney",
+    "description": "What a show - We have Enny reviewing 'Smash', Emma talks about 'Mary Poppins', Paula reviews 'Paper Sky' by Red Leap, Richard went to see 'Bootleg Beatles' and talks about the great show he saw and in the studio Sefa Enari and Tupua Tigafua from Pacific Dance join us, talking about the dance lab coming up. From the Actor's studio, Jordan Selwyn and Lauren Gibson from '13' also join us.",
+    "episode": "16",
+    "date": "28 October 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121028_2035.mp3",
+    "ogg": "audio/LC_20121028_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121028_2035.mp3"
+  },
+  {
+    "title": "Adam: The Reviewer",
+    "description": "Adam reviews 'Taken 2', 'Dredd' and 'The Sessions', Don Bassett looks at the Fiona Pardington exhibition at 2 Rooms, we talk to Deborah White about ARTWEEK and Richard reviews 'Nga Hau e Wha' from the Okareka Dance Company. As well we have Enny reviewing 'Revolution' and Art's Archives brings us another rare and interesting album.",
+    "episode": "15",
+    "date": "21 October 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121021_2035.mp3",
+    "ogg": "audio/LC_20121021_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121021_2035.mp3"
+  },
+  {
+    "title": "Reviews Galore",
+    "description": "Enny looks at the new season of 'Downton Abbey', Emma reviews 'Lily' as part of the Tempo Dance Festival and the living encyclopedia Don Basset talks with Richard about the book and the movie 'On The Road'. What a classy episode.",
+    "episode": "14",
+    "date": "14 October 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121014_2035.mp3",
+    "ogg": "audio/LC_20121014_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121014_2035.mp3"
+  },
+  {
+    "title": "The 90 minutes show",
+    "description": "KickArts moves to 90 MINUTES! Yes, our new extended format show has the following: Adam Fresco reviews 'Looper', Enny Benzonelli reviews 'Glee', Emma Bishop reviews 'Red Chair', Mary Wadsworth reviews Sebastian Faulks' book, 'A Possible Life', Don Bassett looks at Bosshart's jewellery exhibition at Objectspace, as well as 'The Bartered Bride' and 'The Gift' by ATC, Richard Green talks to Lisa Scott about her new book, 'Travels with my Economist', Paul Frewin plays us some music from Roofdog's self titled album and Molly (aged 4) reviews Tim Bray's 'Hairy McClary' which has been on at the Pumphouse... phew - a busy show!",
+    "episode": "13",
+    "date": "7 October 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20121007_2035.mp3",
+    "ogg": "audio/LC_20121007_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20121007_2035.mp3"
+  },
+  {
+    "title": "South Side Arts Festival",
+    "description": "This episode of KickArts featuring Tim Bray, Naomi Singer from the South Side Arts Festival, Ann Dewey talking about her dance tour in Rodney and the usual suspects Enny, Emma and Richard with news, views and reviews.",
+    "episode": "12",
+    "date": "30 September 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "The usual suspects... review",
+    "description": "'Two Little Boys' - reviewed by Adam Fresco, 'Stir Fried Plays' - reviewed by Emma Bishop, Miho Wada's latest offering reviewed by Paul Frewin and 'Continuum' previewed by Enny Benzonelli. Richard Green also looks at the Wiggles Farewell Concert, and the inspiration behind The Beatles' 'Revolution'.",
+    "episode": "11",
+    "date": "23 September 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "InterActing Urban Chicks",
+    "description": "In this episode of KickArts - 'Urban Chicks', a new book by Renee Lang and photographer, Trevor Newman... Paula Crimmens on her disability arts theatre company, InterActing, Art's Archives examines electropop in the form of British band, GoldFrapp and what was the inspiration behind George Harrison's 'While my guitar gently weeps?'",
+    "episode": "10",
+    "date": "16 September 2012",
+    "image": "img/2012/20120916.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "A bit of Opera",
+    "description": "A great Kickarts show with Emma Bishop reviewing Len Lye the Opera, Enny Benzonelli looking at the second series of The Killing, Mary Wadsworth from the Resource Room reviewing Daughters of Mars by Thomas Keneally and Arts Archives is back again, this week looking at Linda Ronstadt's album, Simple Dreams.",
+    "episode": "9",
+    "date": "9 September 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Books &amp; Movies",
+    "description": "Enny Benzonelli reviews 'Nothing Trivial', Adam Fresco looks at 'Expendables 2' and talks about film maker, Tony Scott, 'Redemption Song' makes an appearance in various forms and our special in-studio guest is writer, James Crompton who talks about his new book 'In the dead of Winter'.",
+    "episode": "8",
+    "date": "2 September 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120902_2035.mp3",
+    "ogg": "audio/LC_20120902_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120902_2035.mp3"
+  },
+  {
+    "title": "Talkin' Arts",
+    "description": "Great show with Paula Crimmens, Enny Benzonelli, Arts Archives featuring Status Quo, Roger Horricks from Len Lye the Opera, Tracey and Jacinta from The Producers Project - great discussion about the arts in Auckland!",
+    "episode": "7",
+    "date": "26 August 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120826_2035.mp3",
+    "ogg": "audio/LC_20120826_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120826_2035.mp3"
+  },
+  {
+    "title": "The Ukulele of Dave",
+    "description": "This week's show with Emma Bishop reviewing Grae Burton's 'Freeload', Enny Benzonelli talks about SoHo's new show, 'Newsroom'. Adam Fresco looks back over his picks at the New Zealand International Film Festival and Richard Green reviews 'The Pantry Shelf' with Matt Halliday. Helen from The Resource Room reviews Ian McEwen's book, 'Sweet Tooth'. And our special studio guest Dave Parker from the Nukes talks about the popularity of the Ukulele and the Encore Series currently running in Titirangi.",
+    "episode": "6",
+    "date": "19 August 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120819_2035.mp3",
+    "ogg": "audio/LC_20120819_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120819_2035.mp3"
+  },
+  {
+    "title": "From Newmarket to Christchurch",
+    "description": "Great show featuring George Henare, Jodie Hillock and Adey Ramsell from the Newmarket Stage Company; Enny Benzonelli discusses an upcoming banned episode of Fear Factor, Grae Burton tells us about his 2 new projects in Auckland and Christchurch planner Claire Gibb talks with us all about the plan in Christchurch and how that affects the arts in the city.",
+    "episode": "5",
+    "date": "12 August 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120812_2035.mp3",
+    "ogg": "audio/LC_20120812_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120812_2035.mp3"
+  },
+  {
+    "title": "Vincent Ward's Special",
+    "description": "A special show with Vincent Ward... From big screen to big canvases, renowned film director Vincent Ward is moving from Hollywood to the Shanghai Bienniale with his exhibition Inhale/Exhale - remarkable paintings in a watery world, along with a handful of large photographic pieces.",
+    "episode": "4",
+    "date": "5 August 2012",
+    "image": "img/2012/20120805.jpg",
+    "mp3": "audio/LC_20120805_2035.mp3",
+    "ogg": "audio/LC_20120805_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120805_2035.mp3"
+  },
+  {
+    "title": "Emmet Skilton's first time",
+    "description": "This week's show features The Almighty Johnson's actor, Emmett Couling Skilton. Enny Benzonelli looks at Grimm and NZ got's talent... Mary at the Resource Room discusses Margaret Mahy's life and Art's Archives shares Getz/Gilberto.",
+    "episode": "3",
+    "date": "29 July 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120729_2035.mp3",
+    "ogg": "audio/LC_20120729_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120729_2035.mp3"
+  },
+  {
+    "title": "Bill Gosden, reviews and TV",
+    "description": "Bill Gosden interview, review of Red Leap's 'The Arrival', A book review by Helen at the Resource Room, Enny looks at the reality TV market in NZ and Adam reviews 'The Dark Night Rises' and 'Abraham Lincoln, Vampire Hunter'... all go at KickArts.",
+    "episode": "2",
+    "date": "22 July 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120722_2035.mp3",
+    "ogg": "audio/LC_20120722_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120722_2035.mp3"
+  },
+  {
+    "title": "Reviews, Interviews and Dance",
+    "description": "Our studio guest this week is choreographer and dancer Taane Mete, Emma Bishop reviews 'Carousel', Enny Benzonelli joins us again and eulogises 'Desperate Housewives' and looks at TV One's 'The Missing'. Richard Green catches up with actor Morgana Le Fay O'Reillyover a coffee and chat about her career and Art's Archives look at Gert/Gilberto.",
+    "episode": "1",
+    "date": "15 July 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120715_2035.mp3",
+    "ogg": "audio/LC_20120715_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120715_2035.mp3"
+  },
+  {
+    "title": "The Pilot",
+    "description": "In the pilot episode of KickArts, Richard Green talks to Haare Williams, Enny Benzonelli and Paul Frewing.",
+    "episode": "0",
+    "date": "8 July 2012",
+    "image": "img/no-pic-availabe.jpeg",
+    "mp3": "audio/LC_20120708_2035.mp3",
+    "ogg": "audio/LC_20120708_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20120708_2035.mp3"
   }
 ]
