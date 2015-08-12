@@ -2,32 +2,546 @@
   {
     "title": "",
     "description": "",
-    "episode": "",
-    "date": " 2014",
+    "episode": "1",
+    "date": " 2015",
     "image": "img/no-pic-availabe.jpg",
-    "mp3": "audio/LC_2014_2035.mp3",
-    "ogg": "audio/LC_2014_2035.ogg",
-    "download": "audio/direct_download.php?file=LC_2014_2035.mp3"
+    "mp3": "audio/LC_2015_2035.mp3",
+    "ogg": "audio/LC_2015_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_2015_2035.mp3"
   },
   {
-    "title": "",
-    "description": "",
+    "title": "Another Year is Gone",
+    "description": "Dave Balcum, Head technician at The Auckland Art Gallery discusses the trials and tribulations of installing the Light Show whilst showing me around the exhibition PLUS Grae Burton, Emma Bishop, Enny Benzonelli and Richard Green discuss the year that was and our favourite bits and pieces. Grae also discusses his involvement with 2 Webshows, Shakespeare's Rebels (on at Pah Homestead) and a new film for 2015.",
+    "episode": "128",
+    "date": "28 December 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "A Movies Special",
+    "description": "An hilarious episode of KickArts where Crazy Adam Fresco and Wild Enny Benzonelli debate, discuss and provide discourse on the best and worst films of 2014 and what to look forward to in 2015. A show not to be missed!",
+    "episode": "127",
+    "date": "21 December 2014",
+    "image": "img/20141221.jpg",
+    "mp3": "audio/LC_20141221_2035.mp3",
+    "ogg": "audio/LC_20141221_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20141221_2035.mp3"
+  },
+  {
+    "title": "Apporaching the Festivities",
+    "description": "KickArts kicks some arts this week with Edwin and Ban discussing 'The Not So Merry Christmas Monologues' on at the Garnet Station Tiny Theatre. Richard Green reviews 'Hauraki Horror' at The Basement and Enny Benzonelli reviews the latest Hobbit offering and two other films... don't miss this Great Show!",
+    "episode": "126",
+    "date": "14 December 2014",
+    "image": "img/20141214.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "First signs of Christmas",
+    "description": "Another AWESOME show on Award Winning KickArts - We review 'A Christmas Carol' by the RNZB, 'Summer in the Square' - 2 weeks of free activities at Auckland Live - is discussed with Georgina Cervin, Stephen Papps talks about his show at the Garnet Road Station Tiny Theatre, 'Blowing It' and Evan Silva shares his recordings of some classic Christmas Carols with a twist. A fun night - don't miss out!",
+    "episode": "125",
+    "date": "7 December 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20141207_2035.mp3",
+    "ogg": "audio/LC_20141207_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20141207_2035.mp3"
+  },
+  {
+    "title": "Another Award for KickArts",
+    "description": "KickArts, the THIRD HIGHEST RATING show on PlanetFM for 2014 (Top rating show was Red Planet (David Shearer and Phil Goff) and second was Dateline Tonga which usually wins. If it wasn't election year KickArts might have been second!) presents another awesome Sunday arts programme. Thomas Sainsbury and Chris Parker talk about their adventures creating The Basement Christmas Show. We interview Royal New Zealand Ballet's Lucy Green about 'A Christmas Carol' (ASB Theatre) and Tim Raby discusses his role as Santa's stand-in for Tim Bray's 'Santa Claus Show' starting at The PumpHouse Theatre.. Enny Benzonelli reviews 'At the Wake' on at the Herald Theatre, as well as NYTC's 'The Little Mermaid'. AND he talks 'Fury' and 'The Deadlands'.",
+    "episode": "124",
+    "date": "30 November 2014",
+    "image": "img/20141130.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Floras, Mermaids and more",
+    "description": "Famous Floras meets the Little Mermaid! Only on KickArts. Joseph Wycoff discusses his role in 'Famous Floras' now on at The White House and Seamus and Hamish from NYTC talk about their Little Mermaid on at the Dorothy Winstone Centre this week. Enny reviews Whitecliffe's Fashion graduation show and we talk some interesting talk again so DON'T MISS OUT.",
+    "episode": "123",
+    "date": "23 November 2014",
+    "image": "img/20141123.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "A Powerful Discussion ",
+    "description": "High fashion, High humour and High voices and a great robust discussion about the state of the arts. Hear David Reeves from the Gay and Lesbian Singers talk art with Lindah Lepoh - high end fashion designer and artist, as well as Afi and Karin from 'At The Wake' - all on this week! Plus Richard Green reviews 'Famous Floras' and Emma reviews 'Pure and Deep' and Paula Crimmens joins us to review the book 'Amnesia' by Peter Carey. WOW - don't miss it!",
+    "episode": "122",
+    "date": "16 November 2014",
+    "image": "img/20141116.jpg",
+    "mp3": "audio/LC_20141116_2035.mp3",
+    "ogg": "audio/LC_20141116_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20141116_2035.mp3"
+  },
+  {
+    "title": "Art in the Dark",
+    "description": "Afraid of dark? Don't be, because ART IN THE DARK will change your mind. Hanna Cooke and Ben Anderson tell us all about the upcoming ART IN THE DARK and Olivia Taouma will present SOUTHSIDE ARTS FESTIVAL. Enny Benzonelli reviews 'Interstellar'. Also lots of birthdays this week from Tim Rice to Lorde. Don't miss another unmissable KickArts!",
+    "episode": "121",
+    "date": "9 November 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "The Internet is for Porn?",
+    "description": "Emma Bishop reviews 'Avenue Q' currently running at The Spotlight Theatre, as well as 'The Collector' and 'CageBirds' at Musgrove Studio, Enny Benzonelli also discusses 'Avenue Q' and reviews 'Next to Normal' at Auckland Music Theatre. Great discussions, great music and another great KickArts.",
+    "episode": "120",
+    "date": "2 November 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Movies made out of Paper",
+    "description": "Paper Cinema, Sociopaths and Caged Birds - An awesome KickArts. Nick Rawlings from The UK's Paper Cinema talks about 'The Odyssey', their first feature at Auckland Live this week, Lisa Fithergill, Lucy Noonan and Stephen Lunt talk Wild Boy Productions' 'The Cagebirds' and 'The Collector' (Musgrove) and Mal and Mike from The Lower Bar Collective talk 'Transitions' a FREE multi-media experience in the Silos on Wynyard Quarter over three days. Plus we remember Auckland musician Sam Prebble with a track from 'Bond Street Bridge'. And the usual exciting, engaging arts conversation with Richard Green and Enny Benzonelli.",
+    "episode": "119",
+    "date": "26 October 2014",
+    "image": "img/20141026.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Next to Normal",
+    "description": "Black Grace, Yo Future and Next to Normal - listen to another packed KickArts from Sunday night. Joash and Otis talk dance and Black Graces' piece, 'Xmas Verses', Padma Akula explains the workings of 'Yo Future', currently on at TAPAC, and Richard Neame and Emma Leon discuss 'Next to Normal' - a rock musical about bi-polar from AMT. Plus Lisa Finucane reviews 'Shirley Valentine', Paula Crimmens reviews 'Stones in his Pockets' at The PumpHouse Theatre. plus the usual antics from Enny Benzonelli and Richard Green - don't miss it!",
+    "episode": "118",
+    "date": "19 October 2014",
+    "image": "img/20141019.jpg",
+    "mp3": "audio/LC_20141019_2035.mp3",
+    "ogg": "audio/LC_20141019_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20141019_2035.mp3"
+  },
+  {
+    "title": "Emmet is back!",
+    "description": "What a show! Emmett Skilton ( The Almighty Johnsons (official) talks to us about his latest project, 'Stones in his Pockets' opening Thursday at The PumpHouse Theatre. Boni Tukiwaho talks 'Last Chance Cafe', a great innovative theatre piece in association with the Auckland City Mission and Shani Dickens discusses her tassels and upcoming show featuring in Tempo Dance Festival NZ this coming weekend. Don Bassett reviews 'Sleeping Beauty', the Auckland Philharmonia concert as well as The Opera Studio's 'Lucia Di Lammermoor' plus Enny Benzonelli and I share some John Lennon classics to celebrate the anniversary of his birthday!",
+    "episode": "117",
+    "date": "12 October 2014",
+    "image": "img/20141012.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Tempo, Pacific and Whau Festivals",
+    "description": "A great insight to the 5th ARTWEEK program and more about the TEMPO DANCE FESTIVAL. Enny talks to Aruna Po-Ching about 'Pacific Dance presents Pacific Choreographers' - a show which is part of the Tempo Dance Festival. Marlaina Key, Sam Morrison and Bronwyn Bent talks about the upcoming Artweek Auckland and present in depth the amazing program they have put together and introduce WHAU THE ART FESTIVAL (http://whauthepeople.com/). Lisa Funicane joins us once again to review THE SOUND OF MUSIC.",
+    "episode": "116",
+    "date": "5 October 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20141005_2035.mp3",
+    "ogg": "audio/LC_20141005_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20141005_2035.mp3"
+  },
+  {
+    "title": "HipOperation's World Premiere",
+    "description": "WORLD PREMIERE of full length 'Life is for Living' - Theme song from 'HipOperation' on KickArts this week with Producer, Alex Lee. We are also joined by Carlene and Maisy from 'FingerPrints' the offering in the Tempo Dance Festival NZ from HIGHJINX AERIAL ARTS Youth Company. And Paula Crimmens reviews 'Everest Untold', on last week at Q Theatre.",
+    "episode": "115",
+    "date": "28 September 2014",
+    "image": "img/20140928.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Tempo takes it all",
+    "description": "A whooping great show with Carrie Rae talking Tempo Dance Festival, Serene, Producer of 'eye' - also in Tempo, 'Don Giovanni' by NZO reviewed by Richard as well as an interview with up and coming opera singer, Chelsea Dolman. Don Bassett reviews 'Trees beneath the Lake' and Enny talks 'Short and Sweet Dance, announcing the winners from Sunday night's awards! Plus 'HIP HOPERATION' reviewed by Richard. <br> (Don Giovanni Photo: Neil Mackenzie).",
+    "episode": "114",
+    "date": "21 September 2014",
+    "image": "img/20140921.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Classical Music and Theatre",
+    "description": "Michael Hurst joins us to talk about his life and his new play, ATC's 'Trees beneath the Lake'. We also talk to Laura Sanderson about Tim Bray Production's 'Little Yellow Digger' on at the Pumphouse these school holidays. Flavio Villani discusses his upcoming classical concert and Caleb Forlong, organiser of a charity concert for the Starship Hospital Foundation shares a very special guest list. Reviews of 'Wheel of Experience', 'Short and Sweet' as well as 'Godbelly' with Emma, Enny and Catherine.",
+    "episode": "113",
+    "date": "14 September 2014",
+    "image": "img/20140914.jpg",
+    "mp3": "audio/LC_20140914_2035.mp3",
+    "ogg": "audio/LC_20140914_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140914_2035.mp3"
+  },
+  {
+    "title": "Election Special",
+    "description": "Election Special: A fiery debate on Arts in New Zealand - National, Labour and the Greens go head to head on this Decision 14 Special - A living wage for artists? Public Broadcasting? Arts in Education? A show every arts practitioner should listen to ahead of the election. With Maggie Barry (National), Darien Fenton (Labour) and Catherine Delahunty (Green). Emma also reviews 'Lies' at The Basement.",
+    "episode": "112",
+    "date": "7 September 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140907_2035.mp3",
+    "ogg": "audio/LC_20140907_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140907_2035.mp3"
+  },
+  {
+    "title": "So much Theatre!",
+    "description": "Another fantastically amazing KickArts with Peter Daube talking 'Wheel of Experience' (Q Loft), Ash Jones discusses two plays he is involved in, 'Lies' and 'Whatever Happened to me' (Basement), Dr Dan James, a Wellington digital artist, talks 'DJ3D14' - an interactive exhibition at Auckland Live, and Hannah Paterson takes us through 'HubBub' (Basement)! All this plus Don and Emma review 'Earnest' at Q and The Opera Factory's 'The Medium' phew - settle back, grab a cuppa and take it all in.",
+    "episode": "111",
+    "date": "31 August 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "No Mercy",
+    "description": "Sharu and Emma join Richard for some reviews and Enny sick at home talks movies. Another episode not to be missed.",
+    "episode": "110",
+    "date": "24 August 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140824_2035.mp3",
+    "ogg": "audio/LC_20140824_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140824_2035.mp3"
+  },
+  {
+    "title": "Goodbye Robin!",
+    "description": "Short and Sweet - KickArts this week has Ahi Karunaharan Artistic Director for Short and Sweet (Theatre) chatting about the festival and all its offerings. Paula Crimmens reviews 'Affinity' and Emma Bishop raves about 'Hairspray' and 'An Unseasonable Fall of Snow'. And we finish with some words from Robin Williams - a tribute and a loss. (Warning - content may offend some listeners. Coarse Language).</p>
+    <p>In light of Robin William's death please find links to places that can help if you are feeling like you are alone and need to talk to someone.
+        <li>
+            Lifeline 0800 543 354 or (09) 522 2999
+        </li>
+        <li>
+            Suicide Prevention Helpline 0508 828 865 (0508 TAUTOK0)
+        </li>
+        <li>
+            Youthline 0800 376 633
+        </li>
+        <li>
+            Samaritans 0800 726 666
+        </li>",
+    "episode": "109",
+    "date": "17 August 2014",
+    "image": "img/20140817.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "A Doggy Show",
+    "description": "Dog! Doggone it! KickArts features writer Ben Hutchison who has his canine play 'DOG' opening at The Basement next week. Paula Crimmens reviews two books as well as Touch Compass Dance Company's 'Acquisitions 14'. Lisa Finucane joins us once again with a review of 'Terror Highway' and Enny Benzonelli looks at a couple of movies and ramps up the humour on another exciting installment of KickArts.",
+    "episode": "108",
+    "date": "10 August 2014",
+    "image": "img/20140810.jpg",
+    "mp3": "audio/LC_20140810_2035.mp3",
+    "ogg": "audio/LC_20140810_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140810_2035.mp3"
+  },
+  {
+    "title": "An Inappropriate Debate",
+    "description": "Mark Hadlow and Robbie Nicol join Enny and Richard for some robust, irreverent and sometimes downright inappropriate debate and discussion on the arts in NZ, being an actor and reviewers. We also discuss Mark's latest offering, MAMIL, at the Herald and Robbie's involvement with 'Affinity' at the Basement next week. Enny and Richard review 'Albert Black', Jawbone Production's first offering and Tony Bennett makes an appearance... WARNING - some content may offend!",
+    "episode": "107",
+    "date": "3 August 2014",
+    "image": "img/20140803.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Dance &amp; Reviews",
+    "description": "Touch Compass Dance Company launches 'Acquisitions 14' at Q Theatre next week. Founder and Artistic Director Catherine Chappell talks dance, her journey and Touch Compass. I review 'MAMIL' (Middle Aged Men In Lycra) at the Herald Theatre, Lisa Finucane reviews the NZ Trio who play the Loft Series at Q and Enny talks TV.",
+    "episode": "106",
+    "date": "27 July 2014",
+    "image": "img/20140727.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Delinquents, Teenage &amp; Sex",
+    "description": "Warring delinquents, teenage sex and digital dance - all on KickArts this week. Ruby Payne and Seamus Ford join us from Jawbone Productions to talk 'Albert Black' opening next week, Nolwenn Lacire from Auckland Live (formerly The Edge) to talk 'Mata Mata 2.0 - a new interactive digital dance project. Catherine George discusses Auckland Council's Arts and Culture Strategic Plan (Submissions close Thursday) plus we review 'His First Ball' (Maidment Theatre) plus two of NZ's Best at the NZIFF - 'Eleven' and 'Cold Snap'. All this and Enny Benzonelli and I play some The Police, Pearl Jam and a little bit of Black Sabbath - a rip roaring KickArts for a cold Sunday evening.",
+    "episode": "105",
+    "date": "20 July 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "The Enny &amp; Merrin Show",
+    "description": "While Richard is enjoying a snowy holiday, Enny and Merrin take over the studio and talk 'Sin' and 'Luna's World'. Lots of great songs inspired by today's birthdays and the FIFA World Cup countries. Richard gifted us with two great phone interviews - one with Alistair Berry director of 'Hot Air', showing in the NZIFF and Tina Shaw, author of Children's Pond.",
+    "episode": "104",
+    "date": "13 July 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140713_2035.mp3",
+    "ogg": "audio/LC_20140713_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140713_2035.mp3"
+  },
+  {
+    "title": "A sinful KickArts",
+    "description": "Lust, Gluttony, Greed joins 'Ross and Beth' - A kick arse KickArts once again with Enny Benzonelli. Hamish Bennett joins us to talk about his short, 'Ross and Beth' which makes up one of NZ's Best at the New Zealand International Film Festival. Ryan and Brad talk 'Sin' opening at the Q Theatre this week. I review 'Mana Wahine' from Okareka Dance Company, as well as 'The Whale Rider' from Tim Bray Productions and 'Hoki Mai Tama Ma' from Te Rehia Theatre at the Herald Theatre this week.",
+    "episode": "103",
+    "date": "6 July 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "A Kids' World",
+    "description": "Wonderful Winter Wallyflops, Whale Riders and Wolfgang singers - a GREAT KickArts with Enny Benzonelli. Tim Bray Productions' actors Adam Burrell and Tui Wehi talk about the classic 'Whale Rider' which has opened at The PumpHouse Theatre. Lauren Billingham discusses 'Luna's World', a multi platform children's show and Edward Laurenson, a finalist in the Lexus Song Quest, discusses his rise to winning multi awards for singing. Prayas Theatre's show 'Charanda Chor' is reviewed and we celebrate Tim Finn and Bret McKenzie's birthdays.",
+    "episode": "102",
+    "date": "29 June 2014",
+    "image": "img/20140629.jpg",
+    "mp3": "audio/LC_20140629_2035.mp3",
+    "ogg": "audio/LC_20140629_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140629_2035.mp3"
+  },
+  {
+    "title": "Hilarity &amp; Irreverence",
+    "description": "An hilarious riot of a show with irreverence galore from our entertaining guest line up including Tainui and Regan from Te Rehia Theatre Company talking 'Hoki mai tama mā', Ahi from Prayas Theatre talking 'Charandas Chor' (The Honest Thief) and James, Candice and Natalie from theatrewhack talk about 'Shakespeare's Problems'. WOW - not one to be missed even though Enny Benzonelli was late.",
+    "episode": "101",
+    "date": "22 June 2014",
+    "image": "img/20140622.jpg",
+    "mp3": "audio/LC_20140622_2035.mp3",
+    "ogg": "audio/LC_20140622_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140622_2035.mp3"
+  },
+  {
+    "title": "The first 3 digits Episode",
+    "description": "KickArts celebrates 100 EPISODES. In this show Taane Mete from Okareka Dance Company discusses the upcoming tour of their new work, 'Mana Wahine'. And Renee and Callum join us to talk 'Seed', the new show by playwright Elisabeth Easther which recently won the Adam Playwright Award, currently on at The Basement Theatre. We celebrate Judy Garland's birthday and Rik Mayall's death. And Enny Benzonelli tells us why Orange is the new Black.",
+    "episode": "100",
+    "date": "15 June 2014",
+    "image": "img/20140615.jpg",
+    "mp3": "audio/LC_20140615_2035.mp3",
+    "ogg": "audio/LC_20140615_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140615_2035.mp3"
+  },
+  {
+    "title": "Almost 100...",
+    "description": "On the 99th episode of KickArts: Lisa Finucane and her sister Carolyn review 'Tommy Bradson', 'The Factory' and much more. Richard meets up with our own Don Basset and they talk about 'Other Desert City' and 'Coppelia' and then with Sophie Henderson he discusses the release of 'Fantail'. Paula joins in to review 'Tuesdays with Morrie' and presents a couple of good books to survive the rainy, cold winter's nights. Everything garnished with great music. Don't miss it! ",
+    "episode": "99",
+    "date": "8 June 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140608_2035.mp3",
+    "ogg": "audio/LC_20140608_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140608_2035.mp3"
+  },
+  {
+    "title": "Theatrical Powershow",
+    "description": "George Henare, Catherine George, Jason Te Mete, Tom Sainsbury, Adey Ramsel and Seamus Ford - what a show! A theatrical powershow talking about 'Tuesdays with Morrie', 'Sunday Roast' and 'The Wizard of OZ' - Catherine and Enny review docos from the festival and Richard... well he just tries to manage the conversation. A KickArts NOT to be missed.",
+    "episode": "98",
+    "date": "1 June 2014",
+    "image": "img/20140601.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Politics &amp; Art",
+    "description": "Amazing KickArts - Kauri Dieback project, Documentary Edge Festival and Recliner Rockers all represented in the studio. Chris and Ariene talk art and science working together to save the iconic Kauri, Gef, Alan and Julian talk music and play some live tracks in the studio and Alex Lee (festival co-director) talks documentary and picks for the festival. We discuss politics and art - do they go together? And some great kiwi music for music month.",
+    "episode": "97",
+    "date": "25 May 2014",
+    "image": "img/20140525.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Kissing's Lessons",
+    "description": "How to kiss on stage? Enny talks about Merchant of Venice and Twelfth Night with five promising UNITEC's students: Marwin, Richie, Tormai, Irasa and John. KickArts gets all European playing a little retrospective of the biggest Eurovision Song Contest's winners. What a show!",
+    "episode": "96",
+    "date": "18 May 2014",
+    "image": "img/20140518.jpg",
+    "mp3": "audio/LC_20140518_2035.mp3",
+    "ogg": "audio/LC_20140518_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140518_2035.mp3"
+  },
+  {
+    "title": "A full-flavored KickArts",
+    "description": "Burlesque, Kid's Art and Pacific Music - what a show! KickArts rocked with Phil O'Reilly talking 'In Flagrante' - real risque dance at Galatos this month, Mandy Patmore talks the Kid's Arts Festival at Corban Estate Arts Centre this weekend, the Rev Mua Strickson-Pua joins us to discuss the Pasific Music Awards and play some AWESOME music and Mary Wadsworth discusses the Writer's Festival. Enny Benzonelli and I discuss 'The Good Wife' and 'Broadchurch' - it just doesn't get any better! Oh wait, Catherine George reviews 'Giving Up' at the Vic Theatre, Devonport. What a show!",
+    "episode": "95",
+    "date": "11 May 2014",
+    "image": "img/20140511.jpg",
+    "mp3": "audio/LC_20140511_2035.mp3",
+    "ogg": "audio/LC_20140511_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20105114_2035.mp3"
+  },
+  {
+    "title": "Never give up!",
+    "description": "Giving Up? Don't! Listen to Tony Piggott and David Capstick discuss their upcoming 'Film Deconstruction theatrical music experience' show this weekend 'Giving Up'. 12 performances over 24 hours at the Victoria Theatre in Devonport this weekend. Enny Benzonelli reviews the Ed Sheeran concert and Adam Fresco joins us to talk film. All this and music too on KickArts! ",
+    "episode": "94",
+    "date": "4 May 2014",
+    "image": "img/20140504.jpg",
+    "mp3": "audio/LC_20140504_2035.mp3",
+    "ogg": "audio/LC_20140504_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140504_2035.mp3"
+  },
+  {
+    "title": "A Fun Sunday in",
+    "description": "The incredibly funny and talented Elisabeth Easther joins Richard in the studio for some fun times, great music and discussing her life as an actor / writer, her 2014 Adam Playwright Award for her new show 'Seed' and her play about Famous Flora (yes the madam) opening at the White House later in the year. An hilarious and engaging KickArts not to be missed!",
+    "episode": "93",
+    "date": "27 April 2014",
+    "image": "img/20140427.jpg",
+    "mp3": "audio/LC_20140427_2035.mp3",
+    "ogg": "audio/LC_20140427_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140427_2035.mp3"
+  },
+  {
+    "title": "Art, Theatre &amp; Movies",
+    "description": "A great chat with Bruce McLean, curator of the 'My Country' exhibition at the Auckland Art Gallery. Court Theatre CEO Philip Aldridge discusses the future and Adam Fresco with school holiday movies on offer. Enny reviews Paco Pena at the Bruce Mason Centre and some more great music...",
+    "episode": "92",
+    "date": "20 April 2014",
+    "image": "img/20140420.jpg",
+    "mp3": "audio/LC_20140420_2035.mp3",
+    "ogg": "audio/LC_20140420_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140420_2035.mp3"
+  },
+  {
+    "title": "Pea Green Boats, Naked Emperors and Fred?",
+    "description": "Pea Green Boats, Naked Emperors and Fred? What does it all mean?
+Enny talks to Sarah Summerville about 'The Emperor's New Clothes' opening at the Bruce Mason Centre, Melissa Osgood talks TV and all the work that goes into trying to get a production up and on air, Lisa Finucane reviews 'Fred' by Lisa Chappell and Molly Green (aged 6) reviews 'The Owl and The Pussycat' by Tim Bray Productions at the Pumphouse Theatre plus (SPOILER ALERT) Game of Thrones conversation...",
+    "episode": "91",
+    "date": "13 April 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140413_2035.mp3",
+    "ogg": "audio/LC_20140413_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140413_2035.mp3"
+  },
+  {
+    "title": "Double Rees!",
+    "description": "Amanda and Donogh talk 'The Owl and the Pussycat' as well as share their lives as actors, directors and sisters... Don Bassett also joins us once again to talk '5 Māori Painters' and 'My Country' at the Auckland Art Gallery and Enny Benzonelli reviews 'Soo Young The Musical' and Massive Theatre's 'My Bed My Universe' with music from Abba, Jimmy Cliff and Pearl Jam.",
+    "episode": "90",
+    "date": "6 April 2014",
+    "image": "img/20140406.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "New Zealand Trio!",
+    "description": "Massive! The NZ Trio members, Justine and Sarah talk about 'My Bed, My Universe' opening this week. Johnny Givins reviews 'Angels in America' at Q Theatre and we talk 'Noah' with Enny Benzonelli. And of course a little chat about 'Game of Thrones' which starts next week. Music from Reginald Kenneth Dwight and Tracy Chapman as well as a track from the NZTrio.",
+    "episode": "89",
+    "date": "30 March 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140330_2035.mp3",
+    "ogg": "audio/LC_20140330_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140330_2035.mp3"
+  },
+  {
+    "title": "Icecream, Cannibals &amp; Rain",
+    "description": "What do Icecream, Cannibals and Rain have in common? They all featured on KickArts last Sunday. Lisa Chappell (McCloud's Daughters, Gloss, CityLife) joins us to talk, talk and talk about her life and her new one woman show, 'Fred' opening at The Basement Theatre in April! Lara Macgregor and Mark Hadlow talk about 'When the rain stops falling' currently on at the Court Theatre. Music from Linkin Park, Gary Jules and some awesome discussion - with your host, Richard Green...",
+    "episode": "88",
+    "date": "23 March 2014",
+    "image": "img/20140323.jpg",
+    "mp3": "audio/LC_20140323_2035.mp3",
+    "ogg": "audio/LC_20140323_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140323_2035.mp3"
+  },
+  {
+    "title": "Daffodils &amp; Edelweiss",
+    "description": "A musical journey from Italy to Sweden ending in Brazil. Johnny Givins reviews Daffodils at the Q Theatre. Adam Fresco talks movies and comments '300 Rise of an Empire' and 'Non-Stop'. Richard Green shares his thoughts on Macklemore and Enny Benzonelli tells us about Girl in Tan Boots at the Basement and Mamma Mia! at the Civic.",
+    "episode": "87",
+    "date": "16 March 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "And the Oscar went to...",
+    "description": "Read Leaps, Black Faggots and Orpheus ... Tainui Tukiwaho and Eve Gordon join us to talk The Dust Palace's new work in development. And we talk 'Black Faggot' by Victor Rodger and 'Sea' by Red Leap Theatre. Adam Fresco looks back at his picks for the Oscars as well as reviewing 'Monuments Men'. And David Gilmour's birthday means a bit of Pink Floyd!",
+    "episode": "86",
+    "date": "9 March 2014",
+    "image": "img/20140309.jpg",
+    "mp3": "audio/LC_20140309_2035.mp3",
+    "ogg": "audio/LC_20140309_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140309_2035.mp3"
+  },
+  {
+    "title": "Who will get an Oscar?",
+    "description": "Tan Boots, Red Leaps and Oscar Picks - all on KickArts. Join us for a great show with Dahnu Graham, Jade Daniels and Cherie Moore. Enny Benzonelli reviews 'Pericles' and we chat to Adam Fresco about his picks for the Oscars - and we play the 4 Best Song Oscar nominations...",
+    "episode": "85",
+    "date": "2 March 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140302_2035.mp3",
+    "ogg": "audio/LC_20140302_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140302_2035.mp3"
+  },
+  {
+    "title": "A Lustful KickArts",
+    "description": "Lust, incest, murder and deceit... just an average day at the office for 'Pericles' - Outdoor Summer Shakespeare for 2014. In the studio we talk to Producer Sarah Burren. Adam Fresco joins us for more film news and reviews and the wonderful Enny tops of a great show looking at the arts in Auckland on Planet FM 104.6!",
+    "episode": "84",
+    "date": "23 February 2014",
+    "image": "img0223.jpg",
+    "mp3": "audio/LC_20140223_2035.mp3",
+    "ogg": "audio/LC_20140223_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140223_2035.mp3"
+  },
+  {
+    "title": "Show not Available",
+    "description": "We are sorry, we have no information available for this show.",
+    "episode": "83",
+    "date": "16 February 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "KickArts with Pride",
+    "description": "Richard and Enny talk about the succesfull Pride Festival and Jeff presents a Drag Queen show opening at the Basement.",
+    "episode": "82",
+    "date": "9 February 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140209_2035.mp3",
+    "ogg": "audio/LC_20140209_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140209_2035.mp3"
+  },
+  {
+    "title": "A Shakespeare's Show",
+    "description": "Author Paul Moon talk about his book 'Voyagers' and 'Macbeth' cast member Murdoch Keane talks about his role in the Young Shakespeare Company's production of this classic piece. Enny Benzonelli talks '360' and TV shows as well as the usual news, reviews about the Auckland Arts scene.",
+    "episode": "81",
+    "date": "2 February 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Passionate Faggots",
+    "description": "'Passionate Acts' and 'Teen Faggots Come To Life' - 2 great theatre pieces coming to Auckland soon. We talk to Alistair Browning and Mika about these works as well as the importance of language, Shakespeare, the dumbing down of drama and life! Adam Fresco is back reviewing films and this week amongst others he looks at 'The Wolf of Wall Street'. Plus a bit of Counting Crows, JJ Johnson and Etta James.",
+    "episode": "80",
+    "date": "26 January 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140126_2035.mp3",
+    "ogg": "audio/LC_20140126_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140126_2035.mp3"
+  },
+  {
+    "title": "An Encore for Under the Afro",
+    "description": "Our listener asked us to replay the episode that went on air on 22nd of December 2013. It contains an exciting interview with musician and author Evan Silva. Enjoy.",
+    "episode": "76 - Repeat",
+    "date": "19 January 2014",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20140119_2035.mp3",
+    "ogg": "audio/LC_20140119_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140119_2035.mp3"
+  },
+  {
+    "title": "Arli play it again!",
+    "description": "Live music from Arli, melting sculptures from Paula Schaafhausen. Arli discusses his new self titled album and Paula talks about her exhibition at the Corban Estate Arts Centre as part of the New Grads Show with The National Institute of Creative Arts and Industries. Plus it was Jimmy Page's birthday so cannot go past playing 'Stairway to Heaven'... great discussions on Sunday's show.",
     "episode": "79",
-    "date": " 2014",
-    "image": "img/no-pic-availabe.jpg",
-    "mp3": "audio/LC_2014_2035.mp3",
-    "ogg": "audio/LC_2014_2035.ogg",
-    "download": "audio/direct_download.php?file=LC_2014_2035.mp3"
+    "date": "12 January 2014",
+    "image": "img0112.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
   },
   {
-    "title": "",
-    "description": "",
+    "title": "A 360 degrees Show",
+    "description": "Ben Crowder talks his new show '360' opening at the Civic Theatre next week. A fascinating chat about an innovative theatre concept and it's development and also a fascinating career... plus some picks of the top music of 2013 with Enny Benzonelli.",
     "episode": "78",
-    "date": " 2014",
+    "date": " 5 January 2014",
     "image": "img/no-pic-availabe.jpg",
-    "mp3": "audio/LC_2014_2035.mp3",
-    "ogg": "audio/LC_2014_2035.ogg",
-    "download": "audio/direct_download.php?file=LC_2014_2035.mp3"
+    "mp3": "audio/LC_20140105_2035.mp3",
+    "ogg": "audio/LC_20140105_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20140105_2035.mp3"
   },
   {
     "title": "Goodbye 2013",
