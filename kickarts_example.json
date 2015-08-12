@@ -1,16 +1,316 @@
 [
   {
-    "title": "",
-    "description": "",
-    "episode": "1",
-    "date": " 2015",
-    "image": "img/no-pic-availabe.jpg",
-    "mp3": "audio/LC_2015_2035.mp3",
-    "ogg": "audio/LC_2015_2035.ogg",
-    "download": "audio/direct_download.php?file=LC_2015_2035.mp3"
+    "title": "#MMQ",
+    "description": "<a href='www.modernmaoriquartet.nz' target='_blank'>Modern Maori Quartet</a> - four awesome Maori entertainers join us ahead of their New Zealand / Asia and Pacific tour. We talk music, politics and te reo... and of course their irreverent humour shines on through... with James, Maatariki, Maata and Francis.",
+    "episode": "159",
+    "date": "2 August 2015",
+    "image": "img/20150802.jpg",
+    "mp3": "audio/LC_20150802_2035.mp3",
+    "ogg": "audio/LC_20150802_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150802_2035.mp3"
   },
   {
-    "title": "Another Year is Gone",
+    "title": "The Man Who Reviewed 12 Movies at Once",
+    "description": "What does an illiterate postal worker and addicted video gamers have in common? Only that they are the subject of discussion on another KickArts episode. Yes, Lana Walters talks about her new webseries, <a href='https://www.youtube.com/watch?v=QqB6o63er0g' target='_blank'>Game Over</a>, children's author Emma Vere-Jones discusses her latest book, <a href='http://www.emmaverejones.com/books-and-stories-1-1/' target='_blank'>Stan the Van Man</a> and Paul Qualtrough joins us to mini - review 12 films in thye NZIFF.",
+    "episode": "158",
+    "date": "26 July 2015",
+    "image": "img/20150726.jpg",
+    "mp3": "audio/LC_20150726_2035.mp3",
+    "ogg": "audio/LC_20150726_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150726_2035.mp3"
+  },
+  {
+    "title": "Docu Fast Watch",
+    "description": "Want to see 10 great NZ docos in 40 minutes? <a href='http://loadingdocs.net' target='_blank'>Loading Docs</a>, an initiative started by guest Julia Parnell, does exactly that. And filmmaker Rowena Baines, director of 'Dancing in the Dark' also joins us to talk the challenges of making a 3 minute doco plus all the other great work she is doing with helping Vanuatu <a href='http://rowenabaines.com/vanuatu-music-revival-project' target='_blank'>reaccess music</a>. PLUS Don Bassett discusses 'Wunderrūma' at the Auckland Art Gallery and Molly reviews 'Caterpillers' at the Bruce Mason.",
+    "episode": "157",
+    "date": "19 July 2015",
+    "image": "img/20150719.jpg",
+    "mp3": "audio/LC_20150719_2035.mp3",
+    "ogg": "audio/LC_20150719_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150719_2035.mp3"
+  },
+  {
+    "title": "A Threesome with Em Skilton",
+    "description": "Climate Change! Politics! A Threesome! Yes, it's 'that kind of show' to quote special guest, Emmet Skilton (Almighty Johnsons), AND it's our THIRD BIRTHDAY SHOW. Emmet talks about his upcoming show on climate change called 'Between two waves' opening in August and Enny Benzonelli cuts together a KickArts retrospective to celebrate our three years on air. And a big thanks to those that have made this happen - Paul Hooli, Paula Crimmens, Catherine George, Anna Harding, Lisa Finucane, Mary Wadsworth, Merrin H Cavel, Will Moore and Carolynn Day, Art Green, Carolyn Finucane, Susan Payne Rose, Don Bassett and the indefatigable Adam Fresco! And extra special thanks to Emma Bishop who works hard in front of and behind the scenes! Don't miss it!",
+    "episode": "156",
+    "date": "12 July 2015",
+    "image": "img/20150712.jpg",
+    "mp3": "audio/LC_20150712_2035.mp3",
+    "ogg": "audio/LC_20150712_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150712_2035.mp3"
+  },
+  {
+    "title": "Cocktail a la KickArts",
+    "description": "Take 3 reviewers, add a fantastic guest, stir it with an overwhelmed host and sprinkle a 7 years old critic and you get an awesome KickArts’ cocktail. Victoria Abbott tells us all about her upcoming show 'Caterpillars' on at the Bruce Mason Centre and about her daytime job as a Clown Doctor. Anna reviews 'The Mourning After' and 'Krisnan's Dairy', Will gets about Orang-utan and Don Bassett talks Opera, more specifically Puccini’s 'Turandot'. All topped off with Molly Green and her review of 'Grandma McGarvey' 'Grandpa’s Slippers' (Pumphouse Theatre). Don’t miss this unique show and stream it now!",
+    "episode": "155",
+    "date": "5 July 2015",
+    "image": "img/20150705.jpg",
+    "mp3": "audio/LC_20150705_2035.mp3",
+    "ogg": "audio/LC_20150705_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150705_2035.mp3"
+  },
+  {
+    "title": "Orangutan Edition",
+    "description": "Awesome Awesome Awesome is all we can can say about Sunday's show! Tai Royal and Helen Langford from Okareka Dance Company join us to talk about all the exciting stuff going on, Regan from Te Rehia comes into the studio to talk about 'Hokia Ki Nga Maunga' and Alice Canton talks 'Orangutan'. PLUS dynamic duo Carolynn and Will review 'Murdoch', ATC's latest offering. Plus some fantastic discourse on the state of the arts in Aotearoa NZ.",
+    "episode": "154",
+    "date": "28 June 2015",
+    "image": "img/20150628.jpg",
+    "mp3": "audio/LC_20150628_2035.mp3",
+    "ogg": "audio/LC_20150628_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150628_2035.mp3"
+  },
+  {
+    "title": "The KickArts After",
+    "description": "Another informative, humourous and irreverent KickArts show this week - Ahi Karunaharan and Prateek Vadgaonkar discuss the upcoming 'The Mourning After' at the Basement Theatre and Julie Collis joins us as 'Grandma McGarvey' from Tim Bray's latest offering at the Pumphouse. Emma reviews 'BALLET REVOLUCION' and the dynamic duo, Carolyn and Will, review 'Matariki Mixit' at Te Pou. All this plus some Sir Paul.",
+    "episode": "153",
+    "date": "21 June 2015",
+    "image": "img/20150621.jpg",
+    "mp3": "audio/LC_20150621_2035.mp3",
+    "ogg": "audio/LC_20150621_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150621_2035.mp3"
+  },
+  {
+    "title": "The Richard-Free Episode",
+    "description": "In an amazing Richard-Free episode of KickArts, Enny welcomes Lance Loughlin and Taupuhi Toki and they discuss the upcoming Matariki Mix-it show on at Te Pou on June 20 and at the Basement on June 26 & 27. Moreover, Carolyn and Will review Rose Matafeo and Lisa talks about Kiss The Fish. All mixed up with a couple of songs from the Eurovision Song Contest 2015. An explosive episode not to be missed!",
+    "episode": "152",
+    "date": "14 June 2015",
+    "image": "img/20150614.jpg",
+    "mp3": "audio/LC_20150614_2035.mp3",
+    "ogg": "audio/LC_20150614_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150614_2035.mp3"
+  },
+  {
+    "title": "Free Entertainment",
+    "description": "Indian Ink's Justin Lewis joins us to talk about the new season on 'Kiss the Fish' and 'Krishnan's Dairy', Nolwenn Lacire (Curator Digital Art) from Auckland Live talks 'Tourmente' By Jean Dubois, the latest interactive digital art at the Aotea Centre. We discuss audience development - how do we keep people engaged in the arts? And why are most of the heads at the opera grey? Will and Carolyn review 'Mad Max', Lisa reviews 'Hamlet' and Catherine reviews 'Dust Pilgrim' - all this entertainment at no cost!",
+    "episode": "151",
+    "date": "7 June 2015",
+    "image": "img/20150607.jpg",
+    "mp3": "audio/LC_20150607_2035.mp3",
+    "ogg": "audio/LC_20150607_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150607_2035.mp3"
+  },
+  {
+    "title": "What a great friggin show",
+    "description": "Tom Eason from Red Leap Theatre talks about their latest work, 'Dust Pilgrim'. Richard Neame and Nick Brown discuss the upcoming 'Sweeney Todd' at AMT and reviews galore - 'La Cenerentola' (NZO), 'Enlightenment' (ATC), 'Death and the Maiden' (NSC) and 'The Best Possible Album Party That Anybody Has Ever Been To' (Basement) - all this and some great ARTS conversation on our 150th episode.",
+    "episode": "150",
+    "date": "31 May 2015",
+    "image": "img/20150531.jpg",
+    "mp3": "audio/LC_20150531_2035.mp3",
+    "ogg": "audio/LC_20150531_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150531_2035.mp3"
+  },
+  {
+    "title": "Happy Birthday, Ugly!",
+    "description": "20 years of <a href='www.ugly.org.nz' target='_blank'>Ugly Shakespeare Company</a> - Enny turns the tables on Richard and interviews him about starting one of New Zealand's longest running theatre companies. Plus he's back - BILLY APPLE returns for part two of his exclusive interview with KickArts. And Richard and Enny review several docos from the <a href='www.documentaryedge.org.nz' target='_blank'>Documentary Edge Festival</a> on at the moment at Q Theatre. These include 'Night Will Fall'' 'Gaybe Baby'' 'The Yes Men', 'Druglawed' and 'Waiting for August'.",
+    "episode": "149",
+    "date": "24 May 2015",
+    "image": "img/20150524.jpg",
+    "mp3": "audio/LC_20150524_2035.mp3",
+    "ogg": "audio/LC_20150524_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150524_2035.mp3"
+  },
+  {
+    "title": "Fantastic international Guests",
+    "description": "'Shakespeare Behind Bars' founder Curt Tofteland joins us on his two week whirlwind tour through New Zealand, Lisa Reihana discusses her installation at the Auckland Art Gallery (In pursuit of Venus (infected). Bertie Plaatsman and Rowena Baines discuss their films that feature in the Documentary Edge Festival opening this week and Titania Hotere talks 'Death and the Maiden', the latest offering from the NewMarket Stage Company. A robust, fascinating discussion with these amazing arts practitioners. A show you won't want to miss!",
+    "episode": "148",
+    "date": "17 May 2015",
+    "image": "img/20150517.jpg",
+    "mp3": "audio/LC_20150517_2035.mp3",
+    "ogg": "audio/LC_20150517_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150517_2035.mp3"
+  },
+  {
+    "title": "The Comedy keeps coming",
+    "description": "More Comedy Festival insights with guests Eli Matthewson (Faith) and Stephen Witt (Diddle) talking life as a comedian, clown and christian... plus Sally Stockwell talks about her new album, 'Weightless' and we play a few of her tracks all on another great KickArts.",
+    "episode": "147",
+    "date": "10 May 2015",
+    "image": "img/20150510.jpg",
+    "mp3": "audio/LC_20150510_2035.mp3",
+    "ogg": "audio/LC_20150510_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150510_2035.mp3"
+  },
+  {
+    "title": "More From The Comedy Festival",
+    "description": "Another Comedy Festival Special! Ashton Brown &amp; Louise Beuvink talk about their show 'Dark Side of the Afternoon', Carolynn Day reviews Neel Kolhatkar, Penny Ashton and DeAnne Smith and we also talk about 'Nautilus', Trygve Wakenshaw's entry in the festival. We ask our guests about their experiences becoming comedians, what inspires them and how they keep themselves alive! All on this exciting episode of KickArts!",
+    "episode": "146",
+    "date": "3 May 2015",
+    "image": "img/20150503.jpg",
+    "mp3": "audio/LC_20150503_2035.mp3",
+    "ogg": "audio/LC_20150503_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150503_2035.mp3"
+  },
+  {
+    "title": "Apple Special - Part 1",
+    "description": "Billy Apple, the iconic Pop artist, 90 minute exclusive on KickArts. We talk about his early days, what got him into art, the move to London and New York, as well as his time with some notable contemporaries. He throws in a bit of Miles and Donna Summer for good measure. Don't miss this first part of a fascinating insight into a fascinating person.",
+    "episode": "145",
+    "date": "26 April 2015",
+    "image": "img/20150426.jpg",
+    "mp3": "audio/LC_20150426_2035.mp3",
+    "ogg": "audio/LC_20150426_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150426_2035.mp3"
+  },
+  {
+    "title": "Some Mexican Food",
+    "description": "Comedians David Correos and Brendon Green come in for a chat, 'Boy Wonder' Ryan Richards talks about his return season and taking it South, and we are treated by restaurateurs Marianne Elliott &amp; Lucas Putnam as they discuss their latest cookbook, 'La Boca Loca'. Marianne also talks about her 2012 book about her experiences in Afghanistan, 'Zen Under Fire'. Awesome show.",
+    "episode": "144",
+    "date": "19 April 2015",
+    "image": "img/20150419.jpg",
+    "mp3": "audio/LC_20150419_2035.mp3",
+    "ogg": "audio/LC_20150419_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150419_2035.mp3"
+  },
+  {
+    "title": "COMEDY FESTIVAL SPECIAL",
+    "description": "Sam Smith, Joseph Harper, Jamaine Ross and Ben Blakely join me for an hilarious 90 minutes of chat about being a comedian. being a dentist and the state of comedy in New Zealand. Oh, and cats. Let's not forget the cats!",
+    "episode": "143",
+    "date": "12 April 2015",
+    "image": "img/20150412.jpg",
+    "mp3": "audio/LC_20150412_2035.mp3",
+    "ogg": "audio/LC_20150412_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150412_2035.mp3"
+  },
+  {
+    "title": "The troubled Easter Monday",
+    "description": "On a technical troubled Easter Monday episode of KickArts, Enny Benzonelli brings you an hour of music from around the world. In the second half of the show Jason Te Mete joins in and presents his two upcoming stage shows: 'Mrs McGinty and the Bizarre Plant' and 'Honk'. Don't miss it!",
+    "episode": "142",
+    "date": "5 April 2015",
+    "image": "img/20150405.jpg",
+    "mp3": "audio/LC_20150405_2035.mp3",
+    "ogg": "audio/LC_20150405_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150405_2035.mp3"
+  },
+  {
+    "title": "Reviews galore!",
+    "description": "'Greedy Cat' (reviewed by 7 year old Molly), 'Don Quixote' (RNZB), 'Ushers', 'An Awfully Big Adventure' (Capital E) plus Amber Curren and Boni Tukiwaho talk about WHARE NO NAME - the home for Maori Theatre in Auckland. What a show!",
+    "episode": "141",
+    "date": "29 March 2015",
+    "image": "img/20150329.jpg",
+    "mp3": "audio/LC_20150329_2035.mp3",
+    "ogg": "audio/LC_20150329_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150329_2035.mp3"
+  },
+  {
+    "title": "Banned Musicals",
+    "description": "The hilarious Phil Vaughan joins us to talk some 'Greedy Cat' by Tim Bray Productions and the fabulous Saraid Cameron discusses her role in 'Ushers' opening this week at The Basement for a limited season. We also all chat about the arts in New Zealand, what it means to be an actor and without Enny Benzonelli on the show, Musicals get a fair bashing! Plus some Gary Jules, Some Linkin Park and a bit of Sly and the Family Stone!",
+    "episode": "140",
+    "date": "22 March 2015",
+    "image": "img/20150322.jpg",
+    "mp3": "audio/LC_20150322_2035.mp3",
+    "ogg": "audio/LC_20150322_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150322_2035.mp3"
+  },
+  {
+    "title": "Artists, Authors and Apples!",
+    "description": "Billy Apple's retrospective at the Auckland Art Gallery is discussed with Don Bassett, Ann Glamuzina talks about her first novel, 'Rich Man Road' and Mic Watts discusses his exhibition at Revel Cafe in K Rd. Plus some stormy songs and more silly conversations with Enny.",
+    "episode": "139",
+    "date": "15 March 2015",
+    "image": "img/20150315.jpg",
+    "mp3": "audio/LC_20150315_2035.mp3",
+    "ogg": "audio/LC_20150315_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150315_2035.mp3"
+  },
+  {
+    "title": "Sharing a sausage with Enny",
+    "description": "In the studio Raimana Jones and Zee Shake Lee, award winning Masters of Architecture students, talk about their upcoming exhibition 'Four Futures' and Jenna Gavin, another Masters student talks about her involvement with the 'Birds of a Shadow' experience at Digital Art Live at the Aotea Centre. Wow. The IQ of the show just trebled! Plus the usual outrageous discussions, debates and discourse on the arts.",
+    "episode": "138",
+    "date": "8 March 2015",
+    "image": "img/20150308.jpg",
+    "mp3": "audio/LC_20150308_2035.mp3",
+    "ogg": "audio/LC_20150308_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150308_2035.mp3"
+  },
+  {
+    "title": "Shining for Greatness!*",
+    "description": "Matt Stellingwerf - comedian and all round funny guy talks about the Comedy Festival and being a comedian in New Zealand. And from the 'History Boys' Michelle (Producer/Director) and Zach (Actor) talk about their show at the Pumphouse. We review 'Two Farting Sisters' and 'Under the Same Moon' plus we talk OSCARS. And some frank discussions about arts in New Zealand! Don't miss it!<br>* Direct Enny Benzonelli's quote.",
+    "episode": "137",
+    "date": "1 March 2015",
+    "image": "img/20150301.jpg",
+    "mp3": "audio/LC_20150301_2035.mp3",
+    "ogg": "audio/LC_20150301_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150301_2035.mp3"
+  },
+  {
+    "title": "the Amazing Eddie Izzard",
+    "description": "Eddie Izzard on KickArts! An exclusive interview on Sunday's show. Don't miss it. We also have Renee and Emma from 'Two Farting Sisters' and 'Under the Same Moon' as part of Fringe and Lantern Festivals. Colleen come and chats about the 1 show only benefit night dedicated to Robbie Tripe - 'Black Dog Relief'. Reviews of 'Midsummer Night's Dream', The Foo Fighters, Eddie Izzard, 'Robin Goblin', 'Night of Queer' and 'Take Back the Hood'. A massive show!",
+    "episode": "136",
+    "date": "22 February 2015",
+    "image": "img/20150222.jpg",
+    "mp3": "audio/LC_20150222_2035.mp3",
+    "ogg": "audio/LC_20150222_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150222_2035.mp3"
+  },
+  {
+    "title": "A Look at the Live Orgy",
+    "description": "An array of amazing people and a lineup of fantastic shows from the Fringe and the Pride Festivals in this fabulous episode of KickArts. Paula is back and reviews 'Stutterpop'. Carolynn joins us for the first time and talks about 'Live Orgy' and 'Gift of the Gab'. Jackson presents 'Robin Goblin' on at the Basement. Not just one, but three dancers: Kerry, Jahra and Grace, introduce us to their upcoming show 'Mother/Jaw'. We also welcome Annie who talks about Marvellous Theatre, and their upcoming 'Marvellous Stories', 'A Midsummer Night's Dream' and naughty fairies and more. All of this topped up with a sprinkle of music chosen by Richard and Enny who also reviews 'Bare'. A packed show not to be missed.",
+    "episode": "135",
+    "date": "15 February 2015",
+    "image": "img/20150215.jpg",
+    "mp3": "audio/LC_20150215_2035.mp3",
+    "ogg": "audio/LC_20150215_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150215_2035.mp3"
+  },
+  {
+    "title": "The Strategic Plan",
+    "description": "Are you aware of the Arts and Culture Strategic Action plan? Every artist should be! Maree Mills is leading consultation and talks about the aspects that will guide the City Council forward. Also Bruce Brown talks 'The Legacy Project' as part of Pride (Q Theatre) and we are also joined by Patrick Kelly and Alex McKellar talking about their Fringe show 'Eat the Young Fresh' (Q Theatre).",
+    "episode": "134",
+    "date": "8 February 2015",
+    "image": "img/20150208.jpg",
+    "mp3": "audio/LC_20150208_2035.mp3",
+    "ogg": "audio/LC_20150208_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150208_2035.mp3"
+  },
+  {
+    "title": "Some bad language",
+    "description": "Hilarious! A crazy show with Taylor Hall (Beast - The Basement) plus Susannah Smith-Roy and Lana Walters (Suri vs. Shiloh - Q Theatre) as part of the Fringe Festival. A no holds barred fast paced KickArts with some very bad language! Shame on you Enny Benzonelli!",
+    "episode": "133",
+    "date": "1 February 2015",
+    "image": "img/20150201.jpg",
+    "mp3": "audio/LC_20150201_2035.mp3",
+    "ogg": "audio/LC_20150201_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150201_2035.mp3"
+  },
+  {
+    "title": "Looking at the Gallery",
+    "description": "Stephen Cleland, Curator of Contemporary Art, talks extensively about the Chartwell Collection and his own role at the gallery.",
+    "episode": "132",
+    "date": "25 January 2015",
+    "image": "img/20150125.jpg",
+    "mp3": "false",
+    "ogg": "false",
+    "download": "false"
+  },
+  {
+    "title": "Fringe &amp; Pride Festivals",
+    "description": "Fringe and Pride Festivals are both coming up fast and we talk to Jennifer De Leon about her work 'Stripped Bare' on at Q Theatre for the Fringe, as well as her hip operations, knee surgery and life! Hamish Mouat talks 'Bare' and his role in the pop opera as part of Pride (at AMT) and we hear about what members of Musical Theatre NZ in Auckland are up to with Pauline Veila. Plus the usual news and music and discussions on contemporary arts in Auckland.",
+    "episode": "131",
+    "date": "18 January 2015",
+    "image": "img/20150118jpg",
+    "mp3": "audio/LC_20150118_2035.mp3",
+    "ogg": "audio/LC_20150118_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150118_2035.mp3"
+  },
+  {
+    "title": "Dance Special",
+    "description": "After the movie and theater specials, Enny Benzonelli hosts a dance (and more...) special featuring Wendy Preston and Tawanda Manyimo from Bitter Sweet on at TAPAC this Friday and Saturday. Also Taane Mete joins us and talks about a new youth summer school program that aims at giving young dance enthusiasts an opportunity to experience a professional dance environment.",
+    "episode": "130",
+    "date": "11 January 2015",
+    "image": "img/20150111.jpg",
+    "mp3": "audio/LC_20150111_2035.mp3",
+    "ogg": "audio/LC_20150111_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150111_2035.mp3"
+  },
+  {
+    "title": "Theatre Special",
+    "description": "Catherine George and Seamus Ford are guests on KickArts and review the amazing theatre season in 2014 and give some sneak peaks in what 2015 is going to be. Everything mixed up with some great music.",
+    "episode": "129",
+    "date": "4 January 2015",
+    "image": "img/no-pic-availabe.jpg",
+    "mp3": "audio/LC_20150104_2035.mp3",
+    "ogg": "audio/LC_20150104_2035.ogg",
+    "download": "audio/direct_download.php?file=LC_20150104_2035.mp3"
+  },
+  {
+    "title": "Another Year is Over",
     "description": "Dave Balcum, Head technician at The Auckland Art Gallery discusses the trials and tribulations of installing the Light Show whilst showing me around the exhibition PLUS Grae Burton, Emma Bishop, Enny Benzonelli and Richard Green discuss the year that was and our favourite bits and pieces. Grae also discusses his involvement with 2 Webshows, Shakespeare's Rebels (on at Pah Homestead) and a new film for 2015.",
     "episode": "128",
     "date": "28 December 2014",
