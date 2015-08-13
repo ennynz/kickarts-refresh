@@ -1,7 +1,7 @@
 @import 'jeet/index';
 @import 'breakpoint/breakpoint';
 @import 'variables';
-@include edit ();
+// @include edit ();
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
@@ -226,6 +226,10 @@ header {
     font-family: 'Exo 2', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
+  }
+  li {
+    display: inline;
+    padding-right: 0.9rem;
   }
 }
 
