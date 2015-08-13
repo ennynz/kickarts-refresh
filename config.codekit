@@ -444,6 +444,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/enny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37166,
+		"inputAbbreviatedPath": "\/img\/enny.jpg",
+		"outputAbbreviatedPath": "\/img\/enny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -495,6 +506,17 @@
 		"initialSize": 87571,
 		"inputAbbreviatedPath": "\/img\/logo-big-web.png",
 		"outputAbbreviatedPath": "\/img\/logo-big-web.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/richard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25962,
+		"inputAbbreviatedPath": "\/img\/richard.jpg",
+		"outputAbbreviatedPath": "\/img\/richard.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

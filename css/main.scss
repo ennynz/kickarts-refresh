@@ -1,7 +1,7 @@
 @import 'jeet/index';
 @import 'breakpoint/breakpoint';
 @import 'variables';
-// @include edit ();
+@include edit ();
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
@@ -99,86 +99,6 @@ header {
   padding-top: 0;
   margin-top: 0;
 }
-.header-box {
-  @include center(960px);
-  padding-top: 5rem;
-}
-.header-box-col-3 {
-  @include column(1/3);
-  @include breakpoint($small) {
-    @include stack();
-    margin-top: 1rem;
-  }
-  background: whitesmoke;
-  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
-  p{
-    padding: .9rem;
-    line-height: 1.3rem;
-    font-size: .85rem;
-  }
-}
-.header-box-2{
-  @include center(960px);
-  padding-top: 1.5rem;
-}
-.header-box-col-2 {
-  @include column(1/2);
-  @include breakpoint($small) {
-    @include stack();
-    margin-top: 1rem;
-  }
-  background: whitesmoke;
-  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
-  p{
-    padding: .9rem;
-    line-height: 1.3rem;
-    font-size: .85rem;
-  }
-}
-.card-title {
-  color: whitesmoke;
-  padding: 4rem 1rem 1rem 1rem;
-  h3 {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 1.3rem;
-    display: inline;
-    letter-spacing: .15rem;
-  }
-}
-.card-icon {
-  float: right;
-  display: inline;
-  font-size: 4rem;
-  margin-top: -2.3rem;
-}
-.emerald {
-  background-color: #50BA6F;
-}
-.blue {
-  background-color: #3D97D3;
-}
-.purple {
-  background-color: #955CA5;
-}
-.green-sea {
-  background-color: #15A086;
-}
-.alizarin {
-  background-color: #E64D3C;
-}
-.card-body {
-  border-bottom: .1rem solid #CCC;
-}
-.card-action {
-  padding: 0.9rem;
-  a {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-}
 .logo {
   max-width: 960px;
   font-family: 'Exo 2', sans-serif;
@@ -212,6 +132,106 @@ header {
     vertical-align: middle;
   }
 }
+
+//BOX
+
+.box {
+  @include center(960px);
+  padding-top: 5rem;
+}
+.box-col-3 {
+  @include column(1/3);
+  @include breakpoint($small) {
+    @include stack();
+    margin-top: 1rem;
+  }
+  background: whitesmoke;
+  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+  p{
+    padding: .9rem;
+    line-height: 1.3rem;
+    font-size: .85rem;
+  }
+}
+.box-2{
+  @include center(960px);
+  padding-top: 1.5rem;
+}
+.box-col-2 {
+  @include column(1/2);
+  @include breakpoint($small) {
+    @include stack();
+    margin-top: 1rem;
+  }
+  background: whitesmoke;
+  box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+  p{
+    padding: .9rem;
+    line-height: 1.3rem;
+    font-size: .85rem;
+  }
+  .team-description {
+    padding: 0.6rem 0 0 0;
+  }
+}
+.card-title {
+  color: whitesmoke;
+  padding: 4rem 1rem 1rem 1rem;
+  h3 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    display: inline;
+    letter-spacing: .15rem;
+  }
+}
+.card-icon {
+  float: right;
+  display: inline;
+  font-size: 4rem;
+  margin-top: -2.3rem;
+}
+.card-img {
+  float: right;
+  display: inline;
+  margin-top: -5.9rem;
+
+  img {
+    height: 6rem;
+    border-radius: 50px;
+  }
+}
+.emerald {
+  background-color: #50BA6F;
+}
+.blue {
+  background-color: #3D97D3;
+}
+.purple {
+  background-color: #955CA5;
+}
+.green-sea {
+  background-color: #15A086;
+}
+.alizarin {
+  background-color: #E64D3C;
+}
+.card-body {
+  border-bottom: .1rem solid #CCC;
+}
+.card-action {
+  padding: 0.9rem;
+  a {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+
+//TEAM
+
+
 
 //ENTRIES
 
