@@ -29,4 +29,11 @@
       </div>
     </div>
   </div>
+
+  var self = this;
+  episodes = []
+  $.getJSON('episodes.json', function(data) {
+    self.episodes = data;
+    console.log(data);
+  })
 </episode>
