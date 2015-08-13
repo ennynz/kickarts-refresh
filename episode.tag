@@ -6,9 +6,7 @@
       </h2>
     </div>
     <div class="description">
-      <p>
-        { description }
-      </p>
+      <p> <raw content="{ description }"/> </p>
     </div>
     <div class="media">
       <div class="left-panel">
@@ -33,7 +31,7 @@
   this.episodes = [
   {
     "title": "#MMQ",
-    "description": "<a href='www.modernmaoriquartet.nz' target='_blank'>Modern Maori Quartet</a> - four awesome Maori entertainers join us ahead of their New Zealand / Asia and Pacific tour. We talk music, politics and te reo... and of course their irreverent humour shines on through... with James, Maatariki, Maata and Francis.",
+    "description": "<a href='http://www.modernmaoriquartet.nz' target='_blank'>Modern Maori Quartet</a> - four awesome Maori entertainers join us ahead of their New Zealand / Asia and Pacific tour. We talk music, politics and te reo... and of course their irreverent humour shines on through... with James, Maatariki, Maata and Francis.",
     "episode": "159",
     "date": "2 August 2015",
     "image": "img/20150802.jpg",
@@ -133,7 +131,7 @@
   },
   {
     "title": "Happy Birthday, Ugly!",
-    "description": "20 years of <a href='www.ugly.org.nz' target='_blank'>Ugly Shakespeare Company</a> - Enny turns the tables on Richard and interviews him about starting one of New Zealand's longest running theatre companies. Plus he's back - BILLY APPLE returns for part two of his exclusive interview with KickArts. And Richard and Enny review several docos from the <a href='www.documentaryedge.org.nz' target='_blank'>Documentary Edge Festival</a> on at the moment at Q Theatre. These include 'Night Will Fall'' 'Gaybe Baby'' 'The Yes Men', 'Druglawed' and 'Waiting for August'.",
+    "description": "20 years of <a href='http://www.ugly.org.nz' target='_blank'>Ugly Shakespeare Company</a> - Enny turns the tables on Richard and interviews him about starting one of New Zealand's longest running theatre companies. Plus he's back - BILLY APPLE returns for part two of his exclusive interview with KickArts. And Richard and Enny review several docos from the <a href='http://www.documentaryedge.org.nz' target='_blank'>Documentary Edge Festival</a> on at the moment at Q Theatre. These include 'Night Will Fall'' 'Gaybe Baby'' 'The Yes Men', 'Druglawed' and 'Waiting for August'.",
     "episode": "149",
     "date": "24 May 2015",
     "image": "img/20150524.jpg",
