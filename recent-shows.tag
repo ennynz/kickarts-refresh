@@ -1,4 +1,4 @@
-<episode>
+<recent-shows>
   <div each={ episodes } class="entry">
     <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url({ image });">
       <h2>
@@ -31,8 +31,8 @@
   this.episodes = []
   var self = this
   $.get('episodes.json', function(json) {
-    self.episodes = json
+    self.episodes = json.slice(0, 3)
     self.update()
   })
 
-</episode>
+</recent-shows>
