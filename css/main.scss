@@ -219,6 +219,12 @@ header {
 }
 .card-body {
   border-bottom: .1rem solid #CCC;
+  ul {
+    list-style-type: square;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    padding-left: 1.8rem;
+  }
 }
 .card-action {
   padding: 0.9rem;
@@ -232,6 +238,11 @@ header {
     padding-right: 0.9rem;
   }
 }
+iframe {
+  padding: 0;
+  z-index: 0;
+}
+
 
 //TEAM
 
