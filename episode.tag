@@ -28,7 +28,14 @@
     </div>
   </div>
 
-  this.episodes = [
+  this.episodes = []
+  var self = this
+  $.get('episodes.json', function(json) {
+    self.episodes = json
+    self.update()
+  })
+
+  this.thing = [
   {
     "title": "#MMQ",
     "description": "<a href='http://www.modernmaoriquartet.nz' target='_blank'>Modern Maori Quartet</a> - four awesome Maori entertainers join us ahead of their New Zealand / Asia and Pacific tour. We talk music, politics and te reo... and of course their irreverent humour shines on through... with James, Maatariki, Maata and Francis.",
