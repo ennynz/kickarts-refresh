@@ -459,99 +459,12 @@ header {
 .date {
   color: #999; }
 
-.cover158 {
+.cover {
   position: relative;
   height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150726.jpg");
   background-size: cover;
   background-position: 25% 75%; }
-  .cover158 h2 {
-    font-size: 1.5rem;
-    opacity: .8;
-    text-transform: uppercase;
-    color: #FFF;
-    font-family: Montserrat;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem; }
-
-.cover157 {
-  position: relative;
-  height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150719.jpg");
-  background-size: cover;
-  background-position: 25% 75%; }
-  .cover157 h2 {
-    font-size: 1.5rem;
-    opacity: .8;
-    text-transform: uppercase;
-    color: #FFF;
-    font-family: Montserrat;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem; }
-
-.cover156 {
-  position: relative;
-  height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150712.jpg");
-  background-size: cover;
-  background-position: 25% 75%; }
-  .cover156 h2 {
-    font-size: 1.5rem;
-    opacity: .8;
-    text-transform: uppercase;
-    color: #FFF;
-    font-family: Montserrat;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem; }
-
-.cover155 {
-  position: relative;
-  height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150705.jpg");
-  background-size: cover;
-  background-position: 25% 75%; }
-  .cover155 h2 {
-    font-size: 1.5rem;
-    opacity: .8;
-    text-transform: uppercase;
-    color: #FFF;
-    font-family: Montserrat;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem; }
-
-.cover154 {
-  position: relative;
-  height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150628.jpg");
-  background-size: cover;
-  background-position: 25% 75%; }
-  .cover154 h2 {
-    font-size: 1.5rem;
-    opacity: .8;
-    text-transform: uppercase;
-    color: #FFF;
-    font-family: Montserrat;
-    position: absolute;
-    bottom: 1.5rem;
-    left: 2.5rem; }
-
-.cover153 {
-  position: relative;
-  height: 32rem;
-  background-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.27) 93%, rgba(0, 0, 0, 0.22) 100%), url("../img/2015/20150621.jpg");
-  background-size: cover;
-  background-position: 25% 75%; }
-  .cover153 h2 {
+  .cover h2 {
     font-size: 1.5rem;
     opacity: .8;
     text-transform: uppercase;

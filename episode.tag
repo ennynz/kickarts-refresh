@@ -1,6 +1,6 @@
 <episode>
   <div each={ episodes } class="entry">
-    <div class="cover158">{ image }
+    <div class="cover" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.27) 93%,rgba(0,0,0,0.22) 100%), url({ image });">
       <h2>
         { title }
       </h2>
