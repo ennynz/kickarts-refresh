@@ -117,7 +117,7 @@ header {
   margin-top: 0;
 }
 .logo {
-  max-width: 960px;
+  max-width: $box-width;
   font-family: $font-h;
   color: #fff;
   font-size: 4rem;
@@ -153,7 +153,7 @@ header {
 //BOX
 
 .box {
-  @include center(960px);
+  @include center($box-width);
 }
 .box-padding-5 {
   padding-top: 5rem;
@@ -268,7 +268,7 @@ iframe {
 
 .entry {
   margin: 5rem auto;
-  max-width: 960px;
+  max-width: $box-width;
   box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
 }
 .description {
