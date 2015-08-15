@@ -49,7 +49,7 @@ nav {
     float: left;
   }
   ul {
-    position: absolute;
+    float: right;
     right: 3rem;
     top: 0;
   }
@@ -60,7 +60,7 @@ nav {
     line-height: 4rem;
     text-transform: uppercase;
     font-size: 1rem;
-    padding-right: .9rem;
+    padding-left: .9rem;
     a {
       padding-bottom: .95rem;
       &:hover {
@@ -80,6 +80,9 @@ nav {
     }
   }
 }
+.nav-center {
+  @include center($box-width);
+}
 .active {
   border-bottom: .5rem solid #955CA5;
 }
@@ -96,7 +99,7 @@ nav {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  padding: .3rem .3rem .3rem 3rem;
+  padding: .3rem .3rem .3rem 0;
   img {
     height: 3.5rem;
   }
