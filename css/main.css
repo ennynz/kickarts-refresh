@@ -135,6 +135,43 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@media only screen and (min-width: 1px) and (max-width: 900px) {
+  nav ul {
+    position: absolute;
+    right: -5rem;
+    width: 12rem;
+    opacity: 1;
+    margin-top: 4rem;
+    margin-right: -100%;
+    border-top: 0;
+    background: whitesmoke;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease; }
+    nav ul li {
+      padding: .5rem;
+      font-size: 1rem;
+      text-align: right;
+      display: block; }
+  nav .menu-button {
+    display: block;
+    float: right;
+    line-height: 3rem;
+    margin-right: 3rem;
+    margin-top: .55rem;
+    cursor: pointer;
+    -webkit-transition: all 100ms ease;
+            transition: all 100ms ease; }
+    nav .menu-button:hover {
+      color: #00BCD4; }
+  nav .menu-open::after {
+    font-size: 2rem;
+    content: "\2261"; }
+  nav .menu-close::after {
+    content: "\2715"; }
+  nav .show-menu {
+    opacity: 1;
+    margin-right: -3rem; } }
+/*MEDIUM SCREENS*/
 body {
   font-family: 'helvetica';
   color: #3e3e3e;
@@ -165,16 +202,17 @@ nav {
   nav a {
     color: #3e3e3e; }
   nav h1 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 800;
     font-size: 2rem;
-    color: #3e3e3e; }
+    color: #3e3e3e;
+    float: left; }
   nav ul {
     position: absolute;
     right: 3rem;
     top: 0; }
   nav li {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 400;
     display: inline;
     line-height: 4rem;
@@ -187,15 +225,12 @@ nav {
         border-bottom: .5rem solid #955CA5; }
       nav li a:active {
         border-bottom: .5rem solid #955CA5; }
-  nav .menu-button {
-    display: none;
-    font-size: 1.4rem;
-    float: right;
-    color: #fff;
-    line-height: 3rem;
-    margin-right: 3rem; }
-  nav .menu-close {
-    display: none; }
+    nav li .menu-button {
+      display: none;
+      font-size: 1.4rem;
+      color: whitesmoke; }
+    nav li .menu-close {
+      display: none; }
 
 .active {
   border-bottom: .5rem solid #955CA5; }
@@ -222,7 +257,7 @@ header {
 
 .logo {
   max-width: 960px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   color: #fff;
   font-size: 4rem;
   margin: 0 auto;
@@ -356,7 +391,7 @@ header {
   color: whitesmoke;
   padding: 4rem 1rem 1rem 1rem; }
   .card-title h3 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     font-size: 1.3rem;
@@ -403,7 +438,7 @@ header {
 .card-action {
   padding: 0.9rem; }
   .card-action a {
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-weight: 800;
     text-transform: uppercase; }
   .card-action li {
