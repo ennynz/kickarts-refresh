@@ -100,7 +100,14 @@ nav {
     height: 3.5rem;
   }
 }
-
+.is-hidden {
+  margin-top: -5rem;
+  transition: all 750ms ease;
+}
+.is-showing {
+  margin-top: 0;
+  transition: all 750ms ease;
+}
 
 //HEADER
 

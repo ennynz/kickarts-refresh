@@ -26,4 +26,17 @@ $(document).ready(function() {
           $(this).find('iframe').css('pointer-events', 'none');
       });
   });
+
+  //shows menu after scrolling
+  $(document).scroll(function() {
+    var y = $(this).scrollTop();
+
+    if (y > 250) {
+      $('.top-bar').removeClass('is-hidden').addClass('is-showing');
+      $('nav').removeClass('is-hidden').addClass('is-showing');
+    } else {
+      $('.top-bar').removeClass('is-showing').addClass('is-hidden');
+      $('nav').removeClass('is-showing').addClass('is-hidden');
+    }
+  });
 });

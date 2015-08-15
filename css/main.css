@@ -251,6 +251,16 @@ nav {
   .nav-logo img {
     height: 3.5rem; }
 
+.is-hidden {
+  margin-top: -5rem;
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
+
+.is-showing {
+  margin-top: 0;
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
+
 header {
   padding-top: 0;
   margin-top: 0; }
