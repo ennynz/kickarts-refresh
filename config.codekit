@@ -442,6 +442,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/20150719.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125527,
+		"inputAbbreviatedPath": "\/img\/20150719.jpg",
+		"outputAbbreviatedPath": "\/img\/20150719.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/20150726.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234658,
+		"inputAbbreviatedPath": "\/img\/20150726.jpg",
+		"outputAbbreviatedPath": "\/img\/20150726.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/20150802.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208362,
+		"inputAbbreviatedPath": "\/img\/20150802.jpg",
+		"outputAbbreviatedPath": "\/img\/20150802.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -728,7 +761,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Benji",
+"lastSavedByUser": "Enny Benzonelli",
 "manualImportLinks": {
 	},
 "projectAttributes": {

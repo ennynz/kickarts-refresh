@@ -167,7 +167,6 @@ nav {
   nav h1 {
     font-family: 'Exo 2', sans-serif;
     font-weight: 800;
-    text-transform: uppercase;
     font-size: 2rem;
     color: #3e3e3e; }
   nav ul {
@@ -188,6 +187,15 @@ nav {
         border-bottom: .5rem solid #955CA5; }
       nav li a:active {
         border-bottom: .5rem solid #955CA5; }
+  nav .menu-button {
+    display: none;
+    font-size: 1.4rem;
+    float: right;
+    color: #fff;
+    line-height: 3rem;
+    margin-right: 3rem; }
+  nav .menu-close {
+    display: none; }
 
 .active {
   border-bottom: .5rem solid #955CA5; }
