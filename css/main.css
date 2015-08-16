@@ -327,6 +327,9 @@ header {
 .box-padding-5 {
   padding-top: 5rem; }
 
+.box-padding-2 {
+  padding-top: 2rem; }
+
 .box-col-3 {
   *zoom: 1;
   float: left;
@@ -446,6 +449,8 @@ header {
     font-size: 0.85rem;
     line-height: 1.3rem;
     padding-left: 1.8rem; }
+  .card-body .small-text {
+    font-size: .6rem; }
 
 .card-action {
   padding: 0.9rem; }

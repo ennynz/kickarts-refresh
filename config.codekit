@@ -401,68 +401,46 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/img\/2015\/20150621.jpg": {
+	"\/img\/20150621.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 78578,
-		"inputAbbreviatedPath": "\/img\/2015\/20150621.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150621.jpg",
+		"inputAbbreviatedPath": "\/img\/20150621.jpg",
+		"outputAbbreviatedPath": "\/img\/20150621.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/2015\/20150628.jpg": {
+	"\/img\/20150628.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 79773,
-		"inputAbbreviatedPath": "\/img\/2015\/20150628.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150628.jpg",
+		"inputAbbreviatedPath": "\/img\/20150628.jpg",
+		"outputAbbreviatedPath": "\/img\/20150628.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/2015\/20150705.jpg": {
+	"\/img\/20150705.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 206294,
-		"inputAbbreviatedPath": "\/img\/2015\/20150705.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150705.jpg",
+		"inputAbbreviatedPath": "\/img\/20150705.jpg",
+		"outputAbbreviatedPath": "\/img\/20150705.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/2015\/20150712.jpg": {
+	"\/img\/20150712.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 97137,
-		"inputAbbreviatedPath": "\/img\/2015\/20150712.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150712.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/2015\/20150719.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 125527,
-		"inputAbbreviatedPath": "\/img\/2015\/20150719.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150719.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/2015\/20150726.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 234658,
-		"inputAbbreviatedPath": "\/img\/2015\/20150726.jpg",
-		"outputAbbreviatedPath": "\/img\/2015\/20150726.jpg",
+		"inputAbbreviatedPath": "\/img\/20150712.jpg",
+		"outputAbbreviatedPath": "\/img\/20150712.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -500,6 +478,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/adam.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43625,
+		"inputAbbreviatedPath": "\/img\/adam.jpg",
+		"outputAbbreviatedPath": "\/img\/adam.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/apple-touch-icon-precomposed.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -511,13 +500,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/cover-pic.jpg": {
+	"\/img\/carolynn.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 318501,
-		"inputAbbreviatedPath": "\/img\/cover-pic.jpg",
-		"outputAbbreviatedPath": "\/img\/cover-pic.jpg",
+		"initialSize": 22199,
+		"inputAbbreviatedPath": "\/img\/carolynn.jpg",
+		"outputAbbreviatedPath": "\/img\/carolynn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/catherine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80812,
+		"inputAbbreviatedPath": "\/img\/catherine.jpg",
+		"outputAbbreviatedPath": "\/img\/catherine.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -566,24 +566,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo-big-web-bg.png": {
-		"fileType": 32768,
+	"\/img\/paula.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 138904,
-		"inputAbbreviatedPath": "\/img\/logo-big-web-bg.png",
-		"outputAbbreviatedPath": "\/img\/logo-big-web-bg.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo-big-web.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 87571,
-		"inputAbbreviatedPath": "\/img\/logo-big-web.png",
-		"outputAbbreviatedPath": "\/img\/logo-big-web.png",
+		"initialSize": 42872,
+		"inputAbbreviatedPath": "\/img\/paula.jpg",
+		"outputAbbreviatedPath": "\/img\/paula.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
