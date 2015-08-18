@@ -31,7 +31,7 @@ $(document).ready(function() {
   $(document).scroll(function() {
     var y = $(this).scrollTop();
 
-    if (y > 275) {
+    if (y > 250) {
       $('.top-bar').removeClass('is-hidden').addClass('is-showing');
       $('nav').removeClass('is-hidden').addClass('is-showing');
     } else {
