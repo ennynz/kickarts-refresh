@@ -350,6 +350,11 @@ header {
     display: table; }
   .box-col-2:after {
     clear: both; }
+  .box-col-2:nth-child(1n) {
+    margin-right: 3%;
+    float: left; }
+  .box-col-2:nth-child(1n + 1) {
+    clear: none; }
   .box-col-2:nth-child(2n) {
     margin-right: 0%;
     float: right; }
