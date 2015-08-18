@@ -47,3 +47,30 @@
 
 
 /*MEDIUM SCREENS*/
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-family: 'helvetica';
+    color: #3e3e3e;
+    background-image: url('../img/skytower-example.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top right;
+  }
+  .logo {
+    .logo-title {
+      p {
+        line-height: 2.5rem;
+      }
+      .subtitle {
+        font-size: 1.8rem;
+      }
+      .details {
+        font-size: 1.3rem;
+      }
+    }
+    img {
+      margin-left: 0rem;
+    }
+  }
+}

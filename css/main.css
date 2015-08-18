@@ -135,50 +135,17 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-@media only screen and (min-width: 1px) and (max-width: 900px) {
-  nav ul {
-    position: absolute;
-    right: -5rem;
-    width: 12rem;
-    opacity: 1;
-    margin-top: 4rem;
-    margin-right: -100%;
-    border-top: 0;
-    background: whitesmoke;
-    -webkit-transition: all 400ms ease;
-            transition: all 400ms ease; }
-    nav ul li {
-      padding: .5rem;
-      font-size: 1rem;
-      text-align: right;
-      display: block; }
-  nav .menu-button {
-    display: block;
-    float: right;
-    line-height: 3rem;
-    margin-right: 3rem;
-    margin-top: .55rem;
-    cursor: pointer;
-    -webkit-transition: all 100ms ease;
-            transition: all 100ms ease; }
-    nav .menu-button:hover {
-      color: #00BCD4; }
-  nav .menu-open::after {
-    font-size: 2rem;
-    content: "\2261"; }
-  nav .menu-close::after {
-    content: "\2715"; }
-  nav .show-menu {
-    opacity: 1;
-    margin-right: -3rem; } }
-/*MEDIUM SCREENS*/
 body {
   font-family: 'helvetica';
   color: #3e3e3e;
-  background-image: url("../img/skytower-example.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top right; }
+  background-color: #333; }
+  body .bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 110%;
+    min-height: 110%;
+    z-index: -10; }
 
 a {
   color: #00BCD4;
@@ -297,16 +264,17 @@ header {
     vertical-align: middle;
     margin-left: 1rem; }
     .logo .logo-title p {
-      line-height: 2.5rem; }
+      line-height: 1.8rem; }
     .logo .logo-title .thin {
       font-weight: 200; }
     .logo .logo-title .bold {
       font-weight: 600; }
     .logo .logo-title .subtitle {
-      font-size: 1.8rem; }
-    .logo .logo-title .details {
       font-size: 1.3rem; }
+    .logo .logo-title .details {
+      font-size: 1rem; }
   .logo img {
+    margin-left: .9rem;
     display: inline-block;
     vertical-align: middle; }
 
@@ -349,7 +317,7 @@ header {
     clear: both; }
   .box-col-3:last-child {
     margin-right: 0%; }
-  @media (max-width: 640px) {
+  @media (max-width: 799px) {
     .box-col-3 {
       display: block;
       clear: both;
@@ -384,7 +352,7 @@ header {
     clear: both; }
   .box-col-2:last-child {
     margin-right: 0%; }
-  @media (max-width: 640px) {
+  @media (max-width: 799px) {
     .box-col-2 {
       display: block;
       clear: both;
@@ -571,3 +539,58 @@ footer p {
   padding-top: 0.3rem;
   text-align: center;
   font-size: 0.85rem; }
+
+@media only screen and (min-width: 1px) and (max-width: 900px) {
+  nav ul {
+    position: absolute;
+    right: -5rem;
+    width: 12rem;
+    opacity: 1;
+    margin-top: 4rem;
+    margin-right: -100%;
+    border-top: 0;
+    background: whitesmoke;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease; }
+    nav ul li {
+      padding: .5rem;
+      font-size: 1rem;
+      text-align: right;
+      display: block; }
+  nav .menu-button {
+    display: block;
+    float: right;
+    line-height: 3rem;
+    margin-right: 3rem;
+    margin-top: .55rem;
+    cursor: pointer;
+    -webkit-transition: all 100ms ease;
+            transition: all 100ms ease; }
+    nav .menu-button:hover {
+      color: #00BCD4; }
+  nav .menu-open::after {
+    font-size: 2rem;
+    content: "\2261"; }
+  nav .menu-close::after {
+    content: "\2715"; }
+  nav .show-menu {
+    opacity: 1;
+    margin-right: -3rem; } }
+/*MEDIUM SCREENS*/
+@media only screen and (min-width: 800px) {
+  body {
+    font-family: 'helvetica';
+    color: #3e3e3e;
+    background-image: url("../img/skytower-example.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top right; }
+
+  .logo .logo-title p {
+    line-height: 2.5rem; }
+  .logo .logo-title .subtitle {
+    font-size: 1.8rem; }
+  .logo .logo-title .details {
+    font-size: 1.3rem; }
+  .logo img {
+    margin-left: 0rem; } }

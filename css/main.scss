@@ -1,7 +1,7 @@
 @import 'jeet/index';
 @import 'breakpoint/breakpoint';
 @import 'variables';
-@import 'responsive';
+
 // @include edit ();
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -10,10 +10,20 @@
 body {
   font-family: 'helvetica';
   color: #3e3e3e;
-  background-image: url('../img/skytower-example.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top right;
+  background-color: #333;
+  // background-image: url('../img/skytower-small.jpg');
+  // background-size: cover;
+  // background-attachment: fixed;
+  // background-position: top right;
+  // background-repeat: no-repeat;
+  .bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 110%;
+    min-height: 110%;
+    z-index: -10;
+  }
 }
 a {
   color: $link;
@@ -133,7 +143,7 @@ header {
     vertical-align: middle;
     margin-left: 1rem;
     p {
-      line-height: 2.5rem;
+      line-height: 1.8rem;
     }
     .thin {
       font-weight: 200;
@@ -142,13 +152,14 @@ header {
       font-weight: 600;
     }
     .subtitle {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
     .details {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
   img {
+    margin-left: .9rem;
     display: inline-block;
     vertical-align: middle;
   }
@@ -395,3 +406,4 @@ footer {
     font-size: 0.85rem;
   }
 }
+@import 'responsive';
