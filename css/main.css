@@ -551,20 +551,23 @@ footer p {
 @media only screen and (min-width: 1px) and (max-width: 900px) {
   nav ul {
     position: absolute;
-    right: -5rem;
-    width: 12rem;
+    width: 50%;
+    height: 1200px;
     opacity: 1;
     margin-top: 4rem;
-    margin-right: -100%;
+    margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
     -webkit-transition: all 400ms ease;
             transition: all 400ms ease; }
     nav ul li {
-      padding: .5rem;
-      font-size: 1rem;
+      padding-right: 1rem;
+      font-size: .9rem;
       text-align: right;
-      display: block; }
+      display: block;
+      line-height: 2.3rem; }
+      nav ul li a {
+        padding-bottom: .01rem; }
   nav .menu-button {
     display: block;
     float: right;
@@ -587,8 +590,6 @@ footer p {
 /*MEDIUM SCREENS*/
 @media only screen and (min-width: 800px) {
   body {
-    font-family: 'helvetica';
-    color: #3e3e3e;
     background-image: url("../img/skytower-example.jpg");
     background-size: cover;
     background-attachment: fixed;

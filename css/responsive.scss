@@ -1,22 +1,29 @@
+// MEDIA QUERY FOR NAV BAR
+// it needs to be a separate media query, because of the ammount of items in the menus. It needs to become the mobile menu at 900px while the rest of the media queries will start at 800.
+
 @media only screen
   and (min-width: 1px)
   and (max-width: 900px) {
     nav {
       ul {
         position: absolute;
-        right: -5rem;
-        width: 12rem;
+        width: 50%;
+        height: 1200px;
         opacity: 1;
         margin-top: 4rem;
-        margin-right: -100%;
+        margin-right: -120%;
         border-top: 0;
         background: whitesmoke;
         transition: all 400ms ease;
         li {
-          padding: .5rem;
-          font-size: 1rem;
+          padding-right: 1rem;
+          font-size: .9rem;
           text-align: right;
           display: block;
+          line-height: 2.3rem;
+          a {
+            padding-bottom: .01rem;
+          }
         }
       }
       .menu-button {
@@ -45,13 +52,11 @@
     }
   }
 
-
 /*MEDIUM SCREENS*/
+//this matches the variable $small set for jeet grid system at 799px
 
 @media only screen and (min-width: 800px) {
   body {
-    font-family: 'helvetica';
-    color: #3e3e3e;
     background-image: url('../img/skytower-example.jpg');
     background-size: cover;
     background-attachment: fixed;
