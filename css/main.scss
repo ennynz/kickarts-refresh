@@ -192,7 +192,6 @@ header {
 }
 .box-col-2 {
   @include column(1/2, $uncycle: 1, $cycle: 2);
-  margin-bottom: 1.8rem;
   @include breakpoint($small) {
     @include stack();
     margin-top: 1rem;

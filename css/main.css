@@ -343,7 +343,6 @@ header {
   width: 48.5%;
   margin-left: 0%;
   margin-right: 3%;
-  margin-bottom: 1.8rem;
   background: whitesmoke;
   box-shadow: -2px -1px 33px 3px rgba(56, 56, 56, 0.52); }
   .box-col-2:before, .box-col-2:after {
@@ -602,4 +601,7 @@ footer p {
   .logo .logo-title .details {
     font-size: 1.3rem; }
   .logo img {
-    margin-left: 0rem; } }
+    margin-left: 0rem; }
+
+  .box-col-2 {
+    margin-bottom: 1.8rem; } }
