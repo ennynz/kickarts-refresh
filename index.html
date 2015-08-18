@@ -32,22 +32,22 @@
           <span class='menu-button menu-open'></span>
           <ul>
             <li>
-              <a class='menu-link' href='#'>
+              <a class='menu-link home-link' href='#header'>
                 <div class='fa fa-home'></div>
               </a>
             </li>
             <li>
-              <a class='menu-link' href='#latest-show'>
+              <a class='menu-link episodes-link' href='#latest-show'>
                 Latest shows
               </a>
             </li>
             <li>
-              <a class='menu-link' href='#our-team'>
+              <a class='menu-link our-team-link' href='#our-team'>
                 Our Team
               </a>
             </li>
             <li>
-              <a class='menu-link' href='#contact'>
+              <a class='menu-link contact-link' href='#contact'>
                 Contact us
               </a>
             </li>
@@ -126,8 +126,13 @@
             </div>
           </div>
         </div>
+        <div id='latest-show'>
+          <recent-shows></recent-shows>
+        </div>
       </header>
-      <div id='our-team'>
+      <div id='our-team-section'>
+        <div class='padding-top'></div>
+        <div id='our-team'></div>
         <div class='box box-padding-5'>
           <div class='box-col-2'>
             <div class='card-title green-sea'>
@@ -368,7 +373,9 @@
           </div>
         </div>
       </div>
-      <div id='contact'>
+      <div id='contact-section'>
+        <div class='padding-top'></div>
+        <div id='contact'></div>
         <div class='box contact-box box-padding-5'>
           <div class='box-col-2'>
             <div class='card-title alizarin'>
@@ -451,8 +458,6 @@
           </div>
         </div>
       </div>
-      <div id='latest-show'></div>
-      <recent-shows></recent-shows>
       <footer>
         <div class='box box-padding-5'>
           <div class='box-col-2'>
@@ -543,6 +548,7 @@
   <script src='recent-shows.tag' type='riot/tag'></script>
   <script src='episode.tag' type='riot/tag'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js'></script>
+  <script src='js/router.js'></script>
   <script>
     riot.mount('episode, recent-shows, raw')
   </script>

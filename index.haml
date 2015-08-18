@@ -30,16 +30,16 @@
           %span.menu-button.menu-open
           %ul
             %li
-              %a.menu-link{:href => "#"}
+              %a.menu-link.home-link{:href => "#header"}
                 .fa.fa-home
             %li
-              %a.menu-link{:href => "#latest-show"}
+              %a.menu-link.episodes-link{:href => "#latest-show"}
                 Latest shows
             %li
-              %a.menu-link{:href => "#our-team"}
+              %a.menu-link.our-team-link{:href => "#our-team"}
                 Our Team
             %li
-              %a.menu-link{:href => "#contact"}
+              %a.menu-link.contact-link{:href => "#contact"}
                 Contact us
             %li
               %a.menu-link{:href => "#"}
@@ -88,7 +88,11 @@
               %p If you have missed an episode don't worry. Down here you can check out our last 6 episodes or if you feel like to listen to some vintage episodes just visit our Archives.
             .card-action
               %a{:href => "#"}Browse archive
-      #our-team
+        #latest-show
+          %recent-shows
+      #our-team-section
+        .padding-top
+        #our-team
         .box.box-padding-5
           .box-col-2
             .card-title.green-sea
@@ -235,7 +239,9 @@
                 %li
                   %a{:href => "https://twitter.com/catherinegangel", :target => '_blank'}
                     .fa.fa-twitter
-      #contact
+      #contact-section
+        .padding-top
+        #contact
         .box.contact-box.box-padding-5
           .box-col-2
             .card-title.alizarin
@@ -287,8 +293,6 @@
                 %li
                   %a{:href => "https://www.google.co.nz/maps/dir//Planet+FM,+79+Carrington+Rd,+Point+Chevalier,+Auckland+1246/@-36.874638,174.709828,17z/data=!4m13!1m4!3m3!1s0x6d0d4721e8ba396b:0x68173e75b3d6c62!2sPlanet+FM!3b1!4m7!1m0!1m5!1m1!1s0x6d0d4721e8ba396b:0x68173e75b3d6c62!2m2!1d174.709828!2d-36.874638", :target => '_blank'}
                     .fa.fa-location-arrow
-      #latest-show
-      %recent-shows
       %footer
         .box.box-padding-5
           .box-col-2
@@ -338,10 +342,11 @@
                 .fa.fa-facebook
             %li
               %a{:href => "https://twitter.com/KickArtsRadio", :target => '_blank'}
-                .fa.fa-twitter  
+                .fa.fa-twitter
   %script{:src => "raw.tag", :type => "riot/tag"}
   %script{:src => "recent-shows.tag", :type => "riot/tag"}
   %script{:src => "episode.tag", :type => "riot/tag"}
   %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js"}
+  %script{:src => "js/router.js"}
   :javascript
     riot.mount('episode, recent-shows, raw')

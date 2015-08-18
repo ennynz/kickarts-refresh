@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $('#our-team-section').hide();
+  $('#contact-section').hide();
+
   $('.player').hide();
   $('.icon-4x').click(function(){
     $('.player').fadeIn("slow");
@@ -31,7 +34,7 @@ $(document).ready(function() {
   $(document).scroll(function() {
     var y = $(this).scrollTop();
 
-    if (y > 250) {
+    if (y > 200) {
       $('.top-bar').removeClass('is-hidden').addClass('is-showing');
       $('nav').removeClass('is-hidden').addClass('is-showing');
     } else {

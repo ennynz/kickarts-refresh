@@ -521,6 +521,9 @@ iframe {
     bottom: 1.5rem;
     left: 2.5rem; }
 
+.padding-top {
+  padding-top: 100%; }
+
 .copyright {
   width: 100%;
   background: whitesmoke;
