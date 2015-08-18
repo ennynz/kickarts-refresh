@@ -135,14 +135,21 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-body {
+.bg {
+  position: fixed;
+  z-index: 1;
   font-family: 'helvetica';
   color: #3e3e3e;
   background-image: url("../img/skytower-example.jpg");
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  height: 100%;
+  width: 100%; }
+
+.container {
+  position: relative;
+  z-index: 2; }
 
 a {
   color: #00BCD4;
