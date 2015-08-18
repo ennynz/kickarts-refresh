@@ -154,7 +154,8 @@
 a {
   color: #00BCD4;
   text-decoration: none;
-  transition: all 200ms ease; }
+  -webkit-transition: all 200ms ease;
+          transition: all 200ms ease; }
   a:hover {
     color: #008fa1; }
 
@@ -242,11 +243,13 @@ nav {
 
 .is-hidden {
   margin-top: -5rem;
-  transition: all 750ms ease; }
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
 
 .is-showing {
   margin-top: 0;
-  transition: all 750ms ease; }
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
 
 header {
   padding-top: 0;
@@ -377,7 +380,7 @@ header {
   .box-col-2 p {
     padding: .9rem;
     line-height: 1.3rem;
-    font-size: .85rem; }
+    font-size: .9rem; }
   .box-col-2 .team-description {
     padding: 0.6rem 0 0 0; }
 
@@ -448,8 +451,21 @@ iframe {
 
 .entry {
   margin: 5rem auto;
+  *zoom: 1;
+  width: auto;
   max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   box-shadow: -2px -1px 33px 3px rgba(56, 56, 56, 0.52); }
+  .entry:before, .entry:after {
+    content: '';
+    display: table; }
+  .entry:after {
+    clear: both; }
 
 .description {
   background: whitesmoke;
@@ -458,13 +474,14 @@ iframe {
     padding: 1rem;
     font-size: 1.2rem; }
   .description p {
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     line-height: 1.7;
-    font-size: 1.1rem; }
+    font-size: 1rem; }
   .description button {
     margin-left: auto;
     margin-right: auto;
     background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     border-radius: 5px;
     font-family: Arial;
@@ -474,41 +491,120 @@ iframe {
     text-decoration: none; }
     .description button:hover {
       background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none; }
 
 .media {
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
   position: relative;
   color: #4D4D4D;
   background: whitesmoke;
-  padding: 1rem;
-  height: 5.8rem; }
+  padding: 1rem 1rem 1rem 2.3rem;
+  height: 12rem; }
+  .media:before, .media:after {
+    content: '';
+    display: table; }
+  .media:after {
+    clear: both; }
 
 .player {
-  position: absolute;
-  left: 15rem;
-  top: 4rem; }
-
-.left-panel {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 2.7rem; }
-
-.right-panel {
-  position: absolute;
-  bottom: 1.7rem;
-  right: 2.7rem; }
+  padding: .5rem 0; }
 
 .action {
   font-size: 1.2rem;
-  font-family: Roboto; }
+  font-family: Roboto;
+  text-align: right; }
 
 .date {
+  padding-top: .5rem;
   color: #999; }
+
+.box-col-3-media-25 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: .5rem; }
+  .box-col-3-media-25:before, .box-col-3-media-25:after {
+    content: '';
+    display: table; }
+  .box-col-3-media-25:after {
+    clear: both; }
+  .box-col-3-media-25:nth-child(1n) {
+    margin-right: 3%;
+    float: left; }
+  .box-col-3-media-25:nth-child(1n + 1) {
+    clear: none; }
+  .box-col-3-media-25:nth-child(3n) {
+    margin-right: 0%;
+    float: right; }
+  .box-col-3-media-25:nth-child(3n + 1) {
+    clear: both; }
+  @media (max-width: 799px) {
+    .box-col-3-media-25 {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .box-col-3-media-25:first-child {
+        margin-left: auto; }
+      .box-col-3-media-25:last-child {
+        margin-right: auto; } }
+
+.box-col-3-media-50 {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 48.5%;
+  margin-left: 0%;
+  margin-right: 3%;
+  margin-bottom: .5rem; }
+  .box-col-3-media-50:before, .box-col-3-media-50:after {
+    content: '';
+    display: table; }
+  .box-col-3-media-50:after {
+    clear: both; }
+  .box-col-3-media-50:nth-child(1n) {
+    margin-right: 3%;
+    float: left; }
+  .box-col-3-media-50:nth-child(1n + 1) {
+    clear: none; }
+  .box-col-3-media-50:nth-child(3n) {
+    margin-right: 0%;
+    float: right; }
+  .box-col-3-media-50:nth-child(3n + 1) {
+    clear: both; }
+  @media (max-width: 799px) {
+    .box-col-3-media-50 {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .box-col-3-media-50:first-child {
+        margin-left: auto; }
+      .box-col-3-media-50:last-child {
+        margin-right: auto; } }
 
 .cover {
   position: relative;
-  height: 32rem;
+  height: 16rem;
   background-size: cover;
   background-position: 25% 75%; }
   .cover h2 {
@@ -528,7 +624,8 @@ iframe {
   padding-top: .8rem;
   height: 5rem;
   font-family: "Exo 2", sans-serif;
-  box-shadow: -2px -1px 33px 3px rgba(56, 56, 56, 0.52); }
+  box-shadow: -2px -1px 33px 3px rgba(56, 56, 56, 0.52);
+  text-align: center; }
 
 .footer-social {
   text-align: center;
@@ -544,7 +641,6 @@ iframe {
 
 footer p {
   padding-top: 0.3rem;
-  text-align: center;
   font-size: 0.85rem; }
 
 @media only screen and (min-width: 1px) and (max-width: 900px) {
@@ -557,7 +653,8 @@ footer p {
     margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
-    transition: all 400ms ease; }
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease; }
     nav ul li {
       padding-right: 1rem;
       font-size: .9rem;
@@ -573,7 +670,8 @@ footer p {
     margin-right: 1rem;
     margin-top: .55rem;
     cursor: pointer;
-    transition: all 100ms ease; }
+    -webkit-transition: all 100ms ease;
+            transition: all 100ms ease; }
     nav .menu-button:hover {
       color: #00BCD4; }
   nav .menu-open::after {
@@ -596,4 +694,27 @@ footer p {
     margin-left: 0rem; }
 
   .box-col-2 {
-    margin-bottom: 1.8rem; } }
+    margin-bottom: 1.8rem; }
+
+  .media {
+    height: 5.8rem; }
+
+  audio {
+    margin-left: 1.65rem;
+    padding-top: 1rem; }
+
+  .right-panel {
+    padding: 1rem;
+    text-align: right; } }
+@media only screen and (min-width: 701px) {
+  .cover {
+    height: 32rem; } }
+@media only screen and (max-width: 700px) {
+  .cover {
+    height: 28rem; } }
+@media only screen and (max-width: 600px) {
+  .cover {
+    height: 24rem; } }
+@media only screen and (max-width: 500px) {
+  .cover {
+    height: 20rem; } }

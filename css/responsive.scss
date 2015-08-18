@@ -75,4 +75,42 @@
   .box-col-2 {
     margin-bottom: 1.8rem;
   }
+  .media {
+    height: 5.8rem;
+  }
+  audio {
+    margin-left: 1.65rem;
+    padding-top: 1rem;
+  }
+  .right-panel {
+    padding: 1rem;
+    text-align: right;
+  }
+}
+
+
+//The cover needs some extra media queries to make them look good on different devices
+
+@media only screen and (min-width: 701px) {
+  .cover {
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cover {
+    height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cover {
+    height: 24rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cover {
+    height: 20rem;
+  }
 }

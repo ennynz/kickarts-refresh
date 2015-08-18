@@ -1,7 +1,6 @@
 @import 'jeet/index';
 @import 'breakpoint/breakpoint';
 @import 'variables';
-
 // @include edit ();
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -200,7 +199,7 @@ header {
   p{
     padding: .9rem;
     line-height: 1.3rem;
-    font-size: .85rem;
+    font-size: .9rem;
   }
   .team-description {
     padding: 0.6rem 0 0 0;
@@ -289,7 +288,7 @@ iframe {
 
 .entry {
   margin: 5rem auto;
-  max-width: $box-width;
+  @include center($box-width);
   box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
 }
 .description {
@@ -300,9 +299,9 @@ iframe {
     font-size: 1.2rem;
   }
   p {
-    padding: 1rem;
+    padding: 1rem 2.5rem;
     line-height: 1.7;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   button {
     margin-left: auto;
@@ -323,41 +322,45 @@ iframe {
   }
 }
 .media {
+  @include center(100%);
   position: relative;
   color: #4D4D4D;
   background: whitesmoke;
-  padding: 1rem;
-  height: 5.8rem;
+  padding: 1rem 1rem 1rem 2.3rem;
+  height: 12rem;
 }
 .player {
-  position: absolute;
-  left: 15rem;
-  top: 4rem;
-}
-.left-panel {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 2.7rem
-}
-.right-panel {
-  position: absolute;
-  bottom: 1.7rem;
-  right: 2.7rem
+  padding: .5rem 0;
 }
 .action {
   font-size: 1.2rem;
   font-family: Roboto;
+  text-align: right;
 }
 .date {
+  padding-top: .5rem;
   color: #999;
 }
-
+.box-col-3-media-25 {
+  @include column(1/4, $uncycle: 1, $cycle: 3);
+  margin-bottom: .5rem;
+  @include breakpoint($small) {
+    @include stack();
+  }
+}
+.box-col-3-media-50 {
+  @include column(1/2, $uncycle: 1, $cycle: 3);
+  margin-bottom: .5rem;
+  @include breakpoint($small) {
+    @include stack();
+  }
+}
 
 // COVER
 
 .cover {
   position: relative;
-  height: 32rem;
+  height: 16rem;
   background-size: cover;
   background-position: 25% 75%;
   h2 {
@@ -382,6 +385,7 @@ iframe {
   height: 5rem;
   font-family: $font-h;
   box-shadow: -2px -1px 33px 3px rgba(56,56,56,0.52);
+  text-align: center;
 }
 .footer-social {
   text-align: center;
@@ -401,7 +405,6 @@ iframe {
 footer {
   p {
     padding-top: 0.3rem;
-    text-align: center;
     font-size: 0.85rem;
   }
 }
