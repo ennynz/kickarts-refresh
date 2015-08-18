@@ -56,12 +56,6 @@
 //this matches the variable $small set for jeet grid system at 799px
 
 @media only screen and (min-width: 800px) {
-  body {
-    background-image: url('../img/skytower-example.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top right;
-  }
   .logo {
     .logo-title {
       p {

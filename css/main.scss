@@ -7,18 +7,15 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
 body {
   font-family: 'helvetica';
   color: #3e3e3e;
-  background-color: #333;
-  .bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    min-width: 110%;
-    min-height: 110%;
-    z-index: -10;
-  }
+  background-image: url('../img/skytower-example.jpg');
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 a {
   color: $link;

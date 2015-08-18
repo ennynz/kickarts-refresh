@@ -138,20 +138,16 @@
 body {
   font-family: 'helvetica';
   color: #3e3e3e;
-  background-color: #333; }
-  body .bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    min-width: 110%;
-    min-height: 110%;
-    z-index: -10; }
+  background-image: url("../img/skytower-example.jpg");
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 a {
   color: #00BCD4;
   text-decoration: none;
-  -webkit-transition: all 200ms ease;
-          transition: all 200ms ease; }
+  transition: all 200ms ease; }
   a:hover {
     color: #008fa1; }
 
@@ -239,13 +235,11 @@ nav {
 
 .is-hidden {
   margin-top: -5rem;
-  -webkit-transition: all 750ms ease;
-          transition: all 750ms ease; }
+  transition: all 750ms ease; }
 
 .is-showing {
   margin-top: 0;
-  -webkit-transition: all 750ms ease;
-          transition: all 750ms ease; }
+  transition: all 750ms ease; }
 
 header {
   padding-top: 0;
@@ -464,7 +458,6 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     border-radius: 5px;
     font-family: Arial;
@@ -474,7 +467,6 @@ iframe {
     text-decoration: none; }
     .description button:hover {
       background: #3cb0fd;
-      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none; }
 
@@ -558,8 +550,7 @@ footer p {
     margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
-    -webkit-transition: all 400ms ease;
-            transition: all 400ms ease; }
+    transition: all 400ms ease; }
     nav ul li {
       padding-right: 1rem;
       font-size: .9rem;
@@ -575,8 +566,7 @@ footer p {
     margin-right: 1rem;
     margin-top: .55rem;
     cursor: pointer;
-    -webkit-transition: all 100ms ease;
-            transition: all 100ms ease; }
+    transition: all 100ms ease; }
     nav .menu-button:hover {
       color: #00BCD4; }
   nav .menu-open::after {
@@ -589,12 +579,6 @@ footer p {
     margin-right: -3rem; } }
 /*MEDIUM SCREENS*/
 @media only screen and (min-width: 800px) {
-  body {
-    background-image: url("../img/skytower-example.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top right; }
-
   .logo .logo-title p {
     line-height: 2.5rem; }
   .logo .logo-title .subtitle {
