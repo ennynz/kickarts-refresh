@@ -350,8 +350,11 @@ header {
     display: table; }
   .box-col-2:after {
     clear: both; }
-  .box-col-2:last-child {
-    margin-right: 0%; }
+  .box-col-2:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .box-col-2:nth-child(2n + 1) {
+    clear: both; }
   @media (max-width: 799px) {
     .box-col-2 {
       display: block;
