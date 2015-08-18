@@ -196,9 +196,6 @@ nav {
   z-index: 1000;
   height: 3.4rem;
   width: 100%; }
-  nav .nav-title {
-    display: inline-block;
-    vertical-align: middle; }
   nav a {
     color: #3e3e3e; }
   nav h1 {
@@ -260,11 +257,16 @@ nav {
   background-color: whitesmoke;
   box-shadow: 0 0 33px 0 rgba(56, 56, 56, 0.52); }
 
+.nav-title {
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: .4rem; }
+
 .nav-logo {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  padding: .3rem .3rem .3rem 0; }
+  padding: .2rem .3rem .4rem 0; }
   .nav-logo img {
     height: 3.5rem; }
 

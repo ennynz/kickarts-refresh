@@ -39,4 +39,8 @@ $(document).ready(function() {
       $('nav').removeClass('is-showing').addClass('is-hidden');
     }
   });
+  //includes navbar into any pages
+  $(function() {
+    $('#includeNav').load('nav.html');
+  });
 });
