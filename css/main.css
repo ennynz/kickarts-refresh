@@ -154,8 +154,7 @@
 a {
   color: #00BCD4;
   text-decoration: none;
-  -webkit-transition: all 200ms ease;
-          transition: all 200ms ease; }
+  transition: all 200ms ease; }
   a:hover {
     color: #008fa1; }
 
@@ -243,13 +242,11 @@ nav {
 
 .is-hidden {
   margin-top: -5rem;
-  -webkit-transition: all 750ms ease;
-          transition: all 750ms ease; }
+  transition: all 750ms ease; }
 
 .is-showing {
   margin-top: 0;
-  -webkit-transition: all 750ms ease;
-          transition: all 750ms ease; }
+  transition: all 750ms ease; }
 
 header {
   padding-top: 0;
@@ -481,7 +478,6 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     border-radius: 5px;
     font-family: Arial;
@@ -491,7 +487,6 @@ iframe {
     text-decoration: none; }
     .description button:hover {
       background: #3cb0fd;
-      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none; }
 
@@ -646,7 +641,7 @@ footer p {
   padding-top: 0.3rem;
   font-size: 0.85rem; }
 
-@media only screen and (min-width: 1px) and (max-width: 900px) {
+@media only screen and (min-width: 1px) and (max-width: 799px) {
   nav ul {
     position: absolute;
     width: 50%;
@@ -656,8 +651,7 @@ footer p {
     margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
-    -webkit-transition: all 400ms ease;
-            transition: all 400ms ease; }
+    transition: all 400ms ease; }
     nav ul li {
       padding-right: 1rem;
       font-size: .9rem;
@@ -673,8 +667,7 @@ footer p {
     margin-right: 1rem;
     margin-top: .55rem;
     cursor: pointer;
-    -webkit-transition: all 100ms ease;
-            transition: all 100ms ease; }
+    transition: all 100ms ease; }
     nav .menu-button:hover {
       color: #00BCD4; }
   nav .menu-open::after {

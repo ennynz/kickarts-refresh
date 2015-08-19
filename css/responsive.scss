@@ -1,9 +1,8 @@
 // MEDIA QUERY FOR NAV BAR
-// it needs to be a separate media query, because of the ammount of items in the menus. It needs to become the mobile menu at 900px while the rest of the media queries will start at 800.
 
 @media only screen
   and (min-width: 1px)
-  and (max-width: 900px) {
+  and (max-width: 799px) {
     nav {
       ul {
         position: absolute;
