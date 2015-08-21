@@ -1,43 +1,50 @@
 riot.route(function(collection, id, action) {
+  // TEAM
   if(collection === "our-team") {
     $('.active').removeClass('active');
     $('.our-team-link').addClass('active');
-    $('footer').hide();
-    $('#header').hide();
-    $('#our-team-section').fadeIn();
-    $('html,body').animate({scrollTop: $('#our-team').offset().top }, 500);
-    $(document).scroll(function() {
-      var y = $(this).scrollTop();
-      if (y < 20) {
-        $('#header').fadeIn();
-        $('#our-team-section .padding-top').hide();
-      };
+    $('#our-team-section').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#our-team').offset().top -25}, 500);
     });
   }else{
     $('#our-team-section').hide();
   };
+  // CONTACT
   if(collection === "contact") {
     $('.active').removeClass('active');
     $('.contact-link').addClass('active');
-    $('#header').hide();
-    $('footer').fadeIn();
-    $('#contact-section').fadeIn();
-    $('html,body').animate({scrollTop: $('#contact').offset().top -100}, 500);
-    $(document).scroll(function() {
-      var y = $(this).scrollTop();
-      if (y < 20) {
-        $('#header').fadeIn();
-        $('#contact-section .padding-top').hide();
-      };
+    $('#contact-section').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#contact').offset().top -25}, 500);
     });
   }else{
     $('#contact-section').hide();
   };
-  if(collection === "header") {
+  // SEARCH
+  if(collection === "search") {
+    $('.active').removeClass('active');
+    $('.search-link').addClass('active');
+    $('#search-section').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#search').offset().top }, 500);
+    });
+  }else{
+    $('#search-section').hide();
+  };
+  // EPISODES
+  if(collection === "episodes") {
+    $('.active').removeClass('active');
+    $('.episodes-link').addClass('active');
+    $('#episodes-section').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#episodes').offset().top -125}, 500);
+    });
+  }else{
+    $('#episodes-section').hide();
+  };
+  // HOME
+  if(collection === "home") {
     $('.active').removeClass('active');
     $('.home-link').addClass('active');
-    $('#header').fadeIn();
-    $('footer').fadeIn();
-    $('html,body').animate({scrollTop: $('#header').offset().top -100}, 500);
+    $('#home').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#home').offset().top }, 500);
+    });
   };
 });

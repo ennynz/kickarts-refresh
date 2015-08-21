@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#our-team-section').hide();
   $('#contact-section').hide();
+  $('#search-section').hide();
 
   $('.player').hide();
   $('.icon-4x').click(function(){
@@ -30,7 +31,7 @@ $(document).ready(function() {
       });
   });
 
-  //shows menu after scrolling
+  // shows menu after scrolling
   $(document).scroll(function() {
     var y = $(this).scrollTop();
 
@@ -42,6 +43,7 @@ $(document).ready(function() {
       $('nav').removeClass('is-showing').addClass('is-hidden');
     }
   });
+
   //includes navbar into any pages
   $(function() {
     $('#includeNav').load('nav.html');
