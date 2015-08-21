@@ -422,7 +422,8 @@ header {
   background-color: #E64D3C; }
 
 .card-body {
-  border-bottom: .1rem solid #CCC; }
+  border-bottom: .1rem solid #CCC;
+  background-color: whitesmoke; }
   .card-body ul {
     list-style-type: square;
     font-size: 0.85rem;
@@ -574,6 +575,9 @@ input:focus + label {
   .search-btn:active {
     position: relative;
     top: 1px; }
+
+.search-dscrp {
+  padding: 1rem; }
 
 h2 {
   font-family: "Exo 2", sans-serif;
