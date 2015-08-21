@@ -576,6 +576,9 @@ input:focus + label {
     position: relative;
     top: 1px; }
 
+.search-dscrp {
+  padding: 1rem; }
+
 h2 {
   font-family: "Exo 2", sans-serif;
   font-size: 1.2rem;
