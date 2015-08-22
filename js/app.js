@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#our-team-section').hide();
   $('#contact-section').hide();
+  $('#search-section').hide();
 
   $('.player').hide();
   $('.icon-4x').click(function(){
@@ -30,18 +31,27 @@ $(document).ready(function() {
       });
   });
 
-  //shows menu after scrolling
+  // shows menu after scrolling
   $(document).scroll(function() {
     var y = $(this).scrollTop();
 
-    if (y > 200) {
-      $('.top-bar').removeClass('is-hidden').addClass('is-showing');
-      $('nav').removeClass('is-hidden').addClass('is-showing');
-    } else {
+    if (y < 140) {
       $('.top-bar').removeClass('is-showing').addClass('is-hidden');
       $('nav').removeClass('is-showing').addClass('is-hidden');
     }
+    if (y > 140) {
+      $('.top-bar').removeClass('is-hidden').addClass('is-showing');
+      $('nav').removeClass('is-hidden').addClass('is-showing');
+    }
   });
+  // Shows menu which reached the bottom of the page regardless (for bigger views where there is no scroll action)
+  window.onscroll = function(ev) {
+    if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+      $('.top-bar').removeClass('is-hidden').addClass('is-showing');
+      $('nav').removeClass('is-hidden').addClass('is-showing');
+    }
+};
+
   //includes navbar into any pages
   $(function() {
     $('#includeNav').load('nav.html');

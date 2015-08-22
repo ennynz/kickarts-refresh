@@ -21,7 +21,7 @@
       </div>
       <nav class='is-hidden'>
         <div class='nav-center'>
-          <a href='#header'>
+          <a href='#home'>
             <h1>
               <div class='nav-logo'>
                 <img alt='' src='img/kickarts-logo-new-icon.png'>
@@ -32,12 +32,12 @@
           <span class='menu-button menu-open'></span>
           <ul>
             <li>
-              <a class='menu-link home-link' href='#header'>
+              <a class='menu-link home-link' href='#home'>
                 <div class='fa fa-home'></div>
               </a>
             </li>
             <li>
-              <a class='menu-link episodes-link' href='#latest-show'>
+              <a class='menu-link episodes-link' href='#episodes'>
                 Episodes
               </a>
             </li>
@@ -52,14 +52,14 @@
               </a>
             </li>
             <li>
-              <a class='menu-link' href='#'>
+              <a class='menu-link search-link' href='#search'>
                 <div class='fa fa-search'></div>
               </a>
             </li>
           </ul>
         </div>
       </nav>
-      <header id='header'>
+      <header id='home'>
         <h1 class='logo'>
           <img alt='' src='img/kickarts-logo-new-icon.png'>
           <div class='logo-title'><span class='thin'>KICK</span><span class='bold'>ARTS</span>
@@ -117,16 +117,16 @@
               <p>If you have missed an episode don't worry. Down here you can check out our last 6 episodes or if you feel like to listen to some vintage episodes just visit our Archives.</p>
             </div>
             <div class='card-action'>
-              <a href='#'>Browse episodes</a>
+              <a href='#episodes'>Browse episodes</a>
             </div>
           </div>
         </div>
-        <div id='latest-show'>
-          <recent-shows></recent-shows>
-        </div>
       </header>
+      <div id='episodes-section'>
+        <div id='episodes'></div>
+        <recent-shows></recent-shows>
+      </div>
       <div id='our-team-section'>
-        <div class='padding-top'></div>
         <div id='our-team'></div>
         <div class='box box-padding-5'>
           <div class='box-col-2'>
@@ -369,6 +369,7 @@
         </div>
       </div>
       <div id='search-section'>
+        <div id='search'></div>
         <div class='box box-padding-5'>
           <div class='card-title purple'>
             <h3>
@@ -420,13 +421,114 @@
                   </li>
                 </ul>
               </div>
+<<<<<<< HEAD
               <a class='search-btn list-btn' href='#'>List</a>
+=======
+            </div>
+            <div class='box-col-3-no-bg box-height'>
+              <h2>
+                Month
+              </h2>
+              <div class='wrapper-dropdown-1' id='dd3' tabindex='3'>
+                <span>From</span>
+                <ul class='dropdown' tabindex='3'>
+                  <li>
+                    <a href='#'>January</a>
+                  </li>
+                  <li>
+                    <a href='#'>February</a>
+                  </li>
+                  <li>
+                    <a href='#'>March</a>
+                  </li>
+                  <li>
+                    <a href='#'>April</a>
+                  </li>
+                  <li>
+                    <a href='#'>May</a>
+                  </li>
+                  <li>
+                    <a href='#'>June</a>
+                  </li>
+                  <li>
+                    <a href='#'>July</a>
+                  </li>
+                  <li>
+                    <a href='#'>August</a>
+                  </li>
+                  <li>
+                    <a href='#'>September</a>
+                  </li>
+                  <li>
+                    <a href='#'>October</a>
+                  </li>
+                  <li>
+                    <a href='#'>November</a>
+                  </li>
+                  <li>
+                    <a href='#'>December</a>
+                  </li>
+                </ul>
+              </div>
+              <div class='wrapper-dropdown-1' id='dd4' tabindex='4'>
+                <span>To</span>
+                <ul class='dropdown' tabindex='4'>
+                  <li>
+                    <a href='#'>January</a>
+                  </li>
+                  <li>
+                    <a href='#'>February</a>
+                  </li>
+                  <li>
+                    <a href='#'>March</a>
+                  </li>
+                  <li>
+                    <a href='#'>April</a>
+                  </li>
+                  <li>
+                    <a href='#'>May</a>
+                  </li>
+                  <li>
+                    <a href='#'>June</a>
+                  </li>
+                  <li>
+                    <a href='#'>July</a>
+                  </li>
+                  <li>
+                    <a href='#'>August</a>
+                  </li>
+                  <li>
+                    <a href='#'>September</a>
+                  </li>
+                  <li>
+                    <a href='#'>October</a>
+                  </li>
+                  <li>
+                    <a href='#'>November</a>
+                  </li>
+                  <li>
+                    <a href='#'>December</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='box-col-3-no-bg box-height'>
+              <h2>
+                Words
+              </h2>
+              <form>
+                <fieldset>
+                  <input class='name' name='' type='text'>
+                  <label class='search' for='name'>Type words</label>
+                </fieldset>
+                <a class='search-btn' href='#search'>Search</a>
+              </form>
+>>>>>>> 3665b6661e022def531413e58b225b024fca884d
             </div>
           </div>
         </div>
       </div>
       <div id='contact-section'>
-        <div class='padding-top'></div>
         <div id='contact'></div>
         <div class='box contact-box box-padding-5'>
           <div class='box-col-2'>
@@ -527,7 +629,7 @@
               </p>
             </div>
             <div class='card-action'>
-              <a href='#out-team'>More info</a>
+              <a href='#our-team'>More info</a>
             </div>
           </div>
           <div class='box-col-2'>
@@ -596,6 +698,7 @@
       </footer>
     </div>
   </body>
+  <script src='js/min/defiance.js'></script>
   <script src='raw.tag' type='riot/tag'></script>
   <script src='recent-shows.tag' type='riot/tag'></script>
   <script src='episode.tag' type='riot/tag'></script>
