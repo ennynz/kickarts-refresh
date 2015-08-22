@@ -244,97 +244,34 @@
             .card-icon
               .fa.fa-search
           .card-body
-            %p.search-dscrp You can search by year, by month or by typing some words. You can use all three criteria at once or try your luck with only one criteria.
-            .box-col-3-no-bg.box-height
+            .box-col-search-word.box-height
               %h2
-                Year
-              #dd.wrapper-dropdown-1{:tabindex => "1"}
-                %span From
-                %ul.dropdown{:tabindex => "1"}
-                  %li
-                    %a{:href => "#"} 2015
-                  %li
-                    %a{:href => "#"} 2014
-                  %li
-                    %a{:href => "#"} 2013
-                  %li
-                    %a{:href => "#"} 2012
-              #dd2.wrapper-dropdown-1{:tabindex => "2"}
-                %span To
-                %ul.dropdown{:tabindex => "2"}
-                  %li
-                    %a{:href => "#"} 2015
-                  %li
-                    %a{:href => "#"} 2014
-                  %li
-                    %a{:href => "#"} 2013
-                  %li
-                    %a{:href => "#"} 2012
-            .box-col-3-no-bg.box-height
-              %h2
-                Month
-              #dd3.wrapper-dropdown-1{:tabindex => "3"}
-                %span From
-                %ul.dropdown{:tabindex => "3"}
-                  %li
-                    %a{:href => "#"} January
-                  %li
-                    %a{:href => "#"} February
-                  %li
-                    %a{:href => "#"} March
-                  %li
-                    %a{:href => "#"} April
-                  %li
-                    %a{:href => "#"} May
-                  %li
-                    %a{:href => "#"} June
-                  %li
-                    %a{:href => "#"} July
-                  %li
-                    %a{:href => "#"} August
-                  %li
-                    %a{:href => "#"} September
-                  %li
-                    %a{:href => "#"} October
-                  %li
-                    %a{:href => "#"} November
-                  %li
-                    %a{:href => "#"} December
-              #dd4.wrapper-dropdown-1{:tabindex => "4"}
-                %span To
-                %ul.dropdown{:tabindex => "4"}
-                  %li
-                    %a{:href => "#"} January
-                  %li
-                    %a{:href => "#"} February
-                  %li
-                    %a{:href => "#"} March
-                  %li
-                    %a{:href => "#"} April
-                  %li
-                    %a{:href => "#"} May
-                  %li
-                    %a{:href => "#"} June
-                  %li
-                    %a{:href => "#"} July
-                  %li
-                    %a{:href => "#"} August
-                  %li
-                    %a{:href => "#"} September
-                  %li
-                    %a{:href => "#"} October
-                  %li
-                    %a{:href => "#"} November
-                  %li
-                    %a{:href => "#"} December
-            .box-col-3-no-bg.box-height
-              %h2
-                Words
+                Search by Words
               %form
                 %fieldset
                   %input.name{:name => "", :type => "text"}/
                   %label.search{:for => "name"} Type words
                 %a.search-btn{:href => "#"} Search
+            .box-col-search-or.box-height
+              %h2.or-box
+                OR
+            .box-col-search-year.box-height
+              %h2
+                List by Year
+              #dd.wrapper-dropdown-1{:tabindex => "1"}
+                %span Select a year
+                %ul.dropdown{:tabindex => "1"}
+                  %li
+                    %a{:href => "#"} All years
+                  %li
+                    %a{:href => "#"} 2015
+                  %li
+                    %a{:href => "#"} 2014
+                  %li
+                    %a{:href => "#"} 2013
+                  %li
+                    %a{:href => "#"} 2012
+              %a.search-btn.list-btn{:href => "#"} List
       #contact-section
         .padding-top
         #contact

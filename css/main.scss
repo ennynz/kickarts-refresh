@@ -296,12 +296,34 @@ h2 {
   color: #444;
   padding: 1rem;
 }
-.box-col-3-no-bg {
-  @include column(1/3, $gutter: 0);
+.or-box {
+  padding-top: 1.8rem;
+  text-align: center;
+}
+.box-col-search-word {
+  @include column(1/2, $gutter: 0);
   @include breakpoint($small) {
     @include stack();
   }
   background: whitesmoke;
+  p{
+    padding: .9rem;
+    line-height: 1.3rem;
+    font-size: .85rem;
+  }
+}
+.box-col-search-or {
+  @include column(1/8, $gutter: 0);
+  @include breakpoint($small) {
+    @include stack();
+  }
+}
+.box-col-search-year {
+  @include column(3/8, $gutter: 0);
+  @include breakpoint($small) {
+    @include stack();
+  }
+  background: #dbdbdb;
   p{
     padding: .9rem;
     line-height: 1.3rem;

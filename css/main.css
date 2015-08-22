@@ -447,14 +447,8 @@ iframe {
   z-index: 0;
   pointer-events: none; }
 
-#dd, #dd3 {
+#dd {
   z-index: 6;
-  font-family: "Exo 2", sans-serif; }
-
-#dd2, #dd4 {
-  z-index: 5;
-  margin-top: .5rem;
-  margin-bottom: 1.5rem;
   font-family: "Exo 2", sans-serif; }
 
 .wrapper-dropdown-1 {
@@ -520,7 +514,7 @@ fieldset {
 input, select {
   border: none;
   padding: 1rem 1rem .8rem 1rem;
-  width: 15rem;
+  width: 23rem;
   font-size: .9rem;
   font-family: "Exo 2", sans-serif;
   padding-bottom: .5rem;
@@ -557,7 +551,7 @@ input:focus + label {
 .search-btn {
   background-color: #eebaff;
   box-shadow: 0px -1px 6px 0px rgba(56, 56, 56, 0.52);
-  margin-top: .5rem;
+  margin-top: .9rem;
   margin-bottom: 1.5rem;
   display: inline-block;
   cursor: pointer;
@@ -576,6 +570,9 @@ input:focus + label {
     position: relative;
     top: 1px; }
 
+.list-btn {
+  margin-left: 1rem; }
+
 .search-dscrp {
   padding: 1rem; }
 
@@ -588,35 +585,100 @@ h2 {
   color: #444;
   padding: 1rem; }
 
-.box-col-3-no-bg {
+.or-box {
+  padding-top: 1.8rem;
+  text-align: center; }
+
+.box-col-search-word {
   *zoom: 1;
   float: left;
   clear: none;
   text-align: inherit;
-  width: 33.3333333333%;
+  width: 50%;
   margin-left: 0%;
   margin-right: 0%;
   background: whitesmoke; }
-  .box-col-3-no-bg:before, .box-col-3-no-bg:after {
+  .box-col-search-word:before, .box-col-search-word:after {
     content: '';
     display: table; }
-  .box-col-3-no-bg:after {
+  .box-col-search-word:after {
     clear: both; }
-  .box-col-3-no-bg:last-child {
+  .box-col-search-word:last-child {
     margin-right: 0%; }
   @media (max-width: 799px) {
-    .box-col-3-no-bg {
+    .box-col-search-word {
       display: block;
       clear: both;
       float: none;
       width: 100%;
       margin-left: auto;
       margin-right: auto; }
-      .box-col-3-no-bg:first-child {
+      .box-col-search-word:first-child {
         margin-left: auto; }
-      .box-col-3-no-bg:last-child {
+      .box-col-search-word:last-child {
         margin-right: auto; } }
-  .box-col-3-no-bg p {
+  .box-col-search-word p {
+    padding: .9rem;
+    line-height: 1.3rem;
+    font-size: .85rem; }
+
+.box-col-search-or {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 12.5%;
+  margin-left: 0%;
+  margin-right: 0%; }
+  .box-col-search-or:before, .box-col-search-or:after {
+    content: '';
+    display: table; }
+  .box-col-search-or:after {
+    clear: both; }
+  .box-col-search-or:last-child {
+    margin-right: 0%; }
+  @media (max-width: 799px) {
+    .box-col-search-or {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .box-col-search-or:first-child {
+        margin-left: auto; }
+      .box-col-search-or:last-child {
+        margin-right: auto; } }
+
+.box-col-search-year {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 37.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: #dbdbdb; }
+  .box-col-search-year:before, .box-col-search-year:after {
+    content: '';
+    display: table; }
+  .box-col-search-year:after {
+    clear: both; }
+  .box-col-search-year:last-child {
+    margin-right: 0%; }
+  @media (max-width: 799px) {
+    .box-col-search-year {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .box-col-search-year:first-child {
+        margin-left: auto; }
+      .box-col-search-year:last-child {
+        margin-right: auto; } }
+  .box-col-search-year p {
     padding: .9rem;
     line-height: 1.3rem;
     font-size: .85rem; }
@@ -852,7 +914,14 @@ footer p {
     content: "\2715"; }
   nav .show-menu {
     opacity: 1;
-    margin-right: -3rem; } }
+    margin-right: -3rem; }
+
+  .box-col-search-or {
+    background: whitesmoke !important;
+    background-image: url("../img/or-horizontal.png") !important;
+    background-size: cover !important;
+    background-position: bottom center !important;
+    width: 100% !important; } }
 /*MEDIUM SCREENS*/
 @media only screen and (min-width: 800px) {
   .logo .logo-title p {
@@ -877,6 +946,18 @@ footer p {
   .right-panel {
     padding: 1rem;
     text-align: right; } }
+.box-col-search-or {
+  background: whitesmoke;
+  background-image: url("../img/or-vertical.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 12.5%; }
+
+.or-box {
+  padding-top: 4.3rem !important; }
+
 @media only screen and (min-width: 701px) {
   .cover {
     height: 32rem; } }

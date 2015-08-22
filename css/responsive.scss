@@ -49,7 +49,18 @@
         margin-right: -3rem;
       }
     }
+    // for the or arrow swap through media queries
+    .box-col-search-or {
+      background: whitesmoke !important;
+      background-image: url('../img/or-horizontal.png')!important;
+      background-size: cover!important;
+      background-position: bottom center!important;
+      // background-repeat: no-repeat!important;
+      width: 100% !important;
+    }
   }
+
+
 
 /*MEDIUM SCREENS*/
 //this matches the variable $small set for jeet grid system at 799px
@@ -86,7 +97,18 @@
     text-align: right;
   }
 }
-
+.box-col-search-or {
+  background: whitesmoke;
+  background-image: url('../img/or-vertical.png');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 12.5%;
+}
+.or-box {
+  padding-top: 4.3rem !important;
+}
 
 //The cover needs some extra media queries to make them look good on different devices
 
