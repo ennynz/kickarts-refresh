@@ -13,22 +13,24 @@ riot.route(function(collection, id, action) {
   if(collection === "contact") {
     $('.active').removeClass('active');
     $('.contact-link').addClass('active');
+    $('#episodes-section').hide();
     $('#contact-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#contact').offset().top -25}, 500);
     });
   }else{
     $('#contact-section').hide();
-  };
+  }
   // SEARCH
   if(collection === "search") {
     $('.active').removeClass('active');
     $('.search-link').addClass('active');
+    $('#episodes-section').hide();
     $('#search-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#search').offset().top }, 500);
     });
   }else{
     $('#search-section').hide();
-  };
+  }
   // EPISODES
   if(collection === "episodes") {
     $('.active').removeClass('active');
@@ -36,15 +38,11 @@ riot.route(function(collection, id, action) {
     $('#episodes-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#episodes').offset().top -125}, 500);
     });
-  }else{
-    $('#episodes-section').hide();
-  };
+  }
   // HOME
   if(collection === "home") {
     $('.active').removeClass('active');
     $('.home-link').addClass('active');
-    $('#home').fadeIn(function() {
-      $('html,body').animate({scrollTop: $('#home').offset().top }, 500);
-    });
-  };
+    $('html,body').animate({scrollTop: $('#home').offset().top }, 500);
+  }
 });
