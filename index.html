@@ -124,7 +124,7 @@
       </header>
       <div id='episodes-section'>
         <div id='episodes'></div>
-        <recent-shows></recent-shows>
+        <episode></episode>
       </div>
       <div id='our-team-section'>
         <div id='our-team'></div>
@@ -598,11 +598,10 @@
   </body>
   <script src='js/min/defiance.js'></script>
   <script src='raw.tag' type='riot/tag'></script>
-  <script src='recent-shows.tag' type='riot/tag'></script>
   <script src='episode.tag' type='riot/tag'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js'></script>
   <script src='js/router.js'></script>
   <script>
-    riot.mount('episode, recent-shows, raw')
+    riot.mount('episode, raw')
   </script>
 </html>

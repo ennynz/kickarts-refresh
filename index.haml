@@ -87,7 +87,7 @@
               %a{:href => "#episodes"}Browse episodes
       #episodes-section
         #episodes
-        %recent-shows
+        %episode
       #our-team-section
         #our-team
         .box.box-padding-5
@@ -272,7 +272,7 @@
                     %a{:href => "#"} 2013
                   %li
                     %a{:href => "#"} 2012
-              %a.search-btn.list-btn{:href => "#"} List      
+              %a.search-btn.list-btn{:href => "#"} List
       #contact-section
         #contact
         .box.contact-box.box-padding-5
@@ -378,9 +378,8 @@
                 .fa.fa-twitter
   %script{:src => "js/min/defiance.js"}
   %script{:src => "raw.tag", :type => "riot/tag"}
-  %script{:src => "recent-shows.tag", :type => "riot/tag"}
   %script{:src => "episode.tag", :type => "riot/tag"}
   %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js"}
   %script{:src => "js/router.js"}
   :javascript
-    riot.mount('episode, recent-shows, raw')
+    riot.mount('episode, raw')

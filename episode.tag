@@ -35,7 +35,7 @@
   this.episodes = []
   var self = this
   $.get('episodes.json', function(json) {
-    self.episodes = json
+    self.episodes = json.slice(0, 3)
     self.update()
   })
 
