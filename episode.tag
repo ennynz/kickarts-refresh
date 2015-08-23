@@ -39,7 +39,6 @@
   this.episodeList = []
   this.episodes = []
   var episodeIndex = 0
-  var offset = 0
   var self = this
   $.get('episodes.json', function(json) {
     self.episodeList = json
