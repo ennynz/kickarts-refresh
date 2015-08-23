@@ -31,12 +31,32 @@
       </div>
     </div>
   </div>
+  <div class="pagination-area">
+    <a class='button left top-pull-up' onclick="{ paginate }" role="button">More episodes</a>
+    <a class='button right top-pull-up' role="button">List all</a>
+  </div>
 
+  this.episodeList = []
   this.episodes = []
+  var episodeIndex = 0
+  var offset = 0
   var self = this
   $.get('episodes.json', function(json) {
-    self.episodes = json.slice(0, 3)
+    self.episodeList = json
+    self.episodes = self.episodeList.slice(0, 3)
     self.update()
   })
+
+  this.paginate = function(e) {
+    e.preventDefault();
+    episodeIndex += 3
+    var more = this.episodeList.slice(episodeIndex, (episodeIndex + 3))
+    var self = this;
+    more.forEach(function(entry) {
+      self.episodes.push(entry)
+    })
+    this.update()
+    return true
+  }.bind(this)
 
 </episode>
