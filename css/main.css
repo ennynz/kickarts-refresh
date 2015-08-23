@@ -160,9 +160,10 @@ a {
 
 /* PAGINATION TEMPORARY STYLING */
 .button {
+  letter-spacing: .1rem;
   border-radius: .3rem;
-  background-color: #3D97D3;
-  box-shadow: 0px -1px 6px 0px rgba(38, 38, 38, 0.62);
+  background-color: #955CA5;
+  box-shadow: 0px -1px 6px 0px rgba(56, 56, 56, 0.52);
   margin-top: .9rem;
   margin-bottom: 1.5rem;
   display: inline-block;
@@ -176,7 +177,7 @@ a {
   text-decoration: none;
   transition: all 500ms ease-out; }
   .button:hover {
-    background: #165f8c;
+    background: #5a3764;
     color: #fff; }
 
 .top-pull-up {
@@ -583,13 +584,15 @@ input:focus + label {
   transition: .15s ease-out all; }
 
 .search-btn {
-  background-color: #eebaff;
+  letter-spacing: .1rem;
+  border-radius: .3rem;
+  background-color: #955CA5;
   box-shadow: 0px -1px 6px 0px rgba(56, 56, 56, 0.52);
   margin-top: .9rem;
   margin-bottom: 1.5rem;
   display: inline-block;
   cursor: pointer;
-  color: #fff;
+  color: whitesmoke;
   font-family: 'Exo 2' sans-serif;
   text-transform: uppercase;
   font-size: 15px;
@@ -598,7 +601,7 @@ input:focus + label {
   text-decoration: none;
   transition: all 500ms ease-out; }
   .search-btn:hover {
-    background-color: #955CA5;
+    background-color: #5a3764;
     color: #fff; }
   .search-btn:active {
     position: relative;

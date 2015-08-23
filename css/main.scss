@@ -34,9 +34,10 @@ a {
 
 /* PAGINATION TEMPORARY STYLING */
 .button {
+  letter-spacing: .1rem;
   border-radius: .3rem;
-  background-color: #3D97D3;
-  box-shadow: 0px -1px 6px 0px rgba(38, 38, 38, 0.62);
+  background-color: #955CA5;
+  box-shadow: 0px -1px 6px 0px rgba(56,56,56,0.52);
   margin-top: .9rem;
   margin-bottom: 1.5rem;
   display: inline-block;
@@ -50,7 +51,7 @@ a {
   text-decoration: none;
   transition: all 500ms ease-out;
   &:hover {
-    background: #165f8c;
+    background: darken(#955CA5, 20%);
     color: #fff;
   }
 }
