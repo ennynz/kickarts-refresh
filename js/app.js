@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $('#our-team-section').hide();
   $('#contact-section').hide();
   $('#search-section').hide();
@@ -87,7 +88,7 @@ $(document).ready(function() {
     getIndex: function() {
       return this.index;
     }
-  }
+  };
 
   $(function() {
 

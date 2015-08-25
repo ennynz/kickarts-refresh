@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import 'jeet/index';
 @import 'breakpoint/breakpoint';
 @import 'variables';
@@ -6,6 +7,122 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+/* begin TEMPORARY EPISODE-LIST STYLES */
+
+#episodes-list {
+  margin-top: 5rem;
+}
+
+.list-info {
+  width: 6.25rem;
+  margin-top: -.4rem;
+  padding-right: 1rem;
+}
+
+.list-date {
+  text-align: left;
+  padding-top: .3rem;
+  font-size: .7rem;
+  font-family: Roboto;
+  color: grey;
+}
+
+.list-ep-number {
+  text-align: left;
+  font-size: .8rem;
+  font-family: Roboto;
+  color: #3b3b3b;
+}
+
+.list-title {
+  cursor: pointer;
+  background: whitesmoke;
+  padding: 1rem 1.5rem;
+  .title-link {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: #00BCD4;
+    font-family: $font-h;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 260ms ease;
+    &:hover {
+      color: darken($link, 10%);
+    }
+  }
+  li {
+    display: inline;
+    padding-right: 0.9rem;
+  }
+}
+
+.list-entry {
+  position: relative;
+  width: auto;
+  border-top: solid 1px #CCC;
+  max-width: 960px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.list-description {
+  background: whitesmoke;
+  h3 {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+  p {
+    padding: 1rem 1.5rem;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    &:hover {
+      background: #3cb0fd;
+      background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+      text-decoration: none;
+    }
+  }
+}
+
+.list-close {
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+  font-size: .8rem;
+  color: #00BCD4;
+  text-decoration: none;
+  transition: all 200ms ease;
+  cursor: pointer;
+  &:hover {
+    color: #008fa1;
+  }
+}
+
+.list-image {
+  width: 25%;
+  height: auto;
+  border-radius: .7rem;
+  margin: 0rem 1.4rem 0rem 1rem;
+}
+
+/* end TEMPORARY EPISODE-LIST STYLES */
 
 .bg {
   position: fixed;
