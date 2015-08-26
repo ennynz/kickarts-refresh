@@ -248,41 +248,7 @@
                     .fa.fa-twitter
       #search-section
         #search
-        .box.box-padding-5
-          .card-title.purple
-            %h3
-              Search
-            .card-icon
-              .fa.fa-search
-          .card-body
-            .box-col-search-word.box-height
-              %h2
-                Search by Words
-              %form
-                %fieldset
-                  %input.name{:name => "", :type => "text"}/
-                  %label.search{:for => "name"} Type words
-                %a.search-btn{:href => "#"} Search
-            .box-col-search-or.box-height
-              %h2.or-box
-                OR
-            .box-col-search-year.box-height
-              %h2
-                List by Year
-              #dd.wrapper-dropdown-1{:tabindex => "1"}
-                %span Select a year
-                %ul.dropdown{:tabindex => "1"}
-                  %li
-                    %a{:href => "#"} All years
-                  %li
-                    %a{:href => "#"} 2015
-                  %li
-                    %a{:href => "#"} 2014
-                  %li
-                    %a{:href => "#"} 2013
-                  %li
-                    %a{:href => "#"} 2012
-              %a.search-btn.list-btn{:href => "#"} List
+        %search
       #contact-section
         #contact
         .box.contact-box.box-padding-5
@@ -390,6 +356,7 @@
   %script{:src => "raw.tag", :type => "riot/tag"}
   %script{:src => "episode.tag", :type => "riot/tag"}
   %script{:src => "episode-list.tag", :type => "riot/tag"}
+  %script{:src => "search.tag", :type => "riot/tag"}
   %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/riot/2.2.4/riot+compiler.min.js"}
   %script{:src => "js/router.js"}
   :javascript

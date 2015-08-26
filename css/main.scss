@@ -10,7 +10,7 @@
 
 /* begin TEMPORARY EPISODE-LIST STYLES */
 
-#episodes-list-section {
+#episodes-list-section, .list-box {
   @include center($box-width);
   margin-top: 5rem;
   background-color: whitesmoke;
@@ -450,6 +450,10 @@ iframe {
 
 
 //SEARCH BOX
+
+.search-height {
+  height: 10.06rem !important;
+}
 
 @import 'search';
 .search-dscrp {
