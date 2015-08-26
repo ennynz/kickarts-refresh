@@ -50,8 +50,11 @@
 }
 .list-title {
   cursor: pointer;
-  background: darken(whitesmoke, 5%);;
+  background: darken(whitesmoke, 5%);
   padding-left: 1rem;
+  line-height: normal;
+  padding-top: .3rem;
+  height: 2.7rem;
   .title-link {
     margin: 0;
     padding: 0;
@@ -71,13 +74,13 @@
   }
 }
 .ep-details-col-left {
-  @include column(1/3);
+  @include column(1/3, $cycle: 2, $uncycle: 1);
   @include breakpoint($xsmall) {
     @include stack();
   }
 }
 .ep-details-col-right {
-  @include column(2/3);
+  @include column(2/3, $cycle: 2, $uncycle: 1);
   @include breakpoint($xsmall) {
     @include stack();
     margin-top: 1rem;
@@ -117,6 +120,7 @@
 }
 .list-close {
   margin-right: 1rem;
+  padding-top: .5rem;
   font-size: .8rem;
   color: #00BCD4;
   text-decoration: none;
@@ -130,9 +134,33 @@
   width: 94%;
   height: auto;
   border-radius: .7rem;
-  margin: 2.75rem 0 0 1rem;;
+  margin: 1.5rem 0 1rem 1rem;
+  @include breakpoint($xsmall) {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
 }
-
+.ep-list-download-button {
+  padding-left: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+}
+.ep-details-player {
+  @include breakpoint($small) {
+    padding-left: 1.5rem;
+  }
+}
+.ep-list-media {
+  @include center(100%);
+  color: #4D4D4D;
+  background: whitesmoke;
+}
+.ep-list-empty-left-panel {
+  height: 2rem;
+  @include breakpoint($xsmall) {
+    height: 0;
+  }
+}
 /* end TEMPORARY EPISODE-LIST STYLES */
 
 .bg {

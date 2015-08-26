@@ -241,7 +241,10 @@
 .list-title {
   cursor: pointer;
   background: #e8e8e8;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  line-height: normal;
+  padding-top: .3rem;
+  height: 2.7rem; }
   .list-title .title-link {
     margin: 0;
     padding: 0;
@@ -270,8 +273,16 @@
     display: table; }
   .ep-details-col-left:after {
     clear: both; }
-  .ep-details-col-left:last-child {
-    margin-right: 0%; }
+  .ep-details-col-left:nth-child(1n) {
+    margin-right: 3%;
+    float: left; }
+  .ep-details-col-left:nth-child(1n + 1) {
+    clear: none; }
+  .ep-details-col-left:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .ep-details-col-left:nth-child(2n + 1) {
+    clear: both; }
   @media (max-width: 599px) {
     .ep-details-col-left {
       display: block;
@@ -298,8 +309,16 @@
     display: table; }
   .ep-details-col-right:after {
     clear: both; }
-  .ep-details-col-right:last-child {
-    margin-right: 0%; }
+  .ep-details-col-right:nth-child(1n) {
+    margin-right: 3%;
+    float: left; }
+  .ep-details-col-right:nth-child(1n + 1) {
+    clear: none; }
+  .ep-details-col-right:nth-child(2n) {
+    margin-right: 0%;
+    float: right; }
+  .ep-details-col-right:nth-child(2n + 1) {
+    clear: both; }
   @media (max-width: 599px) {
     .ep-details-col-right {
       display: block;
@@ -344,6 +363,7 @@
 
 .list-close {
   margin-right: 1rem;
+  padding-top: .5rem;
   font-size: .8rem;
   color: #00BCD4;
   text-decoration: none;
@@ -356,7 +376,44 @@
   width: 94%;
   height: auto;
   border-radius: .7rem;
-  margin: 2.75rem 0 0 1rem; }
+  margin: 1.5rem 0 1rem 1rem; }
+  @media (max-width: 599px) {
+    .list-image {
+      margin-top: 1rem;
+      margin-bottom: 0; } }
+
+.ep-list-download-button {
+  padding-left: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem; }
+
+@media (max-width: 799px) {
+  .ep-details-player {
+    padding-left: 1.5rem; } }
+
+.ep-list-media {
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  color: #4D4D4D;
+  background: whitesmoke; }
+  .ep-list-media:before, .ep-list-media:after {
+    content: '';
+    display: table; }
+  .ep-list-media:after {
+    clear: both; }
+
+.ep-list-empty-left-panel {
+  height: 2rem; }
+  @media (max-width: 599px) {
+    .ep-list-empty-left-panel {
+      height: 0; } }
 
 /* end TEMPORARY EPISODE-LIST STYLES */
 .bg {
