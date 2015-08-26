@@ -11,17 +11,32 @@
 /* begin TEMPORARY EPISODE-LIST STYLES */
 
 #episodes-list {
+  @include center($box-width);
   margin-top: 5rem;
+  background-color: whitesmoke;
 }
-
-.list-info {
-  width: 6.25rem;
-  margin-top: -.4rem;
-  padding-right: 1rem;
+.ep-list-col-left {
+  @include column(4/5, $gutter: 0);
+  padding: .6rem 0;
+  border-top: solid 1px #CCC;
+  @include breakpoint($xsmall) {
+    @include column(3/5, $gutter: 0);
+  }
 }
-
+.ep-list-col-right {
+  @include column(1/5, $gutter: 0);
+  text-align: right;
+  border-top: solid 1px #CCC;
+  padding: .6rem 0;
+  @include breakpoint($xsmall) {
+    @include column(2/5, $gutter: 0);
+    text-align: right;
+  }
+  p {
+    padding-right: 1rem;
+  }
+}
 .list-date {
-  text-align: left;
   padding-top: .3rem;
   font-size: .7rem;
   font-family: Roboto;
@@ -29,7 +44,6 @@
 }
 
 .list-ep-number {
-  text-align: left;
   font-size: .8rem;
   font-family: Roboto;
   color: #3b3b3b;
@@ -38,7 +52,7 @@
 .list-title {
   cursor: pointer;
   background: whitesmoke;
-  padding: 1rem 1.5rem;
+  padding-left: 1rem;
   .title-link {
     margin: 0;
     padding: 0;
@@ -57,20 +71,6 @@
     padding-right: 0.9rem;
   }
 }
-
-.list-entry {
-  position: relative;
-  width: auto;
-  border-top: solid 1px #CCC;
-  max-width: 960px;
-  float: none;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .list-description {
   background: whitesmoke;
   h3 {

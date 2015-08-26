@@ -1,26 +1,20 @@
 <episode-list>
   <div class='card-title purple'>
     <h3>
-      Episode List
+      Episodes
     </h3>
     <div class='card-icon'>
-      <div class='fa fa-list'></div>
+      <div class='fa fa-archive'></div>
     </div>
   </div>
   <div each={ episode } class="list-entry">
-    <div class="ep-list-col-left box-height">
-      <div class="list-title" onclick="{ expand }" role="button">
-        <a href="#" class="title-link"> { title }</a>
+    <div class="list-title" onclick="{ expand }" role="button">
+      <a href="#" class="title-link"> { title }</a>
+      <div class="list-info right">
+        <p class='list-ep-number'>Episode { episode }</p>
+        <p class='list-date'>{ date }</p>
       </div>
     </div>
-    <div class="ep-list-col-right box-height">
-      <p class='list-ep-number'>Episode { episode }</p>
-      <p class='list-date'>{ date }</p>
-    </div>
-
-
-
-
     <span class='right list-close' onclick="{ close }" role="button" if={ isExpanded }><i class="fa fa-times-circle-o fa-2x"></i></span>
     <div id="{ episode }" class="list-details" if={ isExpanded } }>
       <div class="list-description">
