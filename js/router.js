@@ -8,7 +8,7 @@ riot.route(function(collection, id, action) {
     });
   }else{
     $('#our-team-section').hide();
-  };
+  }
   // CONTACT
   if(collection === "contact") {
     $('.active').removeClass('active');
@@ -39,10 +39,20 @@ riot.route(function(collection, id, action) {
       $('html,body').animate({scrollTop: $('#episodes').offset().top -125}, 500);
     });
   }
+  // EPISODE-LIST
+  if(collection === "episodes-list") {
+    $('#episodes-section').hide();
+    $('#episodes-list-section').fadeIn(function() {
+      $('html,body').animate({scrollTop: $('#episodes-list').offset().top -125}, 500);
+    });
+  }else{
+    $('#episodes-list-section').hide();
+  }
   // HOME
   if(collection === "home") {
     $('.active').removeClass('active');
     $('.home-link').addClass('active');
+    $('#episodes-section').fadeIn();
     $('html,body').animate({scrollTop: $('#home').offset().top }, 500);
   }
 });

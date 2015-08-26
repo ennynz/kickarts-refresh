@@ -33,7 +33,7 @@
   </div>
   <div class="pagination-area">
     <a class='button left top-pull-up' onclick="{ paginate }" role="button">More episodes</a>
-    <a class='button right top-pull-up' role="button">List all</a>
+    <a href="#episodes-list" class='button right top-pull-up' role="button">List all</a>
   </div>
 
   this.episodeList = []

@@ -137,7 +137,7 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 /* begin TEMPORARY EPISODE-LIST STYLES */
-#episodes-list {
+#episodes-list-section {
   *zoom: 1;
   width: auto;
   max-width: 960px;
@@ -149,10 +149,10 @@
   padding-right: 0;
   margin-top: 5rem;
   background-color: whitesmoke; }
-  #episodes-list:before, #episodes-list:after {
+  #episodes-list-section:before, #episodes-list-section:after {
     content: '';
     display: table; }
-  #episodes-list:after {
+  #episodes-list-section:after {
     clear: both; }
 
 .ep-list-col-left {

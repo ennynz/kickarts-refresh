@@ -3,6 +3,7 @@ $(document).ready(function() {
   $('#our-team-section').hide();
   $('#contact-section').hide();
   $('#search-section').hide();
+  $('#episodes-list-section').hide();
 
   $('.player').hide();
   $('.icon-4x').click(function(){
