@@ -42,13 +42,11 @@
   font-family: Roboto;
   color: grey;
 }
-
 .list-ep-number {
   font-size: .8rem;
   font-family: Roboto;
   color: #3b3b3b;
 }
-
 .list-title {
   cursor: pointer;
   background: whitesmoke;
@@ -71,6 +69,19 @@
     padding-right: 0.9rem;
   }
 }
+.ep-details-col-left {
+  @include column(1/3);
+  @include breakpoint($xsmall) {
+    @include stack();
+  }
+}
+.ep-details-col-right {
+  @include column(2/3);
+  @include breakpoint($xsmall) {
+    @include stack();
+    margin-top: 1rem;
+  }
+}
 .list-description {
   background: whitesmoke;
   h3 {
@@ -81,6 +92,9 @@
     padding: 1rem 1.5rem;
     line-height: 1.7;
     font-size: 1rem;
+    @include breakpoint($small) {
+      font-size: .85rem;
+    }
   }
   button {
     margin-left: auto;
@@ -100,11 +114,8 @@
     }
   }
 }
-
 .list-close {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
+  margin-right: 1rem;
   font-size: .8rem;
   color: #00BCD4;
   text-decoration: none;
@@ -114,12 +125,11 @@
     color: #008fa1;
   }
 }
-
 .list-image {
-  width: 25%;
+  width: 94%;
   height: auto;
   border-radius: .7rem;
-  margin: 0rem 1.4rem 0rem 1rem;
+  margin: 2.75rem 0 0 1rem;;
 }
 
 /* end TEMPORARY EPISODE-LIST STYLES */

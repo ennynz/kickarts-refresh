@@ -256,6 +256,63 @@
     display: inline;
     padding-right: 0.9rem; }
 
+.ep-details-col-left {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.3333333333%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .ep-details-col-left:before, .ep-details-col-left:after {
+    content: '';
+    display: table; }
+  .ep-details-col-left:after {
+    clear: both; }
+  .ep-details-col-left:last-child {
+    margin-right: 0%; }
+  @media (max-width: 599px) {
+    .ep-details-col-left {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .ep-details-col-left:first-child {
+        margin-left: auto; }
+      .ep-details-col-left:last-child {
+        margin-right: auto; } }
+
+.ep-details-col-right {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 65.6666666667%;
+  margin-left: 0%;
+  margin-right: 3%; }
+  .ep-details-col-right:before, .ep-details-col-right:after {
+    content: '';
+    display: table; }
+  .ep-details-col-right:after {
+    clear: both; }
+  .ep-details-col-right:last-child {
+    margin-right: 0%; }
+  @media (max-width: 599px) {
+    .ep-details-col-right {
+      display: block;
+      clear: both;
+      float: none;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1rem; }
+      .ep-details-col-right:first-child {
+        margin-left: auto; }
+      .ep-details-col-right:last-child {
+        margin-right: auto; } }
+
 .list-description {
   background: whitesmoke; }
   .list-description h3 {
@@ -265,6 +322,9 @@
     padding: 1rem 1.5rem;
     line-height: 1.7;
     font-size: 1rem; }
+    @media (max-width: 799px) {
+      .list-description p {
+        font-size: .85rem; } }
   .list-description button {
     margin-left: auto;
     margin-right: auto;
@@ -282,9 +342,7 @@
       text-decoration: none; }
 
 .list-close {
-  position: absolute;
-  top: .5rem;
-  right: .5rem;
+  margin-right: 1rem;
   font-size: .8rem;
   color: #00BCD4;
   text-decoration: none;
@@ -294,10 +352,10 @@
     color: #008fa1; }
 
 .list-image {
-  width: 25%;
+  width: 94%;
   height: auto;
   border-radius: .7rem;
-  margin: 0rem 1.4rem 0rem 1rem; }
+  margin: 2.75rem 0 0 1rem; }
 
 /* end TEMPORARY EPISODE-LIST STYLES */
 .bg {
