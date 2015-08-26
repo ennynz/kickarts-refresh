@@ -30,7 +30,6 @@
         </div>
         <div class="media">
           <div class="left-panel box-col-3-media-25 box-height">
-            <i class="icon-4x fa fa-play-circle-o fa-4x"></i>
             <p>episode { episode }</p>
           </div>
           <div class="player box-col-3-media-50 box-height">
