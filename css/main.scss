@@ -17,7 +17,7 @@
 }
 .ep-list-col-left {
   @include column(4/5, $gutter: 0);
-  padding: .6rem 0;
+  line-height: 2.9;
   border-top: solid 1px #CCC;
   @include breakpoint($xsmall) {
     @include column(3/5, $gutter: 0);
@@ -537,7 +537,6 @@ h2 {
 }
 .media {
   @include center(100%);
-  position: relative;
   color: #4D4D4D;
   background: whitesmoke;
   padding: 1rem 1rem 1rem 2.3rem;

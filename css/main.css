@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  Syntax Quick Reference
   --------------------------
   column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
@@ -162,7 +163,7 @@
   width: 80%;
   margin-left: 0%;
   margin-right: 0%;
-  padding: .6rem 0;
+  line-height: 2.9;
   border-top: solid 1px #CCC; }
   .ep-list-col-left:before, .ep-list-col-left:after {
     content: '';
@@ -997,7 +998,6 @@ h2 {
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  position: relative;
   color: #4D4D4D;
   background: whitesmoke;
   padding: 1rem 1rem 1rem 2.3rem;
