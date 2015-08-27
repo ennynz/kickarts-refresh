@@ -115,12 +115,14 @@
     var searchTerm = e.target[1].value
     var self = this;
     $.get('episodes.json', function(json) {
-      var found = JSON.search(json, '//*[contains(*, "'+searchTerm+'")]')
+      var title = JSON.search(json, '//*[contains(title, "'+searchTerm+'")]')
+      var description = JSON.search(json, '//*[contains(description, "'+searchTerm+'")]')
+      var found = $.unique(title.concat(description))
       self.results = true;
-      self.searchResults = found.slice(1, found.length)
+      self.searchResults = found
       self.update()
 
-      if (found.length > 1) {
+      if (found.length > 0) {
         self.noResults = false
         self.update()
         $('html,body').animate({scrollTop: $('.list-box').offset().top -75}, 500);
