@@ -20,32 +20,32 @@
     <span class='right list-close' onclick="{ close }" role="button" if={ isExpanded }><i class="fa fa-times-circle-o fa-2x"></i></span>
     <div id="{ episode }" class="list-details" if={ isExpanded } }>
 
-        <div class="list-description">
-          <div class="ep-details-col-left box-height">
-            <img src="{ image }" alt="{ episode } photo" class="list-image"/>
-          </div>
-          <div class="ep-details-col-right box-height">
-            <p> <raw content="{ description }"/> </p>
+      <div class="list-description">
+        <div class="ep-details-col-left box-height">
+          <img src="{ image }" alt="{ episode } photo" class="list-image"/>
+        </div>
+        <div class="ep-details-col-right box-height">
+          <p> <raw content="{ description }"/> </p>
+        </div>
+      </div>
+      <div class="ep-list-media">
+        <div class="ep-list-empty-left-panel ep-details-col-left box-height">
+          <p>&nbsp;</p>
+        </div>
+        <div class="player ep-details-col-right box-height">
+          <audio class="ep-details-player" controls="controls">
+            <source src={ ogg } type="audio/ogg">
+            <source src={ mp3 } type="audio/ogg">
+          </audio>
+          <div class="ep-list-download-button">
+            <a href={ download }>
+              <i class="icon fa fa-arrow-circle-o-down">
+                <span class="action">download</span>
+              </i>
+            </a>
           </div>
         </div>
-        <div class="ep-list-media">
-          <div class="ep-list-empty-left-panel ep-details-col-left box-height">
-            <p>&nbsp;</p>
-          </div>
-          <div class="player ep-details-col-right box-height">
-            <audio class="ep-details-player" controls="controls">
-              <source src={ ogg } type="audio/ogg">
-              <source src={ mp3 } type="audio/ogg">
-            </audio>
-            <div class="ep-list-download-button">
-              <a href={ download }>
-                <i class="icon fa fa-arrow-circle-o-down">
-                  <span class="action">download</span>
-                </i>
-              </a>
-            </div>
-          </div>
-        </div>
+      </div>
 
     </div>
   </div>
