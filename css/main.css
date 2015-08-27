@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  Syntax Quick Reference
   --------------------------
   column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
@@ -242,7 +243,7 @@
   cursor: pointer;
   background: #e8e8e8;
   padding-left: 1rem;
-  line-height: normal;
+  line-height: 2.4;
   padding-top: .3rem;
   height: 2.7rem; }
   .list-title .title-link {
