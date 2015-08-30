@@ -13,7 +13,7 @@
         <h2>
           Search by Words
         </h2>
-        <form onsubmit={ handleSubmit }>
+        <form onsubmit={ textSubmit }>
           <fieldset>
             <input class='name'>
             <label class='search' for='name'>Type words</label>
@@ -32,25 +32,17 @@
         </h2>
         <div class='wrapper-dropdown-1' id='dd' tabindex='1'>
           <span>Select a year</span>
-          <ul class='dropdown' tabindex='1'>
-            <li>
-              <a href='#'>All years</a>
-            </li>
-            <li>
-              <a href='#'>2015</a>
-            </li>
-            <li>
-              <a href='#'>2014</a>
-            </li>
-            <li>
-              <a href='#'>2013</a>
-            </li>
-            <li>
-              <a href='#'>2012</a>
-            </li>
-          </ul>
+          <form onsubmit={ yearSubmit }>
+            <select id="year-select" name="list">
+              <option value="all">All Years</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+            </select>
+            <button class='search-btn list-btn'>List</button>
+          </form>
         </div>
-        <a class='search-btn list-btn' href='#'>List</a>
       </div>
     </div>
   </div>
@@ -110,8 +102,9 @@
     </div>
   </div>
 
+
   this.noResults = false
-  handleSubmit(e) {
+  textSubmit(e) {
     var searchTerm = e.target[1].value
     var self = this;
     $.get('episodes.json', function(json) {
@@ -132,6 +125,31 @@
       }
     })
     e.target[1].value = ""
+  }
+
+  yearSubmit(e) {
+    var select = document.getElementById('year-select').value
+    var self = this;
+    var date = ""
+    $.get('episodes.json', function(json) {
+      if(select === "all"){
+        date = json
+      }else{
+        date = JSON.search(json, '//*[contains(date, "'+select+'")]')
+      }
+      self.results = true;
+      self.searchResults = date
+      self.update()
+
+      if (date.length > 0) {
+        self.noResults = false
+        self.update()
+        $('html,body').animate({scrollTop: $('.list-box').offset().top -75}, 500);
+      }else{
+        self.noResults = true
+        self.update()
+      }
+    })
   }
 
   this.expand = function(e) {
