@@ -13,13 +13,15 @@
         <h2>
           Search by Words
         </h2>
-        <form onsubmit={ textSubmit }>
-          <fieldset>
-            <input class='name'>
-            <label class='search' for='name'>Type words</label>
-          </fieldset>
-          <button class='search-btn'>Search</button>
-        </form>
+        <div class="form-container">
+          <form onsubmit={ textSubmit }>
+            <fieldset>
+              <input class='name'>
+              <label class='search' for='name'>Type words</label>
+            </fieldset>
+            <button class='search-btn'>Search</button>
+          </form>
+        </div>
       </div>
       <div class='box-col-search-or search-height'>
         <h2 class='or-box'>
@@ -30,18 +32,20 @@
         <h2>
           List by Year
         </h2>
-        <div class='wrapper-dropdown-1' id='dd' tabindex='1'>
-          <span>Select a year</span>
-          <form onsubmit={ yearSubmit }>
-            <select id="year-select" name="list">
-              <option value="all">All Years</option>
-              <option value="2015">2015</option>
-              <option value="2014">2014</option>
-              <option value="2013">2013</option>
-              <option value="2012">2012</option>
-            </select>
-            <button class='search-btn list-btn'>List</button>
-          </form>
+        <div class="form-container">
+          <div class='wrapper-dropdown-1' id='dd' tabindex='1'>
+            <form class='form-search' onsubmit={ yearSubmit }>
+              <select id="year-select" name="list">
+                <option value="">Select a year</option>
+                <option value="all">All Years</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+              </select>
+              <button class='search-btn search-btn-list'>List</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -131,25 +135,27 @@
     var select = document.getElementById('year-select').value
     var self = this;
     var date = ""
-    $.get('episodes.json', function(json) {
-      if(select === "all"){
-        date = json
-      }else{
-        date = JSON.search(json, '//*[contains(date, "'+select+'")]')
-      }
-      self.results = true;
-      self.searchResults = date
-      self.update()
+    if(select != "") {
+      $.get('episodes.json', function(json) {
+        if(select === "all"){
+          date = json
+        }else{
+          date = JSON.search(json, '//*[contains(date, "'+select+'")]')
+        }
+        self.results = true;
+        self.searchResults = date
+        self.update()
 
-      if (date.length > 0) {
-        self.noResults = false
-        self.update()
-        $('html,body').animate({scrollTop: $('.list-box').offset().top -75}, 500);
-      }else{
-        self.noResults = true
-        self.update()
-      }
-    })
+        if (date.length > 0) {
+          self.noResults = false
+          self.update()
+          $('html,body').animate({scrollTop: $('.list-box').offset().top -75}, 500);
+        }else{
+          self.noResults = true
+          self.update()
+        }
+      })
+    }
   }
 
   this.expand = function(e) {

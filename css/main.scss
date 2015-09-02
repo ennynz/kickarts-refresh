@@ -482,6 +482,9 @@ iframe {
 
 .search-height {
   height: 10.06rem !important;
+  @include breakpoint($small) {
+    height: 7rem !important;
+  }
 }
 
 @import 'search';
@@ -503,32 +506,38 @@ h2 {
 }
 .box-col-search-word {
   @include column(1/2, $gutter: 0);
-  @include breakpoint($small) {
-    @include stack();
-  }
   background: whitesmoke;
-  p{
+  p {
     padding: .9rem;
     line-height: 1.3rem;
     font-size: .85rem;
+  }
+  @include breakpoint($small) {
+    @include stack();
+    text-align: center;
+    padding-top: 1.5rem;
   }
 }
 .box-col-search-or {
   @include column(1/8, $gutter: 0);
   @include breakpoint($small) {
     @include stack();
+    height: 1rem;
   }
 }
 .box-col-search-year {
   @include column(3/8, $gutter: 0);
-  @include breakpoint($small) {
-    @include stack();
-  }
   background: #dbdbdb;
-  p{
+  p {
     padding: .9rem;
     line-height: 1.3rem;
     font-size: .85rem;
+  }
+  @include breakpoint($small) {
+    @include stack();
+    text-align: center;
+    height: 12rem !important;
+    padding-top: 1rem;
   }
 }
 //ENTRIES
