@@ -1,10 +1,40 @@
 $(document).ready(function() {
-
-  $('#our-team-section').hide();
-  $('#contact-section').hide();
-  $('#search-section').hide();
+  // ROTUING ASSISTANT for reloads/bookmarking
   $('#episodes-list-section').hide();
-
+  if(window.location.hash === "") {
+    $('#our-team-section').hide();
+    $('#contact-section').hide();
+    $('#search-section').hide();
+  }
+  if(window.location.hash === "#contact") {
+    $('#episodes-section').hide();
+    $('.active').removeClass('active');
+    $('.contact-link').addClass('active');
+  }else{
+    $('#contact-section').hide();
+  }
+  if(window.location.hash === "#our-team") {
+    $('#contact-section').hide();
+    $('#episodes-section').hide();
+    $('.active').removeClass('active');
+    $('.our-team-link').addClass('active');
+    $('.top-bar').removeClass('is-hidden').addClass('is-showing');
+    $('nav').removeClass('is-hidden').addClass('is-showing');    
+  }else{
+    $('#our-team-section').hide();
+  }
+  if(window.location.hash === "#search") {
+    $('#episodes-section').hide();
+    $('.active').removeClass('active');
+    $('.search-link').addClass('active');
+  }else{
+    $('#search-section').hide();
+  }
+  if(window.location.hash === "#episodes") {
+    $('.active').removeClass('active');
+    $('.episodes-link').addClass('active');
+  }
+  // MENU NAV ACTIVE SELECTOR
   $('.player').hide();
   $('.icon-4x').click(function(){
     $('.player').fadeIn("slow");

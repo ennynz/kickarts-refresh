@@ -1,18 +1,17 @@
 riot.route(function(collection, id, action) {
   // TEAM
   if(collection === "our-team") {
-    $('.active').removeClass('active');
-    $('.our-team-link').addClass('active');
+    $('#contact-section').hide();
+    $('#episodes-section').hide();
     $('#our-team-section').fadeIn(function() {
-      $('html,body').animate({scrollTop: $('#our-team').offset().top -25}, 500);
+      $('html,body').animate({scrollTop: $('#our-team').offset().top -10}, 500);
     });
   }else{
     $('#our-team-section').hide();
   }
   // CONTACT
   if(collection === "contact") {
-    $('.active').removeClass('active');
-    $('.contact-link').addClass('active');
+    $('#our-team').hide();
     $('#episodes-section').hide();
     $('#contact-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#contact').offset().top -25}, 500);
@@ -22,8 +21,7 @@ riot.route(function(collection, id, action) {
   }
   // SEARCH
   if(collection === "search") {
-    $('.active').removeClass('active');
-    $('.search-link').addClass('active');
+    $('#our-team').hide();
     $('#episodes-section').hide();
     $('#search-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#search').offset().top }, 500);
@@ -33,14 +31,14 @@ riot.route(function(collection, id, action) {
   }
   // EPISODES
   if(collection === "episodes") {
-    $('.active').removeClass('active');
-    $('.episodes-link').addClass('active');
+    $('#our-team').hide();
     $('#episodes-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#episodes').offset().top -125}, 500);
     });
   }
   // EPISODE-LIST
   if(collection === "episodes-list") {
+    $('#our-team').hide();
     $('#episodes-section').hide();
     $('#episodes-list-section').fadeIn(function() {
       $('html,body').animate({scrollTop: $('#episodes-list').offset().top -125}, 500);
