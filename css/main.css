@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  Syntax Quick Reference
   --------------------------
   column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
@@ -135,7 +136,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-/* begin TEMPORARY EPISODE-LIST STYLES */
+/* EPISODE-LIST STYLES */
 #episodes-list-section, .list-box {
   *zoom: 1;
   width: auto;
@@ -253,7 +254,8 @@
     font-family: "Exo 2", sans-serif;
     font-weight: 800;
     text-transform: uppercase;
-    transition: all 260ms ease; }
+    -webkit-transition: all 260ms ease;
+            transition: all 260ms ease; }
     .list-title .title-link:hover {
       color: #008fa1; }
   .list-title li {
@@ -349,6 +351,7 @@
     margin-left: auto;
     margin-right: auto;
     background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     border-radius: 5px;
     font-family: Arial;
@@ -358,6 +361,7 @@
     text-decoration: none; }
     .list-description button:hover {
       background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none; }
 
@@ -367,7 +371,8 @@
   font-size: .8rem;
   color: #00BCD4;
   text-decoration: none;
-  transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+          transition: all 200ms ease;
   cursor: pointer; }
   .list-close:hover {
     color: #008fa1; }
@@ -415,7 +420,7 @@
     .ep-list-empty-left-panel {
       height: 0; } }
 
-/* end TEMPORARY EPISODE-LIST STYLES */
+/* end EPISODE-LIST STYLES */
 .bg {
   position: fixed;
   z-index: 1;
@@ -435,11 +440,12 @@
 a {
   color: #00BCD4;
   text-decoration: none;
-  transition: all 200ms ease; }
+  -webkit-transition: all 200ms ease;
+          transition: all 200ms ease; }
   a:hover {
     color: #008fa1; }
 
-/* PAGINATION TEMPORARY STYLING */
+/* PAGINATION STYLING */
 .button {
   letter-spacing: .1rem;
   border-radius: .3rem;
@@ -456,7 +462,8 @@ a {
   font-weight: bold;
   padding: .5rem 1rem;
   text-decoration: none;
-  transition: all 500ms ease-out; }
+  -webkit-transition: all 500ms ease-out;
+          transition: all 500ms ease-out; }
   .button:hover {
     background: #5a3764;
     color: #fff; }
@@ -473,6 +480,9 @@ a {
 .pagination-area {
   max-width: 958px;
   margin: 0 auto; }
+
+.title-thin {
+  font-weight: 400; }
 
 nav {
   opacity: .90;
@@ -558,11 +568,13 @@ nav {
 
 .is-hidden {
   margin-top: -5rem;
-  transition: all 750ms ease; }
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
 
 .is-showing {
   margin-top: 0;
-  transition: all 750ms ease; }
+  -webkit-transition: all 750ms ease;
+          transition: all 750ms ease; }
 
 header {
   padding-top: 0;
@@ -817,7 +829,8 @@ input + label {
   display: block;
   cursor: text;
   color: #777;
-  transition: .15s ease-out all;
+  -webkit-transition: .15s ease-out all;
+          transition: .15s ease-out all;
   position: absolute;
   top: .9rem;
   left: .9rem;
@@ -829,7 +842,8 @@ input:focus + label {
   font-size: .7em;
   font-weight: bold;
   color: #955CA5;
-  transition: .15s ease-out all; }
+  -webkit-transition: .15s ease-out all;
+          transition: .15s ease-out all; }
 
 .stay {
   top: .3em;
@@ -837,7 +851,8 @@ input:focus + label {
   font-size: .7em;
   font-weight: bold;
   color: #955CA5;
-  transition: .15s ease-out all; }
+  -webkit-transition: .15s ease-out all;
+          transition: .15s ease-out all; }
 
 .search-btn {
   letter-spacing: .1rem;
@@ -854,7 +869,8 @@ input:focus + label {
   font-weight: bold;
   padding: .5rem 2rem;
   text-decoration: none;
-  transition: all 500ms ease-out; }
+  -webkit-transition: all 500ms ease-out;
+          transition: all 500ms ease-out; }
   .search-btn:hover {
     background-color: #5a3764;
     color: #fff; }
@@ -1034,6 +1050,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
     border-radius: 5px;
     font-family: Arial;
@@ -1043,6 +1060,7 @@ h2 {
     text-decoration: none; }
     .description button:hover {
       background: #3cb0fd;
+      background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
       background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
       text-decoration: none; }
 
@@ -1206,7 +1224,8 @@ footer p {
     margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
-    transition: all 400ms ease; }
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease; }
     nav ul li {
       padding-right: 1rem;
       font-size: .9rem;
@@ -1222,7 +1241,8 @@ footer p {
     margin-right: 1rem;
     margin-top: .55rem;
     cursor: pointer;
-    transition: all 100ms ease; }
+    -webkit-transition: all 100ms ease;
+            transition: all 100ms ease; }
     nav .menu-button:hover {
       color: #00BCD4; }
   nav .menu-open::after {

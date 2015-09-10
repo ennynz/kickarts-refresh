@@ -8,7 +8,7 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,300,500,700,600,800);
 @import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
-/* begin TEMPORARY EPISODE-LIST STYLES */
+/* EPISODE-LIST STYLES */
 
 #episodes-list-section, .list-box {
   @include center($box-width);
@@ -161,7 +161,7 @@
     height: 0;
   }
 }
-/* end TEMPORARY EPISODE-LIST STYLES */
+/* end EPISODE-LIST STYLES */
 
 .bg {
   position: fixed;
@@ -188,7 +188,7 @@ a {
   }
 }
 
-/* PAGINATION TEMPORARY STYLING */
+/* PAGINATION STYLING */
 .button {
   letter-spacing: .1rem;
   border-radius: .3rem;
@@ -230,6 +230,10 @@ a {
 }
 
 // NAVIGATION
+
+.title-thin {
+  font-weight: 400;
+}
 
 nav {
   opacity: .90;
