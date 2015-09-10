@@ -3,6 +3,16 @@
 @media only screen
   and (min-width: 1px)
   and (max-width: 799px) {
+    .top-bar {
+      height: 3.4rem;
+    }
+    .nav-title {
+      font-size: 1.6rem;
+    }
+    .nav-logo img {
+      width: 2rem;
+      height: auto;
+    }
     nav {
       ul {
         position: absolute;
@@ -28,9 +38,8 @@
       .menu-button {
         display: block;
         float: right;
-        line-height: 3rem;
+        line-height: 2.3rem;
         margin-right: 1rem;
-        margin-top: .55rem;
         cursor: pointer;
         transition: all 100ms ease;
         &:hover {
