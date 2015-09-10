@@ -67,6 +67,9 @@
     &:hover {
       color: darken($link, 10%);
     }
+    @include breakpoint($small) {
+      font-size: .7rem;
+    }
   }
   li {
     display: inline;

@@ -258,6 +258,9 @@
             transition: all 260ms ease; }
     .list-title .title-link:hover {
       color: #008fa1; }
+    @media (max-width: 799px) {
+      .list-title .title-link {
+        font-size: .7rem; } }
   .list-title li {
     display: inline;
     padding-right: 0.9rem; }
