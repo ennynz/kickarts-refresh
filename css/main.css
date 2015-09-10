@@ -1245,15 +1245,17 @@ footer p {
     width: 50%;
     height: 1200px;
     opacity: 1;
-    margin-top: 4rem;
+    margin-top: 2.4rem;
     margin-right: -120%;
     border-top: 0;
     background: whitesmoke;
     -webkit-transition: all 400ms ease;
             transition: all 400ms ease; }
     nav ul li {
-      padding-right: 1rem;
-      font-size: .9rem;
+      padding-right: 2rem;
+      padding-left: 0;
+      padding-top: .3rem;
+      font-size: 1rem;
       text-align: right;
       display: block;
       line-height: 2.3rem; }
@@ -1262,8 +1264,7 @@ footer p {
   nav .menu-button {
     display: block;
     float: right;
-    line-height: 2.3rem;
-    margin-right: 1rem;
+    line-height: 2.6rem;
     cursor: pointer;
     -webkit-transition: all 100ms ease;
             transition: all 100ms ease; }
