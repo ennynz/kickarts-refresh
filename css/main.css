@@ -423,6 +423,20 @@
     .ep-list-empty-left-panel {
       height: 0; } }
 
+@media (max-width: 799px) {
+  .left-panel p {
+    font-size: .8rem;
+    padding-bottom: .6rem; } }
+
+@media (max-width: 799px) {
+  .right-panel {
+    padding: .1rem; }
+    .right-panel span {
+      padding-top: .6rem;
+      font-size: .8rem; }
+    .right-panel p {
+      font-size: .8rem; } }
+
 /* end EPISODE-LIST STYLES */
 .bg {
   position: fixed;
@@ -1054,6 +1068,10 @@ h2 {
     padding: 1rem 2.5rem;
     line-height: 1.7;
     font-size: 1rem; }
+    @media (max-width: 799px) {
+      .description p {
+        font-size: .8rem;
+        padding: .8rem 1.2rem; } }
   .description button {
     margin-left: auto;
     margin-right: auto;
@@ -1192,6 +1210,11 @@ h2 {
     position: absolute;
     bottom: 1.5rem;
     left: 2.5rem; }
+    @media (max-width: 799px) {
+      .cover h2 {
+        font-size: 1.1rem;
+        left: 0rem;
+        bottom: .5rem; } }
 
 .padding-top {
   padding-top: 100%; }
@@ -1341,7 +1364,7 @@ footer p {
     height: 24rem; } }
 @media only screen and (max-width: 500px) {
   .cover {
-    height: 20rem; } }
+    height: 14rem; } }
 @media only screen and (max-width: 999px) {
   .nav-center {
     padding-left: 1rem;

@@ -164,6 +164,27 @@
     height: 0;
   }
 }
+
+.left-panel {
+  @include breakpoint($small) {
+    p {
+      font-size: .8rem;
+      padding-bottom: .6rem;
+    }
+  }
+}
+.right-panel {
+  @include breakpoint($small) {
+    padding: .1rem;
+    span {
+      padding-top: .6rem;
+      font-size: .8rem;
+    }
+    p {
+      font-size: .8rem;
+    }
+  }
+}
 /* end EPISODE-LIST STYLES */
 
 .bg {
@@ -565,6 +586,10 @@ h2 {
     padding: 1rem 2.5rem;
     line-height: 1.7;
     font-size: 1rem;
+    @include breakpoint($small) {
+      font-size: .8rem;
+      padding: .8rem 1.2rem;
+    }
   }
   button {
     margin-left: auto;
@@ -634,6 +659,11 @@ h2 {
     position: absolute;
     bottom: 1.5rem;
     left: 2.5rem;
+    @include breakpoint($small) {
+      font-size: 1.1rem;
+      left: 0rem;
+      bottom: .5rem;
+    }
   }
 }
 
