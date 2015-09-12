@@ -23,11 +23,11 @@
           <source src={ ogg } type="audio/ogg">
           <source src={ mp3 } type="audio/ogg">
         </audio>
-        <div class="custom-player" show={ playerShowing }>
-          <div class="timeline">
-            <div class="playhead"></div>
+        <div class="custom-player" if={ playerShowing }>
+          <div id="timeline-{ episode }" class="timeline">
+            <div id="playhead-{ episode }" class="playhead"></div>
           </div>
-          <div class='time'></div>
+          <div id='time-{ episode }' class='time'></div>
         </div>
       </div>
       <div class="box-col-3-media-25 box-height">
@@ -72,19 +72,129 @@
   this.playEpisode = function(e) {
     e.preventDefault();
     var track = e.item.episode
-    var audioPlayer = $('#audio-'+track)[0]
     this.playerShowing = true
     this.playing = true
     this.update()
+
+    var countDownwards = false;
+    var audio = $('#audio-'+track)[0]
+    var duration;
+    var playhead = $('#playhead-'+track);
+    var timeline = $('#timeline-'+track);
+    var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
+
+    play();
+
+    $('#time-'+track).click(function() {
+      countDownwards = !countDownwards;
+    });
+
+    audio.addEventListener("timeupdate", timeUpdate, false);
+
+    timeline.addEventListener("click", function (event) {
+      moveplayhead(event);
+      audio.currentTime = duration * clickPercent(event);
+    }, false);
+
+    function clickPercent(e) {
+      return (e.pageX - timeline.offsetLeft) / timelineWidth;
+    }
+
+    playhead.addEventListener('mousedown', mouseDown, false);
+    window.addEventListener('mouseup', mouseUp, false);
+
+    var onplayhead = false;
+
+    function mouseDown() {
+      onplayhead = true;
+      window.addEventListener('mousemove', moveplayhead, true);
+      audio.removeEventListener('timeupdate', timeUpdate, false);
+    }
+
+    function mouseUp(e) {
+      if (onplayhead == true) {
+        moveplayhead(e);
+        window.removeEventListener('mousemove', moveplayhead, true);
+        audio.currentTime = duration * clickPercent(e);
+        audio.addEventListener('timeupdate', timeUpdate, false);
+      }
+      onplayhead = false;
+    }
+
+    function moveplayhead(e) {
+      var newMargLeft = e.pageX - timeline.offsetLeft;
+      if (newMargLeft >= 0 && newMargLeft <= timelineWidth) {
+        playhead.style.marginLeft = newMargLeft + "px";
+      }
+      if (newMargLeft < 0) {
+        playhead.style.marginLeft = "0px";
+      }
+      if (newMargLeft > timelineWidth) {
+        playhead.style.marginLeft = timelineWidth + "px";
+      }
+    }
+
+    function timeUpdate() {
+      var playPercent = timelineWidth * (audio.currentTime / duration);
+      playhead.style.marginLeft = playPercent + "px";
+      if (audio.currentTime == duration) {
+        playerAction.className = "";
+        playerAction.className = "play";
+      }
+    }
+
+    function play() {
+      if (audio.paused) {
+        audio.play();
+        $('#time-'+track).addClass('show-pointer');
+        playerAction.className = "";
+        playerAction.className = "pause";
+      } else {
+        audio.pause();
+        $('#time-'+track).removeClass('show-pointer');
+        playerAction.className = "";
+        playerAction.className = "play";
+      }
+    }
+
+    audio.addEventListener("canplaythrough", function () {
+      duration = audio.duration;
+      $('#time-'+track).html(formatTime(duration));
+    }, false);
+
+    audio.addEventListener("timeupdate", progress, false);
+
+    function progress() {
+      if(audio.duration == 'Infinity') {
+        value = 100;
+      }
+      else if (audio.currentTime > 0) {
+        value = Math.floor((100 / audio.duration) * audio.currentTime);
+      }
+      if (countDownwards === true) {
+        $('#time-'+track).html("-" + formatTime((duration) - (audio.currentTime)));
+      }else{
+        $('#time-'+track).html(formatTime(audio.currentTime));
+      }
+    }
+
+    function formatTime(seconds) {
+      minutes = Math.floor(seconds / 60);
+      minutes = (minutes >= 10) ? minutes : "" + minutes;
+      seconds = Math.floor(seconds % 60);
+      seconds = (seconds >= 10) ? seconds : "0" + seconds;
+      return minutes + ":" + seconds;
+    }
   }
 
   this.pauseEpisode = function(e) {
     e.preventDefault();
     var track = e.item.episode
-    var audioPlayer = $('#audio-'+track)[0]
+    var audio = $('#audio-'+track)[0]
     this.playerShowing = true
     this.playing = false
     this.update()
+    audio.pause();
   }
 
 </episode>
