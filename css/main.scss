@@ -643,6 +643,41 @@ h2 {
   }
 }
 
+// AUDIO Player
+.time {
+  margin-top: 20px;
+  display: inline;
+  float: right;
+  width: 1.9rem;
+  padding:5px 8px;
+  font-size: 1rem;
+  color: #fff;
+  background: #6d6d6d;
+  border: solid #424242;
+}
+.custom-player {
+	width: 480px;
+	height: 60px;
+}
+
+.timeline {
+  display: inline;
+	width: 400px;
+	height: 20px;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+
+}
+.playhead {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+}
+
 // COVER
 
 .cover {

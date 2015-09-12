@@ -71,7 +71,6 @@
 
   this.close = function(e) {
     e.preventDefault();
-    console.log('pushed')
     if(e.item.episode === this.episode) {
       this.isExpanded = false
       this.update()
