@@ -51,6 +51,13 @@
   this.episodes = []
   var episodeIndex = 0
   var self = this
+  var countDownwards
+  var audio
+  var duration
+  var playhead
+  var timeline
+  var timelineWidth
+
   $.get('episodes.json', function(json) {
     self.episodeList = json
     self.episodes = self.episodeList.slice(0, 3)
@@ -69,6 +76,10 @@
     return true
   }.bind(this)
 
+
+
+
+
   this.playEpisode = function(e) {
     e.preventDefault();
     var track = e.item.episode
@@ -76,18 +87,12 @@
     this.playing = true
     this.update()
 
-    var countDownwards = false;
-    var audio = $('#audio-'+track)[0]
-    var duration;
-    var playhead = $('#playhead-'+track);
-    var timeline = $('#timeline-'+track);
-    var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
-
+    countDownwards = false;
+    audio = $('#audio-'+track)[0]
+    playhead = $('#playhead-'+track)[0];
+    timeline = $('#timeline-'+track)[0];
+    timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
     play();
-
-    $('#time-'+track).click(function() {
-      countDownwards = !countDownwards;
-    });
 
     audio.addEventListener("timeupdate", timeUpdate, false);
 
@@ -137,23 +142,18 @@
     function timeUpdate() {
       var playPercent = timelineWidth * (audio.currentTime / duration);
       playhead.style.marginLeft = playPercent + "px";
-      if (audio.currentTime == duration) {
-        playerAction.className = "";
-        playerAction.className = "play";
-      }
     }
 
     function play() {
+      $('#time-'+track).click(function() {
+        countDownwards = !countDownwards;
+      });
       if (audio.paused) {
         audio.play();
         $('#time-'+track).addClass('show-pointer');
-        playerAction.className = "";
-        playerAction.className = "pause";
       } else {
         audio.pause();
         $('#time-'+track).removeClass('show-pointer');
-        playerAction.className = "";
-        playerAction.className = "play";
       }
     }
 
@@ -177,15 +177,9 @@
         $('#time-'+track).html(formatTime(audio.currentTime));
       }
     }
-
-    function formatTime(seconds) {
-      minutes = Math.floor(seconds / 60);
-      minutes = (minutes >= 10) ? minutes : "" + minutes;
-      seconds = Math.floor(seconds % 60);
-      seconds = (seconds >= 10) ? seconds : "0" + seconds;
-      return minutes + ":" + seconds;
-    }
   }
+
+
 
   this.pauseEpisode = function(e) {
     e.preventDefault();
@@ -196,5 +190,26 @@
     this.update()
     audio.pause();
   }
+
+
+
+
+
+
+
+
+
+  function formatTime(seconds) {
+    minutes = Math.floor(seconds / 60);
+    minutes = (minutes >= 10) ? minutes : "" + minutes;
+    seconds = Math.floor(seconds % 60);
+    seconds = (seconds >= 10) ? seconds : "0" + seconds;
+    return minutes + ":" + seconds;
+  }
+
+
+
+
+
 
 </episode>
