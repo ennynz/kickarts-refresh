@@ -98,7 +98,7 @@
 
     timeline.addEventListener("click", function (event) {
       moveplayhead(event);
-      audio.currentTime = duration * clickPercent(event);
+      audio.currentTime = audio.duration * clickPercent(event);
     }, false);
 
     function clickPercent(e) {
@@ -120,7 +120,7 @@
       if (onplayhead == true) {
         moveplayhead(e);
         window.removeEventListener('mousemove', moveplayhead, true);
-        audio.currentTime = duration * clickPercent(e);
+        audio.currentTime = audio.duration * clickPercent(e);
         audio.addEventListener('timeupdate', timeUpdate, false);
       }
       onplayhead = false;
@@ -140,7 +140,7 @@
     }
 
     function timeUpdate() {
-      var playPercent = timelineWidth * (audio.currentTime / duration);
+      var playPercent = timelineWidth * (audio.currentTime / audio.duration);
       playhead.style.marginLeft = playPercent + "px";
     }
 
@@ -159,7 +159,7 @@
 
     audio.addEventListener("canplaythrough", function () {
       duration = audio.duration;
-      $('#time-'+track).html(formatTime(duration));
+      $('#time-'+track).html(formatTime(audio.duration));
     }, false);
 
     audio.addEventListener("timeupdate", progress, false);
@@ -172,7 +172,7 @@
         value = Math.floor((100 / audio.duration) * audio.currentTime);
       }
       if (countDownwards === true) {
-        $('#time-'+track).html("-" + formatTime((duration) - (audio.currentTime)));
+        $('#time-'+track).html("-" + formatTime((audio.duration) - (audio.currentTime)));
       }else{
         $('#time-'+track).html(formatTime(audio.currentTime));
       }
