@@ -1207,6 +1207,9 @@ h2 {
   background: #6d6d6d;
   border: solid #424242; }
 
+.show-pointer {
+  cursor: pointer; }
+
 .custom-player {
   width: 480px;
   height: 60px; }

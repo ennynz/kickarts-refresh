@@ -57,6 +57,7 @@
   var playhead
   var timeline
   var timelineWidth
+  var timer
 
   $.get('episodes.json', function(json) {
     self.episodeList = json
@@ -76,10 +77,6 @@
     return true
   }.bind(this)
 
-
-
-
-
   this.playEpisode = function(e) {
     e.preventDefault();
     var track = e.item.episode
@@ -88,6 +85,7 @@
     this.update()
 
     countDownwards = false;
+    timer = $('#time-'+track)
     audio = $('#audio-'+track)[0]
     playhead = $('#playhead-'+track)[0];
     timeline = $('#timeline-'+track)[0];
@@ -145,21 +143,21 @@
     }
 
     function play() {
-      $('#time-'+track).click(function() {
+      timer.click(function() {
         countDownwards = !countDownwards;
       });
       if (audio.paused) {
         audio.play();
-        $('#time-'+track).addClass('show-pointer');
+        timer.addClass('show-pointer');
       } else {
         audio.pause();
-        $('#time-'+track).removeClass('show-pointer');
+        timer.removeClass('show-pointer');
       }
     }
 
     audio.addEventListener("canplaythrough", function () {
       duration = audio.duration;
-      $('#time-'+track).html(formatTime(audio.duration));
+      timer.html(formatTime(audio.duration));
     }, false);
 
     audio.addEventListener("timeupdate", progress, false);
@@ -172,14 +170,12 @@
         value = Math.floor((100 / audio.duration) * audio.currentTime);
       }
       if (countDownwards === true) {
-        $('#time-'+track).html("-" + formatTime((audio.duration) - (audio.currentTime)));
+        timer.html("-" + formatTime((audio.duration) - (audio.currentTime)));
       }else{
-        $('#time-'+track).html(formatTime(audio.currentTime));
+        timer.html(formatTime(audio.currentTime));
       }
     }
   }
-
-
 
   this.pauseEpisode = function(e) {
     e.preventDefault();
@@ -189,15 +185,8 @@
     this.playing = false
     this.update()
     audio.pause();
+    timer.removeClass('show-pointer');
   }
-
-
-
-
-
-
-
-
 
   function formatTime(seconds) {
     minutes = Math.floor(seconds / 60);
@@ -206,10 +195,5 @@
     seconds = (seconds >= 10) ? seconds : "0" + seconds;
     return minutes + ":" + seconds;
   }
-
-
-
-
-
 
 </episode>
