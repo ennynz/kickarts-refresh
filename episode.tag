@@ -27,7 +27,7 @@
           <div class="timeline">
             <div class="playhead"></div>
           </div>
-          <div class='time'></div>  
+          <div class='time'></div>
         </div>
       </div>
       <div class="box-col-3-media-25 box-height">
