@@ -1355,7 +1355,7 @@ h2 {
       width: 20rem; } }
   @media (max-width: 599px) {
     .timeline {
-      width: 14rem; } }
+      width: 10rem; } }
 
 .playhead {
   width: 18px;
