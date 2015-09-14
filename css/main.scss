@@ -646,9 +646,10 @@ h2 {
 
 // AUDIO Player
 .time {
-  margin-top: 18px;
+  margin-top: 1.1rem;
+  margin-left: 1.2rem;
   display: inline;
-  float: right;
+  float: left;
   width: 1.9rem;
   padding:5px 8px;
   font-size: 1rem;
@@ -668,13 +669,18 @@ h2 {
 
 .timeline {
   display: inline;
-	width: 400px;
+	width: 25rem;
 	height: 20px;
 	margin-top: 24px;
 	float: left;
 	border-radius: 15px;
 	background: rgba(153, 212, 214, 1);
-
+  @include breakpoint($small) {
+    width: 20rem;
+  }
+  @include breakpoint($xsmall) {
+    width: 14rem;
+  }
 }
 .playhead {
 	width: 18px;

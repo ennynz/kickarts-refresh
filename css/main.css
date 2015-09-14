@@ -1198,9 +1198,10 @@ h2 {
         margin-right: auto; } }
 
 .time {
-  margin-top: 18px;
+  margin-top: 1.1rem;
+  margin-left: 1.2rem;
   display: inline;
-  float: right;
+  float: left;
   width: 1.9rem;
   padding: 5px 8px;
   font-size: 1rem;
@@ -1217,12 +1218,18 @@ h2 {
 
 .timeline {
   display: inline;
-  width: 400px;
+  width: 25rem;
   height: 20px;
   margin-top: 24px;
   float: left;
   border-radius: 15px;
   background: #99d4d6; }
+  @media (max-width: 799px) {
+    .timeline {
+      width: 20rem; } }
+  @media (max-width: 599px) {
+    .timeline {
+      width: 14rem; } }
 
 .playhead {
   width: 18px;
