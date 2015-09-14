@@ -176,6 +176,7 @@
 .right-panel {
   @include breakpoint($small) {
     padding: .1rem;
+    margin-top: .4rem;
     span {
       padding-top: .6rem;
       font-size: .8rem;
@@ -645,15 +646,15 @@ h2 {
 
 // AUDIO Player
 .time {
-  margin-top: 20px;
+  margin-top: 18px;
   display: inline;
   float: right;
   width: 1.9rem;
   padding:5px 8px;
   font-size: 1rem;
   color: #fff;
-  background: #6d6d6d;
-  border: solid #424242;
+  background: #00BCD4;
+  border: solid #99D4D6;
 }
 
 .show-pointer {
@@ -669,10 +670,10 @@ h2 {
   display: inline;
 	width: 400px;
 	height: 20px;
-	margin-top: 20px;
+	margin-top: 24px;
 	float: left;
 	border-radius: 15px;
-	background: rgba(0,0,0,.3);
+	background: rgba(153, 212, 214, 1);
 
 }
 .playhead {
@@ -680,7 +681,15 @@ h2 {
 	height: 18px;
 	border-radius: 50%;
 	margin-top: 1px;
-	background: rgba(0, 0, 0,1);
+	background: #00BCD4;
+}
+
+.circle-icon {
+  font-size: 1.6rem;
+  border: solid 8px #00BCD4;
+  border-radius: 100%;
+  padding: .4rem;
+  margin: .3rem 0 .3rem 0;
 }
 
 // COVER

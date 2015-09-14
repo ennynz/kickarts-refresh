@@ -430,7 +430,8 @@
 
 @media (max-width: 799px) {
   .right-panel {
-    padding: .1rem; }
+    padding: .1rem;
+    margin-top: .4rem; }
     .right-panel span {
       padding-top: .6rem;
       font-size: .8rem; }
@@ -1197,15 +1198,15 @@ h2 {
         margin-right: auto; } }
 
 .time {
-  margin-top: 20px;
+  margin-top: 18px;
   display: inline;
   float: right;
   width: 1.9rem;
   padding: 5px 8px;
   font-size: 1rem;
   color: #fff;
-  background: #6d6d6d;
-  border: solid #424242; }
+  background: #00BCD4;
+  border: solid #99D4D6; }
 
 .show-pointer {
   cursor: pointer; }
@@ -1218,17 +1219,24 @@ h2 {
   display: inline;
   width: 400px;
   height: 20px;
-  margin-top: 20px;
+  margin-top: 24px;
   float: left;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.3); }
+  background: #99d4d6; }
 
 .playhead {
   width: 18px;
   height: 18px;
   border-radius: 50%;
   margin-top: 1px;
-  background: black; }
+  background: #00BCD4; }
+
+.circle-icon {
+  font-size: 1.6rem;
+  border: solid 8px #00BCD4;
+  border-radius: 100%;
+  padding: .4rem;
+  margin: .3rem 0 .3rem 0; }
 
 .cover {
   position: relative;

@@ -14,7 +14,7 @@
           <i id='{ episode }' class="icon-4x fa fa-play-circle-o fa-4x"></i>
         </a>
         <a href='#' class="player-action" onclick="{ pauseEpisode }" show={ playing }>
-          <i id='{ episode }' class="icon-4x fa fa-pause fa-2x"></i>
+          <i id='{ episode }' class="icon-4x fa fa-pause fa-2x circle-icon"></i>
         </a>
         <p>episode { episode }</p>
       </div>
