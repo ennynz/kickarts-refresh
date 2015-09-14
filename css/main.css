@@ -1097,7 +1097,7 @@ h2 {
     clear: both; }
   @media (max-width: 799px) {
     .media {
-      padding: 1rem 0rem 1rem .6rem; } }
+      padding: 1rem 0rem 1rem 1.2rem; } }
 
 .player {
   padding: .5rem 0; }
@@ -1340,7 +1340,7 @@ h2 {
   height: 60px; }
   @media (max-width: 599px) {
     .custom-player {
-      width: 296px; } }
+      width: 240px; } }
 
 .timeline {
   display: inline;
