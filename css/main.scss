@@ -637,6 +637,7 @@ h2 {
   margin-bottom: .5rem;
   @include breakpoint($small) {
     @include stack();
+    text-align: center;
   }
 }
 .box-col-3-media-25-no-stack {

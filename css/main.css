@@ -1142,7 +1142,8 @@ h2 {
       float: none;
       width: 100%;
       margin-left: auto;
-      margin-right: auto; }
+      margin-right: auto;
+      text-align: center; }
       .box-col-3-media-25:first-child {
         margin-left: auto; }
       .box-col-3-media-25:last-child {
@@ -1514,7 +1515,7 @@ footer p {
 
   .right-panel {
     padding: 1rem;
-    text-align: right; } }
+    text-align: left; } }
 .box-col-search-or {
   background: whitesmoke;
   background-image: url("../img/or-vertical.png");
