@@ -1095,6 +1095,9 @@ h2 {
     display: table; }
   .media:after {
     clear: both; }
+  @media (max-width: 799px) {
+    .media {
+      padding: 1rem 0rem 1rem .6rem; } }
 
 .player {
   padding: .5rem 0; }
@@ -1169,6 +1172,30 @@ h2 {
     float: right; }
   .box-col-3-media-25-no-stack:nth-child(2n + 1) {
     clear: both; }
+  @media (max-width: 799px) {
+    .box-col-3-media-25-no-stack {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 17.6%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .box-col-3-media-25-no-stack:before, .box-col-3-media-25-no-stack:after {
+        content: '';
+        display: table; }
+      .box-col-3-media-25-no-stack:after {
+        clear: both; }
+      .box-col-3-media-25-no-stack:nth-child(1n) {
+        margin-right: 3%;
+        float: left; }
+      .box-col-3-media-25-no-stack:nth-child(1n + 1) {
+        clear: none; }
+      .box-col-3-media-25-no-stack:nth-child(2n) {
+        margin-right: 0%;
+        float: right; }
+      .box-col-3-media-25-no-stack:nth-child(2n + 1) {
+        clear: both; } }
 
 .box-col-3-media-50 {
   *zoom: 1;
@@ -1268,6 +1295,30 @@ h2 {
     float: right; }
   .box-col-3-media-75-no-stack:nth-child(2n + 1) {
     clear: both; }
+  @media (max-width: 799px) {
+    .box-col-3-media-75-no-stack {
+      *zoom: 1;
+      float: left;
+      clear: none;
+      text-align: inherit;
+      width: 79.4%;
+      margin-left: 0%;
+      margin-right: 3%; }
+      .box-col-3-media-75-no-stack:before, .box-col-3-media-75-no-stack:after {
+        content: '';
+        display: table; }
+      .box-col-3-media-75-no-stack:after {
+        clear: both; }
+      .box-col-3-media-75-no-stack:nth-child(1n) {
+        margin-right: 3%;
+        float: left; }
+      .box-col-3-media-75-no-stack:nth-child(1n + 1) {
+        clear: none; }
+      .box-col-3-media-75-no-stack:nth-child(2n) {
+        margin-right: 0%;
+        float: right; }
+      .box-col-3-media-75-no-stack:nth-child(2n + 1) {
+        clear: both; } }
 
 .time {
   margin-top: 1.1rem;
@@ -1287,6 +1338,9 @@ h2 {
 .custom-player {
   width: 480px;
   height: 60px; }
+  @media (max-width: 599px) {
+    .custom-player {
+      width: 296px; } }
 
 .timeline {
   display: inline;

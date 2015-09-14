@@ -616,6 +616,9 @@ h2 {
   background: whitesmoke;
   padding: 1rem 1rem 1rem 2.3rem;
   height: 12rem;
+  @include breakpoint($small) {
+    padding: 1rem 0rem 1rem .6rem;
+  }
 }
 .player {
   padding: .5rem 0;
@@ -639,6 +642,9 @@ h2 {
 .box-col-3-media-25-no-stack {
   @include column(1/4, $uncycle: 1, $cycle: 2);
   margin-bottom: .5rem;
+  @include breakpoint($small) {
+    @include column(1/5, $uncycle: 1, $cycle: 2);
+  }
 }
 .box-col-3-media-50 {
   @include column(1/2, $uncycle: 1, $cycle: 2);
@@ -657,6 +663,9 @@ h2 {
 .box-col-3-media-75-no-stack {
   @include column(3/4, $uncycle: 1, $cycle: 2);
   margin-bottom: .5rem;
+  @include breakpoint($small) {
+    @include column(4/5, $uncycle: 1, $cycle: 2);
+  }
 }
 
 // AUDIO Player
@@ -680,6 +689,9 @@ h2 {
 .custom-player {
 	width: 480px;
 	height: 60px;
+  @include breakpoint($xsmall) {
+    width: 296px;
+  }
 }
 
 .timeline {
