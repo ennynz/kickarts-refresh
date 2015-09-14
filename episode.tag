@@ -20,7 +20,7 @@
           <p>ep. { episode }</p>
         </div>
         <div class="player box-col-3-media-75-no-stack box-height">
-          <audio id='audio-{ episode }' preload='false'>
+          <audio id='audio-{ episode }' preload='auto'>
             <source src={ ogg } type="audio/ogg">
             <source src={ mp3 } type="audio/mp3">
           </audio>
