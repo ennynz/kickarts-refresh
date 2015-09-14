@@ -54,12 +54,13 @@
   var episodeIndex = 0
   var self = this
   var countDownwards
-  var audio
   var duration
   var playhead
   var timeline
   var timelineWidth
   var timer
+  var audio
+  var track
 
   $.get('episodes.json', function(json) {
     self.episodeList = json
@@ -81,7 +82,8 @@
 
   this.playEpisode = function(e) {
     e.preventDefault();
-    var track = e.item.episode
+    track = e.item.episode
+    audio = $('#audio-'+track)[0]
     this.playerShowing = true
     this.playing = true
     this.update()
