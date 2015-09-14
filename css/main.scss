@@ -630,18 +630,33 @@ h2 {
   color: #999;
 }
 .box-col-3-media-25 {
-  @include column(1/4, $uncycle: 1, $cycle: 3);
+  @include column(1/4, $uncycle: 1, $cycle: 2);
   margin-bottom: .5rem;
   @include breakpoint($small) {
     @include stack();
   }
 }
+.box-col-3-media-25-no-stack {
+  @include column(1/4, $uncycle: 1, $cycle: 2);
+  margin-bottom: .5rem;
+}
 .box-col-3-media-50 {
-  @include column(1/2, $uncycle: 1, $cycle: 3);
+  @include column(1/2, $uncycle: 1, $cycle: 2);
   margin-bottom: .5rem;
   @include breakpoint($small) {
     @include stack();
   }
+}
+.box-col-3-media-75 {
+  @include column(3/4, $uncycle: 1, $cycle: 2);
+  margin-bottom: .5rem;
+  @include breakpoint($small) {
+    @include stack();
+  }
+}
+.box-col-3-media-75-no-stack {
+  @include column(3/4, $uncycle: 1, $cycle: 2);
+  margin-bottom: .5rem;
 }
 
 // AUDIO Player

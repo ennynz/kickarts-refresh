@@ -9,25 +9,27 @@
       <p> <raw content="{ description }"/> </p>
     </div>
     <div class="media">
-      <div class="left-panel box-col-3-media-25 box-height">
-        <a href='#' class="player-action" onclick="{ playEpisode }" hide={ playing }>
-          <i id='{ episode }' class="icon-4x fa fa-play-circle-o fa-4x"></i>
-        </a>
-        <a href='#' class="player-action" onclick="{ pauseEpisode }" show={ playing }>
-          <i id='{ episode }' class="icon-4x fa fa-pause fa-2x circle-icon"></i>
-        </a>
-        <p>episode { episode }</p>
-      </div>
-      <div class="player box-col-3-media-50 box-height">
-        <audio id='audio-{ episode }' preload="auto">
-          <source src={ ogg } type="audio/ogg">
-          <source src={ mp3 } type="audio/ogg">
-        </audio>
-        <div class="custom-player" if={ playerShowing }>
-          <div id="timeline-{ episode }" class="timeline">
-            <div id="playhead-{ episode }" class="playhead"></div>
+      <div class="left-panel box-col-3-media-75 box-height">
+        <div class="left-panel box-col-3-media-25-no-stack box-height">
+          <a href='#' class="player-action" onclick="{ playEpisode }" hide={ playing }>
+            <i id='{ episode }' class="icon-4x fa fa-play-circle-o fa-4x"></i>
+          </a>
+          <a href='#' class="player-action" onclick="{ pauseEpisode }" show={ playing }>
+            <i id='{ episode }' class="icon-4x fa fa-pause fa-2x circle-icon"></i>
+          </a>
+          <p>episode { episode }</p>
+        </div>
+        <div class="player box-col-3-media-75-no-stack box-height">
+          <audio id='audio-{ episode }' preload="auto">
+            <source src={ ogg } type="audio/ogg">
+            <source src={ mp3 } type="audio/ogg">
+          </audio>
+          <div class="custom-player" if={ playerShowing }>
+            <div id="timeline-{ episode }" class="timeline">
+              <div id="playhead-{ episode }" class="playhead"></div>
+            </div>
+            <div id='time-{ episode }' class='time'></div>
           </div>
-          <div id='time-{ episode }' class='time'></div>
         </div>
       </div>
       <div class="box-col-3-media-25 box-height">
