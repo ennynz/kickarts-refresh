@@ -656,6 +656,7 @@ h2 {
 .box-col-3-media-75 {
   @include column(3/4, $uncycle: 1, $cycle: 2);
   margin-bottom: .5rem;
+  text-align: right;
   @include breakpoint($small) {
     @include stack();
   }
