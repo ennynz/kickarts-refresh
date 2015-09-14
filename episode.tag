@@ -12,17 +12,17 @@
       <div class="left-panel box-col-3-media-75 box-height">
         <div class="left-panel box-col-3-media-25-no-stack box-height">
           <a href='#' class="player-action" onclick="{ playEpisode }" hide={ playing }>
-            <i id='{ episode }' class="icon-4x fa fa-play-circle-o fa-4x"></i>
+            <i class="icon-4x fa fa-play-circle-o fa-4x"></i>
           </a>
           <a href='#' class="player-action" onclick="{ pauseEpisode }" show={ playing }>
-            <i id='{ episode }' class="icon-4x fa fa-pause fa-2x circle-icon"></i>
+            <i class="icon-4x fa fa-pause fa-2x circle-icon"></i>
           </a>
           <p>ep. { episode }</p>
         </div>
         <div class="player box-col-3-media-75-no-stack box-height">
-          <audio id='audio-{ episode }' preload="auto">
+          <audio id='audio-{ episode }' preload='false'>
             <source src={ ogg } type="audio/ogg">
-            <source src={ mp3 } type="audio/ogg">
+            <source src={ mp3 } type="audio/mp3">
           </audio>
           <div class="custom-player" if={ playerShowing }>
             <div id="timeline-{ episode }" class="timeline">
@@ -92,6 +92,7 @@
     playhead = $('#playhead-'+track)[0];
     timeline = $('#timeline-'+track)[0];
     timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
+
     play();
 
     audio.addEventListener("timeupdate", timeUpdate, false);
@@ -186,8 +187,9 @@
     this.playerShowing = true
     this.playing = false
     this.update()
-    audio.pause();
     timer.removeClass('show-pointer');
+
+    audio.pause();
   }
 
   function formatTime(seconds) {
