@@ -4,7 +4,7 @@ riot.route(function(collection, id, action) {
     $('#contact-section').hide();
     $('#episodes-section').hide();
     $('#our-team-section').fadeIn(function() {
-      $('html,body').animate({scrollTop: $('#our-team').offset().top -10}, 500);
+      $('html,body').animate({scrollTop: $('#our-team-section').offset().top }, 500);
     });
   }else{
     $('#our-team-section').hide();
