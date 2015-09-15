@@ -9,17 +9,17 @@
       <p> <raw content="{ description }"/> </p>
     </div>
     <div class="media">
-      <div class="left-panel box-col-3-media-75 box-height">
-        <div class="left-panel box-col-3-media-25-no-stack box-height">
+      <div class="box-col-3-media-75">
+        <div class="left-panel box-col-3-media-25-no-stack">
           <a href='#' class="player-action" onclick="{ playEpisode }" hide={ playing }>
-            <i class="icon-4x fa fa-play-circle-o fa-4x"></i>
+            <i class="icon-4x fa fa-play fa-2x circle-icon-play"></i>
           </a>
           <a href='#' class="player-action" onclick="{ pauseEpisode }" show={ playing }>
-            <i class="icon-4x fa fa-pause fa-2x circle-icon"></i>
+            <i class="icon-4x fa fa-pause fa-2x circle-icon-pause"></i>
           </a>
           <p>ep. { episode }</p>
         </div>
-        <div class="player box-col-3-media-75-no-stack box-height">
+        <div class="player box-col-3-media-75-no-stack">
           <audio id='audio-{ episode }' preload='auto'>
             <source src={ ogg } type="audio/ogg">
             <source src={ mp3 } type="audio/mp3">
@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div class="box-col-3-media-25 box-height">
+      <div class="box-col-3-media-25">
         <div class="right-panel">
           <a href={ download }>
             <i class="icon fa fa-arrow-circle-o-down">
