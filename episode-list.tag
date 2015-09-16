@@ -21,8 +21,8 @@
     <div id="{ episode }" class="list-details" if={ isExpanded } }>
 
       <div class="list-description">
-        <div class="ep-details-col-left box-height">
-          <img src="{ image }" alt="{ episode } photo" class="list-image"/>
+        <div id='episode-list-picture-{ episode }' class="ep-details-col-left box-height">
+
         </div>
         <div class="ep-details-col-right box-height">
           <p> <raw content="{ description }"/> </p>
@@ -33,7 +33,7 @@
           <p>&nbsp;</p>
         </div>
         <div class="player ep-details-col-right box-height">
-          <audio class="ep-details-player" controls="controls">
+          <audio class="ep-details-player" controls="controls" preload='none'>
             <source src={ ogg } type="audio/ogg">
             <source src={ mp3 } type="audio/ogg">
           </audio>
@@ -61,18 +61,22 @@
     e.preventDefault();
     if(this.isExpanded === true) {
       this.isExpanded = false
+      $('#episode-list-picture-' + e.item.episode).empty()
       this.update()
     }
-    else if(e.item.episode === this.episode) {
+    else {
       this.isExpanded = true
       this.update()
+      $('#episode-list-picture-' + e.item.episode).append('<img src="' + e.item.image + '" alt="episode photo" class="list-image" id="image-' + e.item.episode + '" />').hide().fadeIn('slow')
     }
   }
 
   this.close = function(e) {
     e.preventDefault();
+    var episodeDetails = $('#episode-list-picture-' + e.item.episode)
     if(e.item.episode === this.episode) {
       this.isExpanded = false
+      $('#episode-list-picture-' + e.item.episode).empty()
       this.update()
     }
   }

@@ -89,7 +89,7 @@
             <p>&nbsp;</p>
           </div>
           <div class="player ep-details-col-right box-height">
-            <audio class="ep-details-player" controls="controls">
+            <audio class="ep-details-player" controls="controls" preload="none">
               <source src={ ogg } type="audio/ogg">
               <source src={ mp3 } type="audio/ogg">
             </audio>

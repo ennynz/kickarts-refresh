@@ -1325,7 +1325,7 @@ h2 {
   position: relative;
   height: 16rem;
   background-size: cover;
-  background-position: 25% 75%; }
+  background-position: top; }
   .cover h2 {
     font-size: 1.5rem;
     opacity: .8;
