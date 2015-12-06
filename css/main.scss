@@ -386,6 +386,16 @@ header {
     }
     .details {
       font-size: 1rem;
+      line-height: normal;
+    }
+    .banner-highest-rating {
+      font-size: 1.075rem;
+      color: #000;
+      background-color: whitesmoke;
+      padding: 0 .3rem .1rem .3rem;
+    }
+    .main-title {
+      padding-bottom: .5rem;
     }
   }
   img {

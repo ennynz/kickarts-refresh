@@ -618,7 +618,15 @@ header {
     .logo .logo-title .subtitle {
       font-size: 1.3rem; }
     .logo .logo-title .details {
-      font-size: 1rem; }
+      font-size: 1rem;
+      line-height: normal; }
+    .logo .logo-title .banner-highest-rating {
+      font-size: 1.075rem;
+      color: #000;
+      background-color: whitesmoke;
+      padding: 0 .3rem .1rem .3rem; }
+    .logo .logo-title .main-title {
+      padding-bottom: .5rem; }
   .logo img {
     margin-left: .9rem;
     display: inline-block;
@@ -1387,6 +1395,12 @@ footer p {
 
   .details {
     font-size: .7rem !important; }
+
+  .banner {
+    margin-bottom: .5rem; }
+
+  .banner-highest-rating {
+    padding: 0 .3rem .1rem .3rem; }
 
   /*     NAV */
   .top-bar {
