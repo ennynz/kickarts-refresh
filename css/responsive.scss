@@ -17,11 +17,12 @@
     .details {
       font-size: .7rem !important;
     }
-    .banner {
-      margin-bottom: .5rem;
-    }
     .banner-highest-rating {
-      padding: 0 .3rem .1rem .3rem;
+      padding-bottom: .5rem;
+      font-size: 1.01rem !important;
+      span {
+        padding: 0 .3rem .1rem .3rem;
+      }
     }
 /*     NAV */
     .top-bar {
