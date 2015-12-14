@@ -476,7 +476,7 @@ a {
   display: inline-block;
   cursor: pointer;
   color: whitesmoke;
-  font-family: 'Exo 2' sans-serif;
+  font-family: 'Exo 2', sans-serif;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
